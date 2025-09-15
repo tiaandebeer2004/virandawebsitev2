@@ -1,0 +1,72 @@
+.NavbarContact {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    position: fixed;
+    z-index: 999;
+    background-color: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.navbarContactColumns {
+    width: 90%;
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Instrument Sans';
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+ 
+.navbarContactViranda {
+    color: white;
+    background-color: black;
+}
+
+.navbarContactLeft {
+    width: 20%;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+}
+
+.navbarContactMiddle {
+    width: 60%;
+    background-color: black;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.navbarContactMiddle a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.navbarContactRight {
+    background-color: black;
+    width: 20%;
+    display: flex;
+    justify-content: right;
+}
+
+.freeConsultation {
+    font-family: "Instrument Sans";
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    border: none;
+    border-radius: 40px;
+    background-color: red;
+}

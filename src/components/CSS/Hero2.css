@@ -1,0 +1,67 @@
+.Hero2 {
+    padding-top: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.hero2Left {
+    width: 55%;
+    background-color: black;
+    height: 100vh;
+}
+
+.hero2LeftHeading {
+    background-color: black;
+    color: white;
+    font-family: "Instrument Sans";
+    font-weight: 700;
+    font-size: 5rem;
+    letter-spacing: -0.08rem;
+    line-height: 4rem;
+    margin-left: 5%;
+    padding-top: 5%;
+}
+
+.hero2ButtonGroup {
+    margin-left: 5%;
+    background-color: black;
+    display: flex;
+    gap: 30px;
+}
+
+.hero2OurServices, .hero2ContactUs {
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 40px;
+}
+
+.hero2Right {
+    width: 45%;
+    background-color: black;
+    height: 100vh;
+}
+
+.hero2Paragraph {
+    font-family: 'Instrument Sans';
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-left: 5%;
+    color: white;
+    background-color: black;
+    margin-bottom: 5%;
+}
+
+.hero2Taglines {
+    font-family: 'Instrument Sans';
+    font-weight: 600;
+    font-size: 1.625rem;
+    margin-left: 5%;
+    color: white;
+    background-color: black;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}

@@ -1,0 +1,91 @@
+.ServicesPageServices {
+    width: 100%;
+}
+
+.servicesPageServiceFromLeft {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.servicesPageServiceFromLeftImage {
+    background-color: rgb(194, 194, 194);
+    width: 40vw;
+    height: 40vw;
+    margin-left: 10vw;
+    margin-top: 5vh;
+}
+
+.servicesPageServiceFromLeftHeading {
+    color: black;
+    font-family: 'Instrument Sans';
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 4.3rem;
+    margin-top: 8vh;
+    text-align: right;
+    background-color: transparent;
+}
+
+.servicesPageServiceFromLeftColumn {
+    position: absolute;
+    right: 10vw;
+    width: 80vw;
+    background-color: transparent;
+}
+
+.servicesPageServiceFromLeftParagraph {
+    color: black;
+    font-family: 'Instrument Sans';
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-top: 2vh;
+    width: 35vw;
+    margin-left: 43vw;
+}
+
+.servicesPageServiceFromRight {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.servicesPageServiceFromRightImage {
+    background-color: rgb(194, 194, 194);
+    width: 40vw;
+    height: 40vw;
+    position: absolute;
+    right: 0;
+    margin-right: 10vw;
+    margin-top: 5vh;
+}
+
+.servicesPageServiceFromRightHeading {
+    color: black;
+    font-family: 'Instrument Sans';
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 4.3rem;
+    margin-top: 8vh;
+    text-align: left;
+    background-color: transparent;
+}
+
+.servicesPageServiceFromRightColumn {
+    position: absolute;
+    left: 10vw;
+    width: 80vw;
+    background-color: transparent;
+}
+
+.servicesPageServiceFromRightParagraph {
+    color: black;
+    font-family: 'Instrument Sans';
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-top: 2vh;
+    width: 35vw;
+    margin-right: 23vw;
+}

@@ -1,0 +1,60 @@
+.Navbar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 999;
+}
+
+.navbarColumns {
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Instrument Sans';
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.navbarLeft {
+    width: 20%;
+    display: flex;
+    justify-content: left;
+}
+
+.navbarMiddle {
+    width: 60%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.navbarMiddle a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbarRight {
+    width: 20%;
+    display: flex;
+    justify-content: right;
+}
+
+.freeConsultation {
+    font-family: "Instrument Sans";
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    border: none;
+    border-radius: 40px;
+    background-color: red;
+}

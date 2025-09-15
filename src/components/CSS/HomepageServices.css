@@ -1,0 +1,99 @@
+.HomepageServices {
+    width: 100%;
+    background-color: black;
+    margin-top: 15vh;
+}
+
+.homepageOurServices {
+    background-color: black;
+    color: white;
+    font-family: "Instrument Sans";
+    font-weight: 700;
+    font-size: 5rem;
+    letter-spacing: -0.08rem;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.homepageService {
+    background-color: black;
+    display: flex;
+    margin-top: 5vh;
+    margin-bottom: 12vh;
+    align-items: center;
+}
+
+.homepageServiceBlockHeading {
+    background-color: transparent;
+    color: black;
+    font-family: "Instrument Sans";
+    font-weight: 600;
+    font-size: 3.2rem;
+    letter-spacing: -0.08rem;
+    line-height: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.homepageChevronLeft,.homepageChevronRight {
+    background-color: black;
+    color: white;
+    font-size: 5rem;
+    width: 10%;
+}
+
+.homepageServiceBlock {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    border-radius: 30px;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homepageServiceBlockColumns {
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homepageServiceLeft {
+    width: 45%;
+}
+
+.homepageServiceRight {
+    width: 50%;
+    height: 50vh;
+    background-color: green;
+}
+
+.homepageServiceCopy {
+    color: black;
+    font-family: 'Instrument Sans';
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.homepageServiceView {
+    border: none;
+    background-color: red;
+    color: white;
+    font-family: "Instrument Sans";
+    font-weight: 500;
+    font-size: 2.5rem;
+    letter-spacing: -0.08rem;
+    line-height: 3rem;
+    text-align: center;
+    height: 5rem;
+    width: 50%;
+    transform: translateY(-20vh);
+}
+
+.homepageHidden {
+    display: none;
+}

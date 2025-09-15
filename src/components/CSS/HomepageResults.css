@@ -1,0 +1,103 @@
+.HomepageResults {
+    width: 100%;
+    background-color: black;
+}
+
+.homepageResultsHeading1 {
+    background-color: transparent;
+    color: white;
+    font-family: "Instrument Sans";
+    font-weight: 500;
+    font-size: 3.2rem;
+    letter-spacing: -0.08rem;
+    line-height: 3.2rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.homepageResultsHeading2 {
+    background-color: transparent;
+    color: white;
+    font-family: "Instrument Sans";
+    font-weight: 700;
+    font-size: 5rem;
+    letter-spacing: -0.08rem;
+    line-height: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.linearWipe {
+    font-style: italic;
+    
+    background: linear-gradient(to right, #FFF 20%, #FF6F61 40%, #FF6F61 60%, #FFF 80%);
+    background-size: 200% auto;
+    
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.homepageResultsColumns {
+    margin-top: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.homepageResultsLeft {
+    background-color: black;
+    width: 40%;
+}
+
+.homepageResultsRight {
+    background-color: black;
+    width: 40%;
+    margin-top: 15vh;
+}
+
+.homepageResultsImage {
+    width: 100%;
+    background-color: black;
+    border-radius: 30px;
+}
+
+.homepageResult {
+    background-color: black;
+    margin-bottom: 15vh;
+}
+
+.homepageResultsColumnHeading {
+    background-color: transparent;
+    color: white;
+    font-family: "Instrument Sans";
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-top: 2vh;
+    line-height: 1.2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.homepageResultsColumnResult {
+    background-color: transparent;
+    color: white;
+    font-family: "Instrument Sans";
+    font-weight: 600;
+    font-size: 2rem;
+    padding-top: 0.5vh;
+    line-height: 2rem;
+    width: 100%;
+    text-align: center;
+}

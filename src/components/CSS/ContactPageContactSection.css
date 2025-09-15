@@ -1,0 +1,245 @@
+.ContactPageContactSection {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contactPageContactSectionColumns {
+    width: 80%;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.contactPageContactSectionLeft {
+    width: 48%;
+    background-color: black;
+}
+
+.contactPageContactSectionRight {
+    width: 48%;
+    padding: 3%;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgb(14, 14, 14);
+}
+
+.contactPageContactSectionHeading {
+    font-family: "Instrument Sans";
+    font-weight: 700;
+    font-size: 5rem;
+    color: white;
+    background-color: black;
+    letter-spacing: -0.08rem;
+    line-height: 4rem;
+}
+
+.contactPageContactSectionParagraph {
+    font-family: 'Instrument Sans';
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-top: 4vh;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: black;
+}
+
+.contactPageContactSectionParagraph2 {
+    font-family: 'Instrument Sans';
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-top: 3vh;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: black;
+}
+
+.contactPageContactSectionContactDetails {
+    font-family: 'Instrument Sans';
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding-top: 7vh;
+    color: rgba(255, 255, 255, 1);
+    background-color: black;
+}
+
+.contactPageIcon {
+    background-color: black;
+    color: rgb(255, 100, 100);
+}
+
+.contactPageForm {
+    color: white;
+    background-color: rgb(14, 14, 14);
+}
+
+.contactPageFormHeading {
+    font-family: 'Instrument Sans';
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(14, 14, 14);
+}
+
+.contactPageFormInputBox {
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    flex-direction: column;
+}
+
+.contactFormInputLabel {
+    background-color: rgb(14, 14, 14);
+    font-family: 'Instrument Sans';
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(14, 14, 14);
+}
+
+.contactFormInput {
+    font-family: 'Instrument Sans';
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 400;
+    border: none;
+    border-radius: 15px;
+    transition: scale 0.2s;
+}
+
+.contactFormInput:hover {
+    scale: 0.99;
+}
+
+.contactFormInputTextarea {
+    font-weight: 400;
+    font-family: 'Instrument Sans';
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    transition: scale 0.2s;
+}
+
+.contactFormInputTextarea:hover {
+    scale: 0.99;
+}
+
+.contactPageFormSubmit {
+    background-color: rgb(255, 50, 50);
+    color: white;
+    padding: 15px;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: 'Instrument Sans';
+    margin-top: 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: scale 0.2s;
+}
+
+.contactPageFormSubmit:hover {
+    scale: 0.95;
+}
+
+
+
+
+
+@media (max-width: 935px) {
+    /* CSS rules for screens with a maximum width of 768px */
+    .contactPageContactSectionLeft {
+        width: 100%;
+    }
+
+    .contactPageContactSectionRight {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .contactPageContactSectionColumns {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 565px) {
+    /* CSS rules for screens with a maximum width of 768px */
+    .contactPageContactSectionLeft {
+        width: 100%;
+    }
+
+    .contactPageContactSectionRight {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .contactPageContactSectionColumns {
+        flex-direction: column;
+    }
+
+    .contactPageContactSectionHeading {
+        font-size: 4rem;
+    }
+
+    .contactPageContactSectionParagraph {
+        font-size: 1rem;
+    }
+
+    .contactPageContactSectionParagraph2 {
+        font-size: 1rem;
+    }
+
+    .contactPageContactSectionContactDetails {
+        font-size: 1.3rem;
+    }
+
+    .contactPageFormHeading {
+        font-size: 1.3rem;
+    }
+
+    .contactPageContactSectionRight {
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 440px) {
+    /* CSS rules for screens with a maximum width of 768px */
+    .contactPageContactSectionLeft {
+        width: 100%;
+    }
+
+    .contactPageContactSectionRight {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .contactPageContactSectionColumns {
+        flex-direction: column;
+    }
+
+    .contactPageContactSectionHeading {
+        font-size: 3.2rem;
+        line-height: 3rem;
+    }
+
+    .contactPageContactSectionParagraph {
+        font-size: 0.8rem;
+    }
+
+    .contactPageContactSectionParagraph2 {
+        font-size: 0.8rem;
+    }
+
+    .contactPageContactSectionContactDetails {
+        font-size: 1rem;
+    }
+
+    .contactPageFormHeading {
+        font-size: 1rem;
+    }
+
+    .contactPageContactSectionRight {
+        border-radius: 10px;
+    }
+}

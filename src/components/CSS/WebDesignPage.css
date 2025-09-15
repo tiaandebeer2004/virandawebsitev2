@@ -1,0 +1,199 @@
+.singleServicePageBanner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.singleServiceHeading {
+    color: black;
+    background-color: transparent;
+    font-family: 'Instrument Sans';
+    font-weight: 700;
+    font-size: 6rem;
+    text-align: center;
+    line-height: 5rem;
+    margin-top: 28vh;
+}
+
+.singleServiceSubheading {
+    color: rgba(0, 0, 0, 0.9);
+    font-family: 'Instrument Sans';
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 65%;
+    text-align: center;
+    margin-top: 3vh;
+    opacity: 0;
+    animation: scrollIn 1s 0s ease forwards;
+}
+
+.singleServiceOurPackages {
+    padding: 2vh;
+    width: 90vw;
+    margin-top: 18vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.singleServiceOurPackagesHeading {
+    color: white;
+    font-family: 'Instrument Sans';
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: transparent;
+}
+
+.singleServiceColumns {
+    width: 90vw;
+    margin-top: 6vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5vh;
+}
+
+.singleServicePackage {
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    padding: 2%;
+}
+
+.singleServicePackageMiddle {
+    width: 30%;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 20px;
+    padding: 2%;
+}
+
+@keyframes scrollIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    } to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.singleServicePackageHeading {
+    color: white;
+    font-family: 'Instrument Sans';
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    background-color: transparent;
+}
+
+.singleServicePackageSubheading {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Instrument Sans';
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 2vh;
+}
+
+.singleServicePackageFeature {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Instrument Sans';
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 4vh;
+}
+
+.singleServicePackageButtonGroup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    background-color: transparent;
+}
+
+.singleServicePackageButton {
+    padding: 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-family: 'Instrument Sans';
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-align: center;
+    transition: scale 0.1s;
+}
+
+.singleServicePackageLink {
+    background-color: transparent;
+}
+
+.singleServicePackageButton:hover {
+    scale: 0.95;
+    cursor: pointer;
+}
+
+.spacingBelow {
+    margin-bottom: 24vh;
+}
+
+@media (max-width: 845px) {
+    .singleServiceHeading {
+        font-size: 5rem;
+        line-height: 4rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .singleServiceHeading {
+        font-size: 3.2rem;
+        line-height: 2.6rem;
+    }
+
+    .singleServiceOurPackagesHeading {
+        font-size: 2rem;
+    }
+
+    .singleServicePackageHeading {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+
+    .singleServicePackageFeature {
+        font-size: 1rem;
+        line-height: 0.6rem;
+    }
+
+    .singleServicePackageSubheading {
+        font-size: 1rem;
+        line-height: 0.6rem;
+    }
+
+    .singleServicePackageButton {
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    .singleServiceColumns {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .singleServicePackage, .singleServicePackageMiddle {
+        width: 90%;
+        background-color: black!important;
+    }
+}
+
+.singleServiceBlogSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,31 @@
+.ServicesPageServicesSection {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.servicesPageOurServices {
+    color: white;
+    background-color: black;
+    font-family: 'Instrument Sans';
+    font-weight: 700;
+    font-size: 7.8rem;
+    text-align: center;
+    line-height: 6.5rem;
+    margin-top: 5vh;
+}
+
+.servicesPageHeadingParagraph {
+    width: 60%;
+    color: white;
+    background-color: black;
+    font-family: 'Instrument Sans';
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 5vh;
+}

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+.banner {
+    width: 100%;
+    position: fixed;
+    z-index: 0;
+    margin-top: 11vh;
+}
+
+.bannerHeading {
+    font-family: "Instrument Sans";
+    width: 80%;
+    margin: 8vh auto;
+}
+
+.bannerUL {
+    list-style: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 5rem;
+    letter-spacing: -0.08rem;
+    line-height: 4rem;
+}
+
+.webDesign {
+    margin-right: 320px;
+}
+
+.graphicDesign {
+    margin-left: 10px;
+}
+
+.socialMedia {
+    margin-right: 310px;
+}
+
+.adManagement {
+    margin-left: 120px;
+}
+
+.viranda {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.viranda {
+    margin-right: 705px;
+}
+
+.getQuote {
+    width: 80%;
+    height: 30vh;
+    font-family: "Instrument Sans";
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: -0.08rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+.moreClients {
+    text-align: center;
+}
+
+.contactUs {
+    margin-top: 4vh;
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 40px;
+}
+
+.bannerWrapper {
+    height: 200vh;
+}
