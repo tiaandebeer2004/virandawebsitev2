@@ -57,7 +57,7 @@ if (width > 750) {
             displayItemNumbering={true}
             menuButtonColor="#fff"
             openMenuButtonColor="#fff"
-            changeMenuColorOnOpen={true}
+            changeMenuColorOnOpen={false}
             colors={['#EE6B6E', '#FF0000']}
             logoUrl="../assets/virandaLogoBlack.png"
             accentColor="#ff6b6b"

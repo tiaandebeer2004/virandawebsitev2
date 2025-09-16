@@ -1,52 +1,76 @@
-.Footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    border-top: 1px solid rgba(0, 0, 0, 0.5);
-    padding-top: 20px;
-    padding-bottom: 20px;
+.footer {
+    background-color: black;
+    width: 100vw;
+    height: 40vh;
 }
 
-.footerColumns {
-    width: 90%;
+.footerSeperator {
+    height: 0.5vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    z-index: 1;
+}
+
+.footerBottom {
+    transform: translateY(-9.5vh);
+    margin-top: 15vh;
+    margin-left: 13vw;
+    margin-right: 13vw;
     display: flex;
     justify-content: space-between;
+    background-color: black;
 }
 
 .footerLeft {
-    width: 50%;
+    background-color: black;
+    width: 21vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLeftMiddle {
+    width: 21vw;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.footerRightMiddle {
+    width: 21vw;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.footerRight {
+    background-color: black;
+    width: 21vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.footerRight {
-    width: 50%;
-}
-
-.footerContactInfo {
-    color: rgba(0, 0, 0, 0.9);
-    font-family: 'Instrument Sans';
-    font-weight: 500;
-    font-size: 1.3rem;
-    text-align: left;
-    text-decoration: none;
-}
-
-.footerViranda {
-    color: black;
+.footerHeading {
+    background-color: black;
+    color: white;
     font-family: 'Instrument Sans';
     font-weight: 600;
-    font-size: 2rem;
-    line-height: 2rem;
-    text-align: center;
-    background-color: transparent;
+    font-size: 2vw;
+    text-align: left;
 }
 
-.footerContactHeading {
-    text-align: left!important;
+.footerSubheading {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: 'Instrument Sans';
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 4vh;
 }
 
-.footerLogo {
-    width: 20vw;
+.footerVirandaLogo {
+    background-color: black;
+    width: 5vw;
 }

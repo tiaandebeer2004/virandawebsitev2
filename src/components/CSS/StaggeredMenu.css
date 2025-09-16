@@ -4,9 +4,11 @@
   height: 100vh;
   z-index: 40;
   background-color: transparent;
+  font-family: 'Instrument Sans';
 }
 
 .staggered-menu-header {
+  border-bottom: 1px solid rgba(127.5, 127.5, 127.5);
   position: absolute;
   top: 0;
   left: 0;
@@ -14,9 +16,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
   color: black;
-  background: white;
+  background: transparent;
+  backdrop-filter: blur(10px);
   pointer-events: none;
   z-index: 20;
 }
@@ -29,6 +35,7 @@
   display: flex;
   align-items: center;
   user-select: none;
+  background-color: transparent;
 }
 
 .sm-logo-img {
@@ -79,6 +86,7 @@
   display: flex;
   flex-direction: column;
   line-height: 1;
+  background-color: transparent;
 }
 
 .sm-toggle-line {
@@ -98,13 +106,14 @@
   justify-content: center;
   will-change: transform;
   color: black;
-  background-color: transparent;
+  background-color: white;
 }
 
 .sm-panel-itemWrap {
   position: relative;
   overflow: hidden;
   line-height: 1;
+  background-color: white;
 }
 
 .sm-icon-line {
@@ -166,6 +175,7 @@
   right: 0;
   height: 100%;
   width: 100%;
+  background-color: white;
   transform: translateX(0);
 }
 
@@ -174,6 +184,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  background-color: white;
 }
 
 .sm-socials {
@@ -262,6 +273,7 @@
 }
 
 .sm-panel-item {
+  background-color: white;
   position: relative;
   color: #000;
   font-weight: 600;
@@ -297,6 +309,7 @@
 }
 
 .sm-panel-itemLabel {
+  background-color: white;
   display: inline-block;
   will-change: transform;
   transform-origin: 50% 100%;
@@ -308,6 +321,7 @@
 
 .sm-panel-list[data-numbering] {
   counter-reset: smItem;
+  background-color: white;
 }
 
 .sm-panel-list[data-numbering] .sm-panel-item::after {
@@ -319,6 +333,7 @@
   font-size: 18px;
   font-weight: 400;
   color: var(--sm-accent, #5227ff);
+  background-color: white;
   letter-spacing: 0;
   pointer-events: none;
   user-select: none;

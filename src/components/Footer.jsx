@@ -1,26 +1,45 @@
 import { useState } from 'react'
 import '../components/CSS/Footer.css'
-import virandaLogoBlack from '../assets/virandaLogoBlack.png'
+import virandaLogoWhite from '../assets/virandaLogoWhite.png'
 
-function Footer() {
-  const [count, setCount] = useState(0)
-
+const Footer = () => {
   return (
-    <div className="Footer">
-        <div className="footerColumns">
+    <div className="footer">
+        <div className="footerSeperator"></div>
+
+        <div className="footerBottom">
             <div className="footerLeft">
-                <img src={virandaLogoBlack} alt="black viranda logo" className="footerLogo" />
-                <p className="footerViranda">VIRANDA</p>
+                <p className="footerHeading">About</p>
+                <a href="/about" className="footerSubheading">Our Story</a>
+            </div>
+
+            <div className="footerLeftMiddle">
+                <p className="footerHeading">Blog</p>
+                <a href="/blog/marketing" className="footerSubheading">Marketing</a>
+                <a href="/" className="footerSubheading">Design</a>
+                <a href="/" className="footerSubheading">Web Development</a>
+                <a href="/" className="footerSubheading">Social Media</a>
+            </div>
+
+            <div className="footerRightMiddle">
+                <p className="footerHeading">Services</p>
+                <a href="/" className="footerSubheading">Web Development</a>
+                <a href="/" className="footerSubheading">Social Media</a>
+                <a href="/" className="footerSubheading">SEO</a>
+                <a href="/" className="footerSubheading">Ad Management</a>
+                <a href="/" className="footerSubheading">Graphic Design</a>
             </div>
 
             <div className="footerRight">
-                <p className="footerViranda footerContactHeading">Contact Us:</p>
-                <p className="footerContactInfo"><br></br>Tiaan - Director of Technical Services:<br></br>065 946 2507<br></br>tiaan@viranda.co.za</p>
-                <p className="footerContactInfo"><br></br>Cayden - Director of Creative Services:<br></br>082 216 1042<br></br>cayden@viranda.co.za</p>
+                <img className="footerVirandaLogo" src={virandaLogoWhite}></img>
+                <p className="footerHeading">Contact</p>
+                <p className="footerSubheading">Email - info@viranda.co.za</p>
+                <p className="footerSubheading">Cayden Cell - 082 216 1042</p>
+                <p className="footerSubheading">Tiaan Cell - 065 946 2507</p>
             </div>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

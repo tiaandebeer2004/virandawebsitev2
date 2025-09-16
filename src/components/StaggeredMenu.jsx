@@ -15,7 +15,7 @@ export const StaggeredMenu = ({
   menuButtonColor = '#fff',
   openMenuButtonColor = '#fff',
   accentColor = '#5227FF',
-  changeMenuColorOnOpen = true,
+  changeMenuColorOnOpen = false,
   onMenuOpen,
   onMenuClose
 }) => {
