@@ -176,10 +176,11 @@
 
     .contactPageContactSectionColumns {
         flex-direction: column;
+        margin-top: 15vh;
     }
 
     .contactPageContactSectionHeading {
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .contactPageContactSectionParagraph {
@@ -216,10 +217,12 @@
 
     .contactPageContactSectionColumns {
         flex-direction: column;
+        margin-top: 15vh;
     }
 
     .contactPageContactSectionHeading {
-        font-size: 4rem;
+        font-size: 3rem;
+        margin-top: 0vh;
         line-height: 3rem;
     }
 
