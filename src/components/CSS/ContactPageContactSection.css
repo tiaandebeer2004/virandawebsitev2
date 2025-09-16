@@ -183,11 +183,11 @@
     }
 
     .contactPageContactSectionParagraph {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .contactPageContactSectionParagraph2 {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .contactPageContactSectionContactDetails {
@@ -219,24 +219,24 @@
     }
 
     .contactPageContactSectionHeading {
-        font-size: 3.2rem;
+        font-size: 4rem;
         line-height: 3rem;
     }
 
     .contactPageContactSectionParagraph {
-        font-size: 0.8rem;
+        font-size: 1.3rem;
     }
 
     .contactPageContactSectionParagraph2 {
-        font-size: 0.8rem;
+        font-size: 1.3rem;
     }
 
     .contactPageContactSectionContactDetails {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .contactPageFormHeading {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     .contactPageContactSectionRight {
