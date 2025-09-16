@@ -1,0 +1,93 @@
+.aboutUsPageBanner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutUsHeading {
+    color: black;
+    background-color: transparent;
+    font-family: 'Instrument Sans';
+    font-weight: 700;
+    font-size: 6rem;
+    text-align: center;
+    line-height: 5rem;
+    margin-top: 28vh;
+}
+
+.aboutUsSubheading {
+    color: rgba(0, 0, 0, 0.9);
+    font-family: 'Instrument Sans';
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 65%;
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 20vh;
+}
+
+@media (max-width: 845px) {
+    .aboutUsHeading {
+        font-size: 5rem;
+        line-height: 4rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .aboutUsHeading {
+        font-size: 2.5rem;
+        line-height: 2.6rem;
+        margin-top: 15vh;
+    }
+}
+
+.aboutUsRed {
+    background-color: rgb(255, 100, 100);;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutUsRedColumnsFromLeft {
+    margin-top: 10vh;
+    background-color: transparent;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutUsRedTextColumn {
+    width: 45%;
+    background-color: transparent;
+}
+
+.aboutUsRedImageColumn {
+    width: 50%;
+    background-color: transparent;
+}
+
+.aboutUsImage1 {
+    width: 100%;
+}
+
+.aboutUsColumnHeading {
+    color: black;
+    font-family: 'Instrument Sans';
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 4.3rem;
+    text-align: left;
+    background-color: transparent;
+}
+
+.aboutUsColumnParagraph {
+    color: black;
+    font-family: 'Instrument Sans';
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-top: 2vh;
+    background-color: transparent;
+}

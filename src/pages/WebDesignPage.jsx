@@ -3,7 +3,6 @@ import '../components/CSS/WebDesignPage.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { motion } from 'framer-motion'
-import StaggeredMenu from '../components/StaggeredMenu'
 
 function WebDesignPage() {
   const [count, setCount] = useState(0)

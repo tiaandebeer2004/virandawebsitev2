@@ -9,8 +9,9 @@ function Navbar() {
 
   const menuItems = [
   { label: 'Home', ariaLabel: 'Go to home page', link: '/' },
-  { label: 'About', ariaLabel: 'Learn about us', link: '/about' },
-  { label: 'Services', ariaLabel: 'View our services', link: '/services' },
+  { label: 'Services', ariaLabel: 'Learn about us', link: '/about' },
+  { label: 'Portfolio', ariaLabel: 'View our services', link: '/services' },
+  { label: 'About', ariaLabel: 'Get in touch', link: '/contact' },
   { label: 'Contact', ariaLabel: 'Get in touch', link: '/contact' }
 ];
 
@@ -31,15 +32,15 @@ if (width > 750) {
               </div>
 
               <div className="navbarMiddle">
-                <a href="/" className="home">Home</a>
-                <a href="" className="services">Services</a>
-                <a href="" className="aboutUs">About Us</a>
-                <a href="" className="portfolio">Portfolio</a>
-                <a href="" className="contact">Contact</a>
+                <a href="/" className="home un">Home</a>
+                <a href="" className="services un">Services</a>
+                <a href="" className="aboutUs un">About Us</a>
+                <a href="" className="portfolio un">Portfolio</a>
+                <a href="" className="contact un">Contact</a>
               </div>
 
               <div className="navbarRight">
-                <button className="freeConsultation">BOOK YOUR FREE CONSULTATION</button> 
+                <button className="freeConsultation">Let's Talk</button> 
               </div>
             </div>
         </div>
@@ -58,7 +59,7 @@ if (width > 750) {
             openMenuButtonColor="#fff"
             changeMenuColorOnOpen={true}
             colors={['#EE6B6E', '#FF0000']}
-            logoUrl="/path-to-your-logo.svg"
+            logoUrl="../assets/virandaLogoBlack.png"
             accentColor="#ff6b6b"
             onMenuOpen={() => console.log('Menu opened')}
             onMenuClose={() => console.log('Menu closed')}

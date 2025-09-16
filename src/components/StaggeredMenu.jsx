@@ -1,6 +1,7 @@
 import React, { useCallback, useLayoutEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import './CSS/StaggeredMenu.css';
+import virandaLogoBlack from '../assets/virandaLogoBlack.png'
 
 export const StaggeredMenu = ({
   position = 'right',
@@ -333,7 +334,7 @@ export const StaggeredMenu = ({
       <header className="staggered-menu-header" aria-label="Main navigation header">
         <div className="sm-logo" aria-label="Logo">
           <img
-            src={logoUrl || '/src/assets/logos/reactbits-gh-white.svg'}
+            src={virandaLogoBlack}
             alt="Logo"
             className="sm-logo-img"
             draggable={false}

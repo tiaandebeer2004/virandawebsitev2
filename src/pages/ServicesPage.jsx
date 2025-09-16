@@ -1,15 +1,15 @@
 import { useState } from 'react'
 import '../components/CSS/ServicesPage.css'
-import NavbarContact from '../components/NavbarContact'
 import ServicesPageServicesSection from '../components/ServicesPageServicesSection'
 import ServicesPageServices from '../components/ServicesPageServices'
+import Navbar from '../components/Navbar'
 
 function ServicesPage() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="ServicesPage">
-        <NavbarContact></NavbarContact>
+        <Navbar></Navbar>
         <ServicesPageServicesSection></ServicesPageServicesSection>
         <ServicesPageServices></ServicesPageServices>
     </div>

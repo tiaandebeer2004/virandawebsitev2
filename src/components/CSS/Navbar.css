@@ -49,12 +49,48 @@
     font-size: 1rem;
     color: white;
     margin: 0 auto;
-    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0;
     border: none;
-    border-radius: 40px;
+    border-radius: 30px 30px 30px 30px / 30px 30px 30px 30px;
     background-color: red;
+    transition: scale 0.2s;
+}
+
+.freeConsultation:hover {
+    scale: 0.95;
+    cursor: pointer;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transition: transform 0.25s ease-out;
+}
+
+.un {
+  background-image: linear-gradient(#000 0 0);
+  background-position: 0 100%; /*OR bottom left*/
+  background-size: 0% 1px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.3s,
+    background-position 0s 0.3s; /*change after the size immediately*/
+}
+
+.un:hover {
+  background-position: 100% 100%; /*OR bottom right*/
+  background-size: 100% 1px;
 }

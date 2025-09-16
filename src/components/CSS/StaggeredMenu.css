@@ -16,7 +16,7 @@
   justify-content: space-between;
   padding: 2em;
   color: black;
-  background: transparent;
+  background: white;
   pointer-events: none;
   z-index: 20;
 }
@@ -85,6 +85,7 @@
   display: block;
   height: 1em;
   line-height: 1;
+  background-color: transparent;
 }
 
 .sm-icon {
