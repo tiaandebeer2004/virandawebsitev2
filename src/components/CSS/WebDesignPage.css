@@ -152,8 +152,9 @@
 
 @media (max-width: 750px) {
     .singleServiceHeading {
-        font-size: 3.2rem;
+        font-size: 2.5rem;
         line-height: 2.6rem;
+        margin-top: 15vh;
     }
 
     .singleServiceOurPackagesHeading {
@@ -189,6 +190,11 @@
     .singleServicePackage, .singleServicePackageMiddle {
         width: 90%;
         background-color: black!important;
+        padding: 20px;
+    }
+
+    .singleServiceOurPackages {
+        margin-top: 10vh;
     }
 }
 
