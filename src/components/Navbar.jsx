@@ -22,7 +22,7 @@ const socialItems = [
 ];
 
 
-if (width > 750) {
+if (width > 795) {
   return (
     <>
         <div className="Navbar">

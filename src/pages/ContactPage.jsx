@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../components/CSS/ContactPage.css'
 import ContactPageContactSection from '../components/ContactPageContactSection'
-import Navbar from '../components/Navbar'
+import NavbarBlack from '../components/NavbarBlack'
 import Footer from '../components/Footer'
 
 function ContactPage() {
@@ -9,7 +9,7 @@ function ContactPage() {
 
   return (
     <div className="ContactPage">
-        <Navbar></Navbar>
+        <NavbarBlack></NavbarBlack>
         <ContactPageContactSection></ContactPageContactSection>
         <Footer></Footer>
     </div>
