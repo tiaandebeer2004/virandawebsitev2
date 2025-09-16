@@ -1,15 +1,17 @@
 import { useState } from 'react'
-import NavbarContact from '../components/NavbarContact'
 import '../components/CSS/ContactPage.css'
 import ContactPageContactSection from '../components/ContactPageContactSection'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 function ContactPage() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="ContactPage">
-        <NavbarContact></NavbarContact>
+        <Navbar></Navbar>
         <ContactPageContactSection></ContactPageContactSection>
+        <Footer></Footer>
     </div>
   )
 }
