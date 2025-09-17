@@ -29,3 +29,10 @@
     text-align: center;
     margin-top: 3vh;
 }
+
+@media (max-width: 500px) {
+    .servicesPageOurServices {
+        font-size: 4rem;
+        line-height: 3.2rem;
+    }
+}
