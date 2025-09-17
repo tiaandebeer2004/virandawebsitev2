@@ -74,3 +74,25 @@
 .marginBottom10 {
     margin-bottom: 10vh;
 }
+
+@media (max-width: 750px) {
+    .portfolioColumn {
+        width: 100%;
+    }
+
+    .portfolioColumns {
+        width: 80%;
+    }
+}
+
+@media (max-width: 590px) {
+    .portfolioHeading {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .portfolioHeading {
+        font-size: 3.2rem;
+    }
+}
