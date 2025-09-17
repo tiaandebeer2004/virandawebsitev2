@@ -11,7 +11,7 @@ function ContactPageContactSection() {
     <div className="ContactPageContactSection">
         <div className="contactPageContactSectionColumns">
             <div className="contactPageContactSectionLeft">
-                <h2 className="contactPageContactSectionHeading">LET'S TALK BUSINESS</h2> 
+                <h2 className="contactPageContactSectionHeading">LET'S TALK <span className='contactLinearWipe'>BUSINESS</span></h2> 
                 <p className="contactPageContactSectionParagraph">Ready to grow? You're only one step away from scaling beyond your wildest dreams.</p>
                 <p className="contactPageContactSectionContactDetails">CONTACT DETAILS:</p>
                 <p className="contactPageContactSectionParagraph2"><FontAwesomeIcon className="contactPageIcon" icon={faPhone} />&nbsp;&nbsp;065 946 2507 / 082 216 1042</p>

@@ -140,3 +140,15 @@
         margin-bottom: 8vh;
     }
 }
+
+@media (max-width: 910px) {
+    .aboutUsHeading {
+        width: 70%;
+        text-align: left;
+    }
+
+    .aboutUsSubheading {
+        width: 70%;
+        text-align: left;
+    }
+}

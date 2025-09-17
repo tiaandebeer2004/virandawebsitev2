@@ -248,3 +248,21 @@
         border-radius: 10px;
     }
 }
+
+.contactLinearWipe {
+    background: linear-gradient(to right, #FFF 20%, #FF6F61 40%, #FF6F61 60%, #FFF 80%);
+    background-size: 800% auto;
+    
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    animation: shine 16s linear infinite;
+}
+
+@keyframes shine {
+    to {
+        background-position: 800% center;
+    }
+}
