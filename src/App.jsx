@@ -6,6 +6,7 @@ import ContactPage from './pages/ContactPage';
 import ServicesPage from './pages/ServicesPage';
 import WebDesignPage from './pages/WebDesignPage';
 import AboutUs from './pages/AboutUs';
+import Portfolio from './pages/Portfolio'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
           <Route path='/services' element={<ServicesPage></ServicesPage>}></Route>
           <Route path='/about' element={<AboutUs></AboutUs>}></Route>
           <Route path='/services/website-development' element={<WebDesignPage></WebDesignPage>}></Route>
+          <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
         </Routes>
       </HashRouter>
     </>

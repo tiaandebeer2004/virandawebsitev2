@@ -1,0 +1,66 @@
+.portfolioHeading {
+    color: black;
+    background-color: transparent;
+    font-family: 'Instrument Sans';
+    font-weight: 700;
+    font-size: 6rem;
+    text-align: center;
+    line-height: 5rem;
+    margin-top: 23vh;
+}
+
+.portfolioPageBanner {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolioColumns {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.portfolioColumn {
+    width: 30%;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-radius: 30px;
+}
+
+.portfolioImage {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.portfolioColumnHeading {
+    color: white;
+    background-color: transparent;
+    font-family: 'Instrument Sans';
+    font-weight: 700;
+    margin-top: 3vh;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.portfolioColumnParagraph {
+    color: white;
+    background-color: transparent;
+    font-family: 'Instrument Sans';
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    opacity: 0.9
+}
