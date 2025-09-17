@@ -19,7 +19,7 @@
 
 .portfolioColumns {
     margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-bottom: 0vh;
     width: 90%;
     display: flex;
     justify-content: space-evenly;
@@ -35,6 +35,12 @@
     padding-top: 5vh;
     padding-bottom: 5vh;
     border-radius: 30px;
+    transition: scale 0.2s;
+}
+
+.portfolioColumn:hover {
+    scale: 0.95;
+    cursor: pointer;
 }
 
 .portfolioImage {
@@ -63,4 +69,8 @@
     margin-top: 1vh;
     margin-bottom: 2vh;
     opacity: 0.9
+}
+
+.marginBottom10 {
+    margin-bottom: 10vh;
 }
