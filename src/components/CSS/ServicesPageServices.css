@@ -89,3 +89,34 @@
     width: 35vw;
     margin-right: 23vw;
 }
+
+.servicesPageServiceMobile {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10vh;
+}
+
+.servicesPageMobileImage {
+    background-color: gray;
+    width: 50%;
+    height: 40vw;
+}
+
+.servicesPageMobileHeading {
+    color: black;
+    font-family: 'Instrument Sans';
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    margin-top: 2vh;
+    background-color: transparent;
+}
+
+.servicesPageMobileParagraph {
+    color: black;
+    font-family: 'Instrument Sans';
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-top: 2vh;
+}
