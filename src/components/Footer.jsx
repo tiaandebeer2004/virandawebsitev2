@@ -9,25 +9,28 @@ const Footer = () => {
 
         <div className="footerBottom">
             <div className="footerLeft">
-                <p className="footerHeading">About</p>
-                <a href="/about" className="footerSubheading">Our Story</a>
+                <p className="footerHeading">Viranda</p>
+                <a href="/about" className="footerSubheading">Home</a>
             </div>
 
             <div className="footerLeftMiddle">
-                <p className="footerHeading">Blog</p>
-                <a href="/blog/marketing" className="footerSubheading">Marketing</a>
-                <a href="/" className="footerSubheading">Design</a>
-                <a href="/" className="footerSubheading">Web Development</a>
-                <a href="/" className="footerSubheading">Social Media</a>
+                <p className="footerHeading">Pages</p>
+                <a href="/blog/marketing" className="footerSubheading">Services</a>
+                <a href="/" className="footerSubheading">About Us</a>
+                <a href="/" className="footerSubheading">Portfolio</a>
+                <a href="/" className="footerSubheading">Contact</a>
             </div>
 
             <div className="footerRightMiddle">
                 <p className="footerHeading">Services</p>
-                <a href="/" className="footerSubheading">Web Development</a>
-                <a href="/" className="footerSubheading">Social Media</a>
-                <a href="/" className="footerSubheading">SEO</a>
-                <a href="/" className="footerSubheading">Ad Management</a>
+                <a href="/" className="footerSubheading">Website Development</a>
                 <a href="/" className="footerSubheading">Graphic Design</a>
+                <a href="/" className="footerSubheading">Social Media Management</a>
+                <a href="/" className="footerSubheading">Social Media Content Creation</a>
+                <a href="/" className="footerSubheading">Google Ads Management</a>
+                <a href="/" className="footerSubheading">Meta/Facebook Ads Management</a>
+                <a href="/" className="footerSubheading">Ad Creation</a>
+                <a href="/" className="footerSubheading">Search Engine Optimization</a>
             </div>
 
             <div className="footerRight">

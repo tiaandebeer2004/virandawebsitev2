@@ -35,6 +35,7 @@
 }
 
 .servicesPageServiceFromLeftParagraph {
+    opacity: 0.9;
     color: black;
     font-family: 'Instrument Sans';
     font-weight: 500;
@@ -80,6 +81,7 @@
 }
 
 .servicesPageServiceFromRightParagraph {
+    opacity: 0.9;
     color: black;
     font-family: 'Instrument Sans';
     font-weight: 500;
@@ -142,6 +144,7 @@
 }
 
 .servicesPageMobileParagraph {
+    opacity: 0.9;
     color: black;
     font-family: 'Instrument Sans';
     font-weight: 500;

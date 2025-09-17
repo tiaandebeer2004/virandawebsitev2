@@ -28,6 +28,7 @@
     font-size: 1.3rem;
     text-align: center;
     margin-top: 3vh;
+    opacity: 0.9;
 }
 
 @media (max-width: 500px) {
