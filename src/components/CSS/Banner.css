@@ -9,7 +9,7 @@
 
 .bannerHeading {
     font-family: "Instrument Sans";
-    width: 80%;
+    width: 90%;
     margin: 8vh auto;
 }
 
@@ -78,4 +78,146 @@
 
 .bannerWrapper {
     height: 200vh;
+}
+
+@media (max-width: 1000px) {
+    .viranda {
+        font-size: 1rem;
+        margin-right: 630px;
+        margin-top: 15vh;
+    }
+
+    .bannerUL {
+        font-size: 4rem;
+        line-height: 3.2rem;
+    }
+
+    .moreClients {
+        font-size: 2rem;
+    }
+
+    .bannerHeading {
+        margin-bottom: 6vh;
+    }
+    
+    .contactUs {
+        margin-top: 3vh;
+    }
+}
+
+@media (max-width: 860px) {
+    .viranda {
+        font-size: 0.8rem;
+        margin-right: 450px;
+        margin-top: 15vh;
+    }
+
+    .bannerUL {
+        font-size: 3.2rem;
+        line-height: 2.5rem;
+    }
+
+    .moreClients {
+        font-size: 1.3rem;
+    }
+
+    .bannerHeading {
+        margin-bottom: 6vh;
+    }
+    
+    .contactUs {
+        margin-top: 3vh;
+        font-size: 1rem;
+    }
+
+    .webDesign {
+        margin-right: 200px;
+    }
+
+    .socialMedia {
+        margin-right: 200px;
+    }
+
+    .adManagement {
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 640px) {
+    .viranda {
+        font-size: 0.8rem;
+        margin-right: 340px;
+        margin-top: 15vh;
+    }
+
+    .bannerUL {
+        font-size: 2.6rem;
+        line-height: 2rem;
+    }
+
+    .moreClients {
+        font-size: 1.3rem;
+    }
+
+    .bannerHeading {
+        margin-bottom: 6vh;
+    }
+    
+    .contactUs {
+        margin-top: 3vh;
+        font-size: 1rem;
+    }
+
+    .webDesign {
+        margin-right: 150px;
+    }
+
+    .socialMedia {
+        margin-right: 140px;
+    }
+
+    .adManagement {
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .viranda {
+        font-size: 0.8rem;
+        margin-right: 240px;
+        margin-top: 15vh;
+    }
+
+    .bannerUL {
+        font-size: 2rem;
+        line-height: 1.5rem;
+    }
+
+    .moreClients {
+        font-size: 1rem;
+    }
+
+    .bannerHeading {
+        margin-bottom: 6vh;
+    }
+    
+    .contactUs {
+        margin-top: 3vh;
+        font-size: 1rem;
+    }
+
+    .webDesign {
+        margin-right: 110px;
+    }
+
+    .socialMedia {
+        margin-right: -20px;
+    }
+
+    .adManagement {
+        margin-right: 0px;
+        margin-left: 30px;
+    }
 }
