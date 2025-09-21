@@ -26,14 +26,13 @@ function HomepageServices() {
                     <div className="homepageServiceBlockColumns">
                         <div className="homepageServiceLeft">
                             <p className="homepageServiceCopy">Losing customers to an outdated website? Our modern, mobile-friendly websites not only look beautiful – they actually get sales. Our layouts have been proven to drive conversion rates, and we offer premium SEO services to help your website rank on Google. <br></br><br></br>Whether you need a simple landing page or a full-blown online store, we’ll make sure your website brings the results your business deserves.</p>
+                            <button className="homepageServiceView">View Service</button>
                         </div>
 
                         <div className="homepageServiceRight">
 
                         </div>
                     </div>
-
-                    <button className="homepageServiceView">VIEW SERVICE</button>
                 </div>
 
                 <FontAwesomeIcon className="homepageChevronRight" icon={faChevronRight} onClick={() => toggleServices(1)}/>

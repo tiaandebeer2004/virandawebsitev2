@@ -63,6 +63,8 @@
 
 .homepageServiceLeft {
     width: 45%;
+    display: flex;
+    flex-direction: column;
 }
 
 .homepageServiceRight {
@@ -85,13 +87,14 @@
     color: white;
     font-family: "Instrument Sans";
     font-weight: 500;
-    font-size: 2.5rem;
-    letter-spacing: -0.08rem;
-    line-height: 3rem;
+    font-size: 1.625rem;
     text-align: center;
-    height: 5rem;
-    width: 50%;
-    transform: translateY(-20vh);
+    margin-top: 5vh;
+    padding: 2vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    border-radius: 30px;
+    align-self: center;
 }
 
 .homepageHidden {

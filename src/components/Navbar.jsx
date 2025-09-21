@@ -33,10 +33,10 @@ if (width > 795) {
 
               <div className="navbarMiddle">
                 <a href="/" className="home un">Home</a>
-                <a href="" className="services un">Services</a>
-                <a href="" className="aboutUs un">About Us</a>
-                <a href="" className="portfolio un">Portfolio</a>
-                <a href="" className="contact un">Contact</a>
+                <a href="/#/services" className="services un">Services</a>
+                <a href="/#/about" className="aboutUs un">About Us</a>
+                <a href="/#/portfolio" className="portfolio un">Portfolio</a>
+                <a href="/#/contact" className="contact un">Contact</a>
               </div>
 
               <div className="navbarRight">
