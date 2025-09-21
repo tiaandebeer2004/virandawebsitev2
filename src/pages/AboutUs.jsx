@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useRef, useEffect, useState } from 'react'
 import '../components/CSS/AboutUs.css'
 import Navbar from '../components/Navbar'
+import NavbarBlack from '../components/NavbarBlack'
 import Footer from '../components/Footer'
 import aboutUsImage1 from '../assets/aboutUsImage1.png'
 import useWindowDimensions from '../components/Hooks/useWindowDimensions'
@@ -9,17 +10,54 @@ function AboutUs() {
   const [count, setCount] = useState(0)
   const { width, height } = useWindowDimensions();
 
+
+  const elementRef = useRef(null);
+  const [position, setPosition] = useState({});
+
+  useEffect(() => {
+    const updatePosition = () => {
+      if (elementRef.current) {
+        const rect = elementRef.current.getBoundingClientRect();
+        setPosition({
+          top: rect.top,
+          left: rect.left,
+          right: rect.right,
+          bottom: rect.bottom,
+          width: rect.width,
+          height: rect.height,
+        });
+      }
+    };
+
+    // Initial position update
+    updatePosition();
+
+    // Update position on scroll and resize events
+    window.addEventListener('scroll', updatePosition);
+    window.addEventListener('resize', updatePosition);
+
+    // Cleanup event listeners on component unmount
+    return () => {
+      window.removeEventListener('scroll', updatePosition);
+      window.removeEventListener('resize', updatePosition);
+    };
+  }, []);
+
 if (width < 910) {
   return (
     <div className="AboutUs">
-      <Navbar></Navbar>
+      {(position.top <= 70) ? (
+        <NavbarBlack></NavbarBlack>
+      ) : (
+        <Navbar></Navbar>
+      )}
       
       <div className="aboutUsPageBanner">
         <h1 className="aboutUsHeading">ABOUT US</h1>
         <p className="aboutUsSubheading">At Viranda, we help grow businesses across South Africa through results-driven digital marketing services. <br></br><br></br>We develop strategies that bring in real sales – not just likes and clicks. <br></br><br></br>We know the frustration caused by agencies that overpromise and underdeliver, which is why focus on building honest partnerships with all of our clients – keeping you informed during every step of the process. <br></br><br></br>We set extremely high standards for ourselves – and we’re committed to turning your marketing budget into measurable growth.</p>
       </div>
 
-      <div className="aboutUsRed paddingBottom10">
+      <div ref={elementRef} className="aboutUsRed paddingBottom10">
         <div className="aboutUsRedColumnsFromLeft">
             <div className="aboutUsRedImageColumn">
                 <img src={aboutUsImage1} alt="viranda founders playing in band" className="aboutUsImage1" />
@@ -49,14 +87,18 @@ if (width < 910) {
 } else {
   return (
     <div className="AboutUs">
-      <Navbar></Navbar>
+      {(position.top <= 70) ? (
+        <NavbarBlack></NavbarBlack>
+      ) : (
+        <Navbar></Navbar>
+      )}
       
       <div className="aboutUsPageBanner">
         <h1 className="aboutUsHeading">ABOUT US</h1>
         <p className="aboutUsSubheading">At Viranda, we help grow businesses across South Africa through results-driven digital marketing services. We develop strategies that bring in real sales – not just likes and clicks. <br></br><br></br>We know the frustration caused by agencies that overpromise and underdeliver, which is why focus on building honest partnerships with all of our clients – keeping you informed during every step of the process. We set extremely high standards for ourselves – and we’re committed to turning your marketing budget into measurable growth.</p>
       </div>
 
-      <div className="aboutUsRed paddingBottom10">
+      <div ref={elementRef} className="aboutUsRed paddingBottom10">
         <div className="aboutUsRedColumnsFromLeft">
             <div className="aboutUsRedTextColumn">
                 <h3 className="aboutUsColumnHeading">WHERE WE STARTED:</h3>

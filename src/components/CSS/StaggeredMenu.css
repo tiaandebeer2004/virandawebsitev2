@@ -77,7 +77,7 @@
   white-space: nowrap;
   width: var(--sm-toggle-width, auto);
   min-width: var(--sm-toggle-width, auto);
-  color: black;
+  mix-blend-mode: difference;
   background-color: transparent;
 }
 
