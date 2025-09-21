@@ -14,6 +14,7 @@
     height: 40vw;
     margin-left: 10vw;
     margin-top: 4vh;
+    object-fit: cover;
 }
 
 .servicesPageServiceFromLeftHeading {
@@ -60,6 +61,7 @@
     right: 0;
     margin-right: 10vw;
     margin-top: 4vh;
+    object-fit: cover;
 }
 
 .servicesPageServiceFromRightHeading {

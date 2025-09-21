@@ -5,6 +5,7 @@
     display: flex;
     opacity: 0;
     animation: fadeInHero2 0.5s forwards ease;
+    align-items: center;
 }
 
 @keyframes fadeInHero2 {
@@ -18,11 +19,12 @@
 }
 
 .hero2Left {
-    width: 55%;
+    width: 100%;
     background-color: black;
 }
 
 .hero2LeftHeading {
+    width: 100%;
     background-color: black;
     color: white;
     font-family: "Instrument Sans";
@@ -30,12 +32,14 @@
     font-size: 5rem;
     letter-spacing: -0.08rem;
     line-height: 4rem;
-    margin-left: 5%;
     padding-top: 5%;
+    text-align: center;
 }
 
 .hero2ButtonGroup {
     margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
     background-color: black;
     display: flex;
     gap: 30px;
@@ -51,7 +55,7 @@
 }
 
 .hero2Right {
-    width: 45%;
+    width: 0%;
     background-color: black;
     height: 100vh;
 }
@@ -60,17 +64,45 @@
     font-family: 'Instrument Sans';
     font-weight: 500;
     font-size: 1.3rem;
-    margin-left: 5%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
     color: white;
     background-color: black;
     margin-bottom: 3%;
 }
 
+.hero2TaglinesGroup {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+}
+
+.hero2TaglineGroup {
+    width: 25%;
+    margin-top: 8vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.circle {
+    background-color: black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
 .hero2Taglines {
     font-family: 'Instrument Sans';
     font-weight: 600;
-    font-size: 1.625rem;
+    font-size: 1rem;
     margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
     color: white;
     background-color: black;
     margin-bottom: 3%;

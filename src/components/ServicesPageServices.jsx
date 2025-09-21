@@ -2,6 +2,9 @@ import { useState } from 'react'
 import '../components/CSS/ServicesPageServices.css'
 import useWindowDimensions from './Hooks/useWindowDimensions'
 import Footer from './Footer'
+import image1 from '../assets/Services/image1.avif'
+import image2 from '../assets/Services/image2.webp'
+import image3 from '../assets/Services/image3.avif'
 
 function ServicesPageServices() {
   const [count, setCount] = useState(0)
@@ -82,7 +85,7 @@ if (width < 900) {
 
     <div className="servicesPageServiceWrapper">
         <div className="servicesPageServiceFromRight">
-            <div className="servicesPageServiceFromRightImage"></div>
+            <img src={image1} className="servicesPageServiceFromRightImage"></img>
 
             <div className="servicesPageServiceFromRightColumn">
                 <h2 className="servicesPageServiceFromRightHeading">WEBSITE DEVELOPMENT</h2>
@@ -94,7 +97,7 @@ if (width < 900) {
 
     <div className="servicesPageServiceWrapper">
         <div className="servicesPageServiceFromLeft">
-            <div className="servicesPageServiceFromLeftImage"></div>
+            <img src={image2} className="servicesPageServiceFromLeftImage"></img>
 
             <div className="servicesPageServiceFromLeftColumn">
                 <h2 className="servicesPageServiceFromLeftHeading">GRAPHIC DESIGN</h2>
@@ -106,7 +109,7 @@ if (width < 900) {
 
     <div className="servicesPageServiceWrapper"> 
         <div className="servicesPageServiceFromRight">
-            <div className="servicesPageServiceFromRightImage"></div>
+            <img src={image3} className="servicesPageServiceFromRightImage"></img>
 
             <div className="servicesPageServiceFromRightColumn">
                 <h2 className="servicesPageServiceFromRightHeading">SOCIAL MEDIA MANAGEMENT</h2>

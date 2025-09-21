@@ -15,7 +15,7 @@ function WebDesignPage() {
         <h1 className="singleServiceHeading">WEBSITE<br></br>DEVELOPMENT</h1>
         <p className="singleServiceSubheading">Losing customers to an outdated website? Our modern, mobile-friendly websites not only look beautiful – they actually get sales. Our layouts have been proven to drive conversion rates, and we offer premium SEO services to help your website rank on Google. <br></br><br></br>Whether you need a simple landing page or a full-blown online store, we’ll make sure your website brings the results your business deserves.</p>
         <div className="singleServiceOurPackages">
-          <h2 className="singleServiceOurPackagesHeading">OUR PACKAGES</h2>  
+          <h2 className="singleServiceOurPackagesHeading">Our Packages</h2>  
         </div>
 
         <div className="singleServiceColumns">
