@@ -83,6 +83,7 @@
 
 .sm-toggle-textInner {
     background-color: transparent;
+    color: black;
   display: flex;
   flex-direction: column;
   line-height: 1;

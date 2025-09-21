@@ -26,12 +26,13 @@
     margin-top: 3vh;
     opacity: 0;
     animation: scrollIn 1s 0s ease forwards;
+    margin-bottom: 18vh;
 }
 
 .singleServiceOurPackages {
     padding: 2vh;
     width: 90vw;
-    margin-top: 18vh;
+    
     background-color: red;
     display: flex;
     align-items: center;
@@ -52,7 +53,7 @@
     margin-top: 6vh;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 5vh;
+    margin-bottom: 6vh;
 }
 
 .singleServicePackage {

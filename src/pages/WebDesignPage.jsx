@@ -19,13 +19,7 @@ function WebDesignPage() {
         </div>
 
         <div className="singleServiceColumns">
-          <motion.div
-            className='singleServicePackage'
-            initial={{opacity: 0, scale: 0}}
-            whileInView={{opacity: 1, scale: 1}}
-            viewport={{once: true}}
-            transition={{duration: 0.6, delay: 0, ease: 'easeOut'}}
-          >
+          <div className="singleServicePackage">
             <h3 className="singleServicePackageHeading">BASIC<br></br>PACKAGE:</h3>
             <p className="singleServicePackageSubheading">R000 - R100</p>
             <p className="singleServicePackageSubheading">Example copy.</p>
@@ -34,15 +28,9 @@ function WebDesignPage() {
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
-          </motion.div>
+          </div>
 
-          <motion.div
-            className='singleServicePackageMiddle'
-            initial={{opacity: 0, scale: 0}}
-            whileInView={{opacity: 1, scale: 1}}
-            viewport={{once: true}}
-            transition={{duration: 0.6, delay: 0.1, ease: 'easeOut'}}
-          >
+          <div className='singleServicePackageMiddle'>
             <h3 className="singleServicePackageHeading">STANDARD<br></br>PACKAGE:</h3>
             <p className="singleServicePackageSubheading">R000 - R100</p>
             <p className="singleServicePackageSubheading">Example copy.</p>
@@ -51,15 +39,9 @@ function WebDesignPage() {
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
-          </motion.div>
+          </div>
 
-          <motion.div
-            className='singleServicePackage'
-            initial={{opacity: 0, scale: 0}}
-            whileInView={{opacity: 1, scale: 1}}
-            viewport={{once: true}}
-            transition={{duration: 0.6, delay: 0.2, ease: 'easeOut'}}
-          >
+          <div className='singleServicePackage'>
             <h3 className="singleServicePackageHeading">PREMIUM<br></br>PACKAGE:</h3>
             <p className="singleServicePackageSubheading">R000 - R100</p>
             <p className="singleServicePackageSubheading">Example copy.</p>
@@ -68,7 +50,7 @@ function WebDesignPage() {
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
-          </motion.div>
+          </div>
 
         </div>
       
