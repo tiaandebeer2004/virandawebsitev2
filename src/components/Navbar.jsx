@@ -32,11 +32,11 @@ if (width > 795) {
               </div>
 
               <div className="navbarMiddle">
-                <a href="/" className="home un">Home</a>
-                <a href="/#/services" className="services un">Services</a>
-                <a href="/#/about" className="aboutUs un">About Us</a>
-                <a href="/#/portfolio" className="portfolio un">Portfolio</a>
-                <a href="/#/contact" className="contact un">Contact</a>
+                <a href="/virandawebsitev2/" className="home un">Home</a>
+                <a href="/virandawebsitev2/#/services" className="services un">Services</a>
+                <a href="/virandawebsitev2/#/about" className="aboutUs un">About Us</a>
+                <a href="/virandawebsitev2/#/portfolio" className="portfolio un">Portfolio</a>
+                <a href="/virandawebsitev2/#/contact" className="contact un">Contact</a>
               </div>
 
               <div className="navbarRight">
