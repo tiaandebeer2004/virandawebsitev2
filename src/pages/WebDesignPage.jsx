@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useRef, useEffect, useState } from 'react'
 import '../components/CSS/WebDesignPage.css'
 import NavbarBlack from '../components/NavbarBlack'
+import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -8,16 +9,51 @@ import { faSquareCheck } from '@fortawesome/free-solid-svg-icons'
 
 function WebDesignPage() {
   const [count, setCount] = useState(0)
+  const singleServiceRef = useRef(null);
+    const [position, setPosition] = useState({});
+  
+    useEffect(() => {
+      const updatePosition = () => {
+        if (singleServiceRef.current) {
+          const rect = singleServiceRef.current.getBoundingClientRect();
+          setPosition({
+            top: rect.top,
+            left: rect.left,
+            right: rect.right,
+            bottom: rect.bottom,
+            width: rect.width,
+            height: rect.height,
+          });
+        }
+      };
+  
+      // Initial position update
+      updatePosition();
+  
+      // Update position on scroll and resize events
+      window.addEventListener('scroll', updatePosition);
+      window.addEventListener('resize', updatePosition);
+  
+      // Cleanup event listeners on component unmount
+      return () => {
+        window.removeEventListener('scroll', updatePosition);
+        window.removeEventListener('resize', updatePosition);
+      };
+    }, []);
 
   return (
     <div className="WebDesignPage">
-      <NavbarBlack></NavbarBlack>
+      {(position.top <= 70) ? (
+              <NavbarBlack></NavbarBlack>
+            ) : (
+              <Navbar></Navbar>
+            )}
       
       <div className="singleServicePageBanner">
         <h1 className="singleServiceHeading">WEBSITE<br></br>DEVELOPMENT</h1>
         <p className="singleServiceSubheading">Losing customers to an outdated website? Our modern, mobile-friendly websites not only look beautiful – they actually get sales. Our layouts have been proven to drive conversion rates, and we offer premium SEO services to help your website rank on Google. <br></br><br></br>Whether you need a simple landing page or a full-blown online store, we’ll make sure your website brings the results your business deserves.</p>
 
-      <div className="singleServiceSection2">
+      <div className="singleServiceSection2" ref={singleServiceRef}>
         <div className="singleServiceOurPackages">
           <h2 className="singleServiceOurPackagesHeading">OUR WEBSITE PACKAGES</h2>  
           <p className="singleServiceOurPackagesSubheading">Get a beautiful, high-converting, and SEO-friendly website.</p>
