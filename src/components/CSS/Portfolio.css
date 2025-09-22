@@ -19,6 +19,7 @@
 }
 
 .portfolioColumnHeading {
+    width: 80%;
     color: white;
     background-color: transparent;
     font-family: 'Instrument Sans';
@@ -29,6 +30,7 @@
 }
 
 .portfolioColumnParagraph {
+    width: 80%;
     color: white;
     background-color: transparent;
     font-family: 'Instrument Sans';
@@ -43,11 +45,32 @@
     .portfolioHeading {
         font-size: 4rem;
     }
+
+    .portfolioColumnHeading {
+        font-size: 2.5rem;
+    }
+
+    .portfolioColumnParagraph {
+        margin-top: 2vh;
+        font-size: 1.625rem;
+    }
 }
 
 @media (max-width: 500px) {
     .portfolioHeading {
         font-size: 3.2rem;
+    }
+
+    .portfolioColumnHeading {
+        font-size: 2rem;
+    }
+
+    .portfolioColumnParagraph {
+        font-size: 1.3rem;
+    }
+
+    .portfolioButton {
+        font-size: 1rem;
     }
 }
 
