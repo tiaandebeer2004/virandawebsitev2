@@ -7,6 +7,7 @@
     text-align: center;
     line-height: 5rem;
     margin-top: 23vh;
+    margin-bottom: 14vh;
 }
 
 .portfolioPageBanner {
@@ -17,42 +18,12 @@
     align-items: center;
 }
 
-.portfolioColumns {
-    margin-top: 10vh;
-    margin-bottom: 0vh;
-    width: 90%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.portfolioColumn {
-    width: 30%;
-    background-color: rgba(255, 0, 0, 0.8);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2vw;
-    border-radius: 30px;
-    transition: scale 0.2s;
-}
-
-.portfolioColumn:hover {
-    scale: 0.95;
-    cursor: pointer;
-}
-
-.portfolioImage {
-    width: 100%;
-    border-radius: 20px;
-}
-
 .portfolioColumnHeading {
     color: white;
     background-color: transparent;
     font-family: 'Instrument Sans';
     font-weight: 700;
-    margin-top: 3vh;
-    font-size: 2rem;
+    font-size: 3.2rem;
     text-align: center;
     line-height: 2.5rem;
 }
@@ -62,26 +33,10 @@
     background-color: transparent;
     font-family: 'Instrument Sans';
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 2rem;
     text-align: center;
-    margin-top: 1vh;
-    margin-bottom: 2vh;
+    margin-top: 3vh;
     opacity: 0.9
-}
-
-.marginBottom10 {
-    margin-bottom: 10vh;
-}
-
-@media (max-width: 750px) {
-    .portfolioColumn {
-        width: 100%;
-        padding: 4vw;
-    }
-
-    .portfolioColumns {
-        width: 80%;
-    }
 }
 
 @media (max-width: 590px) {
@@ -94,4 +49,55 @@
     .portfolioHeading {
         font-size: 3.2rem;
     }
+}
+
+.portfolioCover {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolioCoverImage {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.portfolioCoverText {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolioButton {
+    font-family: "Instrument Sans";
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 3vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    border: none;
+    border-radius: 30px 30px 30px 30px / 30px 30px 30px 30px;
+    background-color: red;
+    transition: scale 0.2s;
+}
+
+.portfolioButton:hover {
+    scale: 0.95;
+    cursor: pointer;
 }

@@ -20,9 +20,8 @@ function WebDesignPage() {
 
         <div className="singleServiceColumns">
           <div className="singleServicePackage">
-            <h3 className="singleServicePackageHeading">BASIC<br></br>PACKAGE:</h3>
-            <p className="singleServicePackageSubheading">R000 - R100</p>
-            <p className="singleServicePackageSubheading">Example copy.</p>
+            <h3 className="singleServicePackageHeading">BASIC:</h3>
+            <p className="singleServicePackageSubheading">For businesses that need a basic package.</p>
 
             <p className="singleServicePackageFeature">- Feature 1</p>
             <div className="singleServicePackageButtonGroup">
@@ -31,7 +30,7 @@ function WebDesignPage() {
           </div>
 
           <div className='singleServicePackageMiddle'>
-            <h3 className="singleServicePackageHeading">STANDARD<br></br>PACKAGE:</h3>
+            <h3 className="singleServicePackageHeading">STANDARD:</h3>
             <p className="singleServicePackageSubheading">R000 - R100</p>
             <p className="singleServicePackageSubheading">Example copy.</p>
 
@@ -42,7 +41,7 @@ function WebDesignPage() {
           </div>
 
           <div className='singleServicePackage'>
-            <h3 className="singleServicePackageHeading">PREMIUM<br></br>PACKAGE:</h3>
+            <h3 className="singleServicePackageHeading">PREMIUM:</h3>
             <p className="singleServicePackageSubheading">R000 - R100</p>
             <p className="singleServicePackageSubheading">Example copy.</p>
 

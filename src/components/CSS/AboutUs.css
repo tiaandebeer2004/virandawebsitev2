@@ -6,6 +6,13 @@
     border-bottom: 5px solid rgb(127.5, 127.5, 127.5)
 }
 
+.aboutUsSubheadingMotion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
 .aboutUsHeading {
     color: black;
     background-color: transparent;
@@ -24,9 +31,11 @@
     font-size: 1.3rem;
     width: 65%;
     text-align: center;
+    background-color: transparent;
     margin-top: 3vh;
     margin-bottom: 20vh;
-    opacity: 0.9
+    opacity: 0.9;
+    animation: scrollInAbout 1s 0s ease forwards;
 }
 
 .aboutUsRed {
@@ -151,5 +160,15 @@
     .aboutUsSubheading {
         width: 70%;
         text-align: left;
+    }
+}
+
+@keyframes scrollInAbout {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    } to {
+        opacity: 0.9;
+        transform: translateY(0px);
     }
 }

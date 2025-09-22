@@ -14,59 +14,70 @@ function Portfolio() {
   const [count, setCount] = useState(0)
   const { width, height } = useWindowDimensions();
 
-if (width < 750) {
-  return (
+return (
     <div className="Portfolio">
         <Navbar></Navbar>
         
         <div className="portfolioPageBanner">
             <h1 className="portfolioHeading">PORTFOLIO</h1>
 
-            <div className="portfolioColumns">
-                <div className="portfolioColumn">
-                    <img src={emaweniWebsite} alt="emaweni tugela canyon lodge website" className="portfolioImage" />
+            <div className="portfolioCover">
+                <img src={emaweniWebsite} alt="emaweni tugela canyon lodge website" className="portfolioCoverImage" />
+                
+                <div className="portfolioCoverText">
                     <heading className="portfolioColumnHeading">EMAWENI TUGELA CANYON LODGE</heading>
                     <p className="portfolioColumnParagraph">A website for a game lodge</p>
+                    <button className="portfolioButton">View Website</button>
                 </div>
             </div>
 
-            <div className="portfolioColumns">
-                <div className="portfolioColumn">
-                    <img src={cosyclosetWebsite} alt="cosy closet website" className="portfolioImage" />
+            <div className="portfolioCover">
+                <img src={cosyclosetWebsite} alt="cosy closet website" className="portfolioCoverImage" />
+                
+                <div className="portfolioCoverText">
                     <heading className="portfolioColumnHeading">COSY CLOSET</heading>
                     <p className="portfolioColumnParagraph">An online store for a second-hand clothing business</p>
+                    <button className="portfolioButton">View Website</button>
                 </div>
             </div>
 
-            <div className="portfolioColumns">
-                <div className="portfolioColumn">
-                    <img src={davidaWebsite} alt="davida coffee co website" className="portfolioImage" />
+            <div className="portfolioCover">
+                <img src={davidaWebsite} alt="davida coffee co website" className="portfolioCoverImage" />
+                
+                <div className="portfolioCoverText">
                     <heading className="portfolioColumnHeading">DAVIDA COFFEE CO</heading>
                     <p className="portfolioColumnParagraph">A website for a coffee roastery</p>
+                    <button className="portfolioButton">View Website</button>
                 </div>
             </div>
 
-            <div className="portfolioColumns">
-                <div className="portfolioColumn">
-                    <img src={abaleWebsite} alt="abale coffee website" className="portfolioImage" />
+            <div className="portfolioCover">
+                <img src={abaleWebsite} alt="abale coffee website" className="portfolioCoverImage" />
+                
+                <div className="portfolioCoverText">
                     <heading className="portfolioColumnHeading">ABALE COFFEE</heading>
                     <p className="portfolioColumnParagraph">A website for a coffee importer</p>
+                    <button className="portfolioButton">View Website</button>
                 </div>
             </div>
 
-            <div className="portfolioColumns">
-                <div className="portfolioColumn">
-                    <img src={highmaintenanceWebsite} alt="high maintenance website" className="portfolioImage" />
+            <div className="portfolioCover">
+                <img src={highmaintenanceWebsite} alt="high maintenance website" className="portfolioCoverImage" />
+                                    
+                <div className="portfolioCoverText">
                     <heading className="portfolioColumnHeading">HIGH MAINTENANCE</heading>
                     <p className="portfolioColumnParagraph">A website for a dispensary</p>
+                    <button className="portfolioButton">View Website</button>
                 </div>
             </div>
-
-            <div className="portfolioColumns marginBottom10">
-                <div className="portfolioColumn">
-                    <img src={whackedWebsite} alt="whacked management website" className="portfolioImage" />
+           
+            <div className="portfolioCover">
+                <img src={whackedWebsite} alt="whacked management website" className="portfolioCoverImage" />
+                                    
+                <div className="portfolioCoverText">
                     <heading className="portfolioColumnHeading">WHACKED</heading>
                     <p className="portfolioColumnParagraph">A website for an entertainment agency</p>
+                    <button className="portfolioButton">View Website</button>
                 </div>
             </div>
         </div>
@@ -74,60 +85,6 @@ if (width < 750) {
         <Footer></Footer>
     </div>
   )
-} else {
-  return (
-    <div className="Portfolio">
-        <Navbar></Navbar>
-        
-        <div className="portfolioPageBanner">
-            <h1 className="portfolioHeading">PORTFOLIO</h1>
-
-            <div className="portfolioColumns">
-                <div className="portfolioColumn">
-                    <img src={emaweniWebsite} alt="emaweni tugela canyon lodge website" className="portfolioImage" />
-                    <heading className="portfolioColumnHeading">EMAWENI TUGELA CANYON LODGE</heading>
-                    <p className="portfolioColumnParagraph">A website for a game lodge</p>
-                </div>
-
-                <div className="portfolioColumn">
-                    <img src={cosyclosetWebsite} alt="cosy closet website" className="portfolioImage" />
-                    <heading className="portfolioColumnHeading">COSY CLOSET</heading>
-                    <p className="portfolioColumnParagraph">An online store for a second-hand clothing business</p>
-                </div>
-
-                <div className="portfolioColumn">
-                    <img src={davidaWebsite} alt="davida coffee co website" className="portfolioImage" />
-                    <heading className="portfolioColumnHeading">DAVIDA COFFEE CO</heading>
-                    <p className="portfolioColumnParagraph">A website for a coffee roastery</p>
-                </div>
-            </div>
-
-            <div className="portfolioColumns marginBottom10">
-                <div className="portfolioColumn">
-                    <img src={abaleWebsite} alt="abale coffee website" className="portfolioImage" />
-                    <heading className="portfolioColumnHeading">ABALE COFFEE</heading>
-                    <p className="portfolioColumnParagraph">A website for a coffee importer</p>
-                </div>
-
-                <div className="portfolioColumn">
-                    <img src={highmaintenanceWebsite} alt="high maintenance website" className="portfolioImage" />
-                    <heading className="portfolioColumnHeading">HIGH MAINTENANCE</heading>
-                    <p className="portfolioColumnParagraph">A website for a dispensary</p>
-                </div>
-
-                <div className="portfolioColumn">
-                    <img src={whackedWebsite} alt="whacked management website" className="portfolioImage" />
-                    <heading className="portfolioColumnHeading">WHACKED</heading>
-                    <p className="portfolioColumnParagraph">A website for an entertainment agency</p>
-                </div>
-            </div>
-        </div>
-
-        <Footer></Footer>
-    </div>
-  )
-}
-
 }
 
 export default Portfolio
