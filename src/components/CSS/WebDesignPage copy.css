@@ -29,20 +29,6 @@
     margin-bottom: 18vh;
 }
 
-.singleServiceOurPackagesSubheading {
-    color: rgba(255, 255, 255, 0.8);
-    font-family: 'Instrument Sans';
-    font-weight: 500;
-    font-size: 1.625rem;
-    width: 100%;
-    background-color: transparent;
-    text-align: center;
-    margin-top: 3vh;
-    opacity: 0;
-    animation: scrollIn 1s 0s ease forwards;
-    margin-bottom: 8vh;
-}
-
 .singleServiceOurPackages {
     padding: 2vh;
     width: 90%;   
@@ -50,44 +36,38 @@
 }
 
 .singleServiceOurPackagesHeading {
-    color: white;
+    color: black;
     font-family: 'Instrument Sans';
     font-weight: 700;
     font-size: 4rem;
-    text-align: center;
-    margin-top: 16vh;
+    text-align: left;
     background-color: transparent;
 }
 
 .singleServiceColumns {
-    background-color: transparent;
-    width: 84%;
+    width: 87%;
     margin-top: 1vh;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 30vh;
+    margin-bottom: 6vh;
 }
 
 .singleServicePackage {
     width: 30%;
-    background-color: transparent;
-    border: 1px solid gray;
-    border-radius: 20px;
-    padding: 3%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    background-color: #FFF5E6;
+    border: 3px solid gray;
+    border-radius: 40px;
+    padding: 1.5%;
     position: relative;
     z-index: 2;
 }
 
 .singleServicePackageMiddle {
     width: 30%;
-    background-color: transparent;
-    border: 1px solid rgb(255, 100, 100);;
-    border-radius: 20px;
-    padding: 3%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    background-color: #FFF5E6;
+    border: 3px solid gray;
+    border-radius: 40px;
+    padding: 1.5%;
     position: relative;
     z-index: 2;
 }
@@ -103,16 +83,16 @@
 }
 
 .singleServicePackageHeading {
-    color: white;
+    color: black;
     font-family: 'Instrument Sans';
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: left;
     background-color: transparent;
 }
 
 .singleServicePackageNumber {
-    color: rgb(255, 100, 100);
+    color: black;
     font-family: 'Instrument Sans';
     font-weight: 600;
     font-size: 2.5rem;
@@ -122,18 +102,17 @@
 }
 
 .singleServicePackageSubheading {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
     font-family: 'Instrument Sans';
     font-weight: 600;
     font-size: 1.3rem;
     text-align: left;
     background-color: transparent;
-    margin-top: 2vh;
     margin-bottom: 3vh;
 }
 
 .singleServicePackageFrom {
-    color: white;
+    color: rgba(0, 0, 0, 0.8);
     font-family: 'Instrument Sans';
     font-weight: 600;
     font-size: 1.625rem;
@@ -143,14 +122,14 @@
 }
 
 .singleServicePackageFeature {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.9);
     font-family: 'Instrument Sans';
     font-weight: 600;
     font-size: 1.3rem;
     text-align: left;
     background-color: transparent;
-    margin-top: 3vh;
-    margin-left: 0.4vw;
+    margin-top: 1vh;
+    margin-left: 2vw;
 }
 
 .singleServicePackageButtonGroup {
@@ -163,13 +142,12 @@
 }
 
 .singleServicePackageButton {
-    padding: 15px 65px;
-    margin-top: 3vh;
+    padding: 15px 85px;
     width: 100%;
     border-radius: 20px;
     border: none;
-    background-color: rgb(255, 100, 100);
-    color: black;
+    background-color: black;
+    color: white;
     font-family: 'Instrument Sans';
     font-weight: 600;
     font-size: 1.3rem;
@@ -247,17 +225,11 @@
     justify-content: center;
 }
 
-.singleServiceSection2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(14, 14, 14);
-}
-
-.singleServiceIcon {
-    background-color: transparent;
-    transform: translateX(-10px);
-    font-size: 1.2rem;
-    color: rgb(255, 100, 100);
+.backgroundThing {
+    width: 90%;
+    height: 100px;
+    position: relative;
+    z-index: 0;
+    transform: translateY(-430px);
+    background-color: black;
 }

@@ -1,21 +1,26 @@
 import { useState } from 'react'
 import '../components/CSS/WebDesignPage.css'
-import Navbar from '../components/Navbar'
+import NavbarBlack from '../components/NavbarBlack'
 import Footer from '../components/Footer'
 import { motion } from 'framer-motion'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSquareCheck } from '@fortawesome/free-solid-svg-icons'
 
 function WebDesignPage() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="WebDesignPage">
-      <Navbar></Navbar>
+      <NavbarBlack></NavbarBlack>
       
       <div className="singleServicePageBanner">
         <h1 className="singleServiceHeading">WEBSITE<br></br>DEVELOPMENT</h1>
         <p className="singleServiceSubheading">Losing customers to an outdated website? Our modern, mobile-friendly websites not only look beautiful – they actually get sales. Our layouts have been proven to drive conversion rates, and we offer premium SEO services to help your website rank on Google. <br></br><br></br>Whether you need a simple landing page or a full-blown online store, we’ll make sure your website brings the results your business deserves.</p>
+
+      <div className="singleServiceSection2">
         <div className="singleServiceOurPackages">
-          <h2 className="singleServiceOurPackagesHeading">Our Packages</h2>  
+          <h2 className="singleServiceOurPackagesHeading">OUR WEBSITE PACKAGES</h2>  
+          <p className="singleServiceOurPackagesSubheading">Get a beautiful, high-converting, and SEO-friendly website.</p>
         </div>
 
         <div className="singleServiceColumns">
@@ -23,7 +28,19 @@ function WebDesignPage() {
             <h3 className="singleServicePackageHeading">BASIC:</h3>
             <p className="singleServicePackageSubheading">For businesses that need a basic package.</p>
 
-            <p className="singleServicePackageFeature">- Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+
+            <p className="singleServicePackageFrom">FROM:</p>
+            <h3 className="singleServicePackageNumber">R10 000+</h3>
+
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
@@ -31,10 +48,21 @@ function WebDesignPage() {
 
           <div className='singleServicePackageMiddle'>
             <h3 className="singleServicePackageHeading">STANDARD:</h3>
-            <p className="singleServicePackageSubheading">R000 - R100</p>
-            <p className="singleServicePackageSubheading">Example copy.</p>
+            <p className="singleServicePackageSubheading">For businesses that need a standard package.</p>
 
-            <p className="singleServicePackageFeature">- Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/> 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+
+            <p className="singleServicePackageFrom">FROM:</p>
+            <h3 className="singleServicePackageNumber">R10 000+</h3>
+
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
@@ -42,17 +70,30 @@ function WebDesignPage() {
 
           <div className='singleServicePackage'>
             <h3 className="singleServicePackageHeading">PREMIUM:</h3>
-            <p className="singleServicePackageSubheading">R000 - R100</p>
-            <p className="singleServicePackageSubheading">Example copy.</p>
+            <p className="singleServicePackageSubheading">For businesses that need a premium package.</p>
 
-            <p className="singleServicePackageFeature">- Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/> 1</p>
+
+            <p className="singleServicePackageFrom">FROM:</p>
+            <h3 className="singleServicePackageNumber">R10 000+</h3>
+
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
           </div>
 
         </div>
-      
+      </div>  
+
+
         <div className="singleServiceOurPackages">
           <h2 className="singleServiceOurPackagesHeading">ABOUT WEBSITE DEVELOPMENT:</h2>  
         </div>
