@@ -54,8 +54,9 @@
     font-family: 'Instrument Sans';
     font-weight: 700;
     font-size: 4rem;
+    line-height: 4rem;
     text-align: center;
-    margin-top: 16vh;
+    margin-top: 14vh;
     background-color: transparent;
 }
 
@@ -65,7 +66,7 @@
     margin-top: 1vh;
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 30vh;
+    margin-bottom: 0vh;
 }
 
 .singleServicePackage {
@@ -245,6 +246,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: rgb(14, 14, 14);
 }
 
 .singleServiceSection2 {
@@ -260,4 +262,40 @@
     transform: translateX(-10px);
     font-size: 1.2rem;
     color: rgb(255, 100, 100);
+}
+
+.singleServiceBlogSubheading {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Instrument Sans';
+    font-weight: 500;
+    font-size: 1.3rem;
+    width: 65%;
+    text-align: left;
+    margin-top: 3vh;
+    opacity: 0;
+    animation: scrollIn 1s 0s ease forwards;
+    margin-bottom: 0vh;
+    background-color: rgb(14, 14, 14);
+}
+
+.singleServiceBlogHeading {
+    background-color: rgb(14, 14, 14);
+    margin-bottom: 3vh;
+}
+
+.spanRed {
+    color: rgb(255, 100, 100);
+    background-color: transparent;
+}
+
+.blogIcon {
+    background-color: transparent;
+    transform: translateX(-2px);
+    font-size: 1.2rem;
+    color: rgb(255, 100, 100);
+}
+
+.spanBold {
+    font-weight: 700;
+    background-color: rgb(14, 14, 14);
 }

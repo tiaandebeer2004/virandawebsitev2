@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import '../components/CSS/WebDesignPage-copy.css'
+import '../components/CSS/WebDesignPage.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { motion } from 'framer-motion'
