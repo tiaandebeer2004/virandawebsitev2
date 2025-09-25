@@ -128,7 +128,7 @@ function WebDesignPage() {
         </div>
 
         <div className="singleServiceOurPackages">
-          <h2 className="singleServiceOurPackagesHeading">WE DON'T JUST BUILD WEBSITES<br></br>WE BUILD DIGITAL EXPERIENCES</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogFirstHeading">WE DON'T JUST BUILD WEBSITES<br></br>WE BUILD DIGITAL EXPERIENCES</h2>  
         </div>
 
         <motion.div
@@ -148,7 +148,7 @@ function WebDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogHeading'
         >
-          <h2 className="singleServiceOurPackagesHeading">WHY YOU NEED A WEBSITE DEVELOPMENT TEAM:</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">WHY YOU NEED A WEBSITE DEVELOPMENT TEAM:</h2>  
         </motion.div>
 
         <motion.div
@@ -168,7 +168,7 @@ function WebDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogHeading'
         >
-          <h2 className="singleServiceOurPackagesHeading">WHY VIRANDA?:</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">WHY VIRANDA?:</h2>  
         </motion.div>
 
         <motion.div
@@ -205,7 +205,7 @@ function WebDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogHeading'
         >
-          <h2 className="singleServiceOurPackagesHeading">OUR PROCESS:</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">OUR PROCESS:</h2>  
         </motion.div>
 
         <motion.div
@@ -240,7 +240,7 @@ function WebDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogHeading'
         >
-          <h2 className="singleServiceOurPackagesHeading">READY TO GROW?</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">READY TO GROW?</h2>  
         </motion.div>
 
         <motion.div
@@ -248,10 +248,14 @@ function WebDesignPage() {
           whileInView={{opacity: 1, translateY: '0px'}}
           transition={{duration: 0.6, ease: 'easeInOut'}}
           viewport={{once: true}}
-          className='singleServiceBlogSection spacingBelow'
+          className='singleServiceBlogSection'
         >
           <p className="singleServiceBlogSubheading">Your website isn't just another project - it's a long-term investment in your brand's future. Whether you need a new website or a redesign, we're ready to help you create something that works.</p>
         </motion.div>
+        
+        <div className="singleServiceBlogButtonWrapper spacingBelow">
+            <button className="singleServiceBlogButton">Get a Free Consultation</button>
+        </div> 
       </div>  
       </div>
 

@@ -281,6 +281,7 @@
 .singleServiceBlogHeading {
     background-color: rgb(14, 14, 14);
     margin-bottom: 3vh;
+    width: 100%;
 }
 
 .spanRed {
@@ -298,4 +299,47 @@
 .spanBold {
     font-weight: 700;
     background-color: rgb(14, 14, 14);
+}
+
+.singleServiceBlogFirstHeading {
+    text-align: left!important;
+    width: 74%!important;
+    margin-left: 13%!important;
+}
+
+.singleServiceBlogHeading2 {
+    text-align: left!important;
+    width: 65%!important;
+    margin-left: 17.5%!important;
+}
+
+.singleServiceBlogButton {
+    font-family: "Instrument Sans";
+    font-weight: 600;
+    font-size: 1.625rem;
+    align-self: left;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    border: none;
+    border-radius: 30px 30px 30px 30px / 30px 30px 30px 30px;
+    background-color: red;
+    transition: scale 0.2s;
+}
+
+.singleServiceBlogButton:hover {
+    scale: 0.95;
+    cursor: pointer;
+}
+
+.singleServiceBlogButtonWrapper {
+    margin-top: 6vh;
+    width: 65%;
+    background-color: rgb(14, 14, 14)  ;
 }

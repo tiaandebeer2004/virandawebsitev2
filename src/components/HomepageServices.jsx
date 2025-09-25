@@ -47,7 +47,7 @@ function HomepageServices() {
 
                     <div className="homepageServiceBlockColumns">
                         <div className="homepageServiceLeft">
-                            <p className="homepageServiceCopy">This is example copy for the homepage service section.</p>
+                            <p className="homepageServiceCopy">Our Google/Meta Ad campaigns ensure that you’re seen by the right customers at the right time. <br></br><br></br>Our optimized, targeted ad campaigns drive real results – more interested, qualified leads, more sales, and a higher return on investment.</p>
                         </div>
 
                         <div className="homepageServiceRight">
