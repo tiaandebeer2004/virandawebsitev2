@@ -133,6 +133,7 @@
 
     .homepageServiceBlockColumns {
         flex-direction: column;
+        margin-top: 3vh;
     }
 
     .homepageChevronLeft,.homepageChevronRight {
