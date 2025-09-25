@@ -111,6 +111,19 @@
     .homepageResultsHeading2 {
         font-size: 4rem;
     }
+
+    .homepageResultsColumns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homepageResultsLeft {
+        width: 70%;
+    }
+
+    .homepageResultsRight {
+        width: 70%;
+    }
 }
 
 @media (width < 650px) {
@@ -122,6 +135,16 @@
     .homepageResultsHeading2 {
         font-size: 3.2rem;
         line-height: 2.8rem;
+    }
+
+    .homepageResultsColumnHeading {
+        font-size: 1rem;
+        line-height: 0.8rem;
+    }
+
+    .homepageResultsColumnResult {
+        font-size: 1.625rem;
+        line-height: 1.5rem;
     }
 }
 
