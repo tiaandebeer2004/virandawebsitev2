@@ -74,6 +74,11 @@
     border: none;
     padding: 1rem;
     border-radius: 40px;
+    transition: scale 0.2s;
+}
+
+.contactUs:hover {
+    scale: 0.95;
 }
 
 .bannerWrapper {

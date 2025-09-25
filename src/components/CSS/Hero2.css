@@ -108,3 +108,32 @@
     margin-bottom: 3%;
     margin-top: 3%;
 }
+
+@media (width < 800px) {
+    .hero2LeftHeading {
+        font-size: 3.2rem;
+        line-height: 3rem;
+        margin-bottom: 3vh;
+    }
+
+    .hero2TaglinesGroup {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .hero2TaglineGroup {
+        margin: 2vh;
+        width: 80%;
+    }
+
+    .hero2Taglines {
+        width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .hero2Paragraph {
+        margin-top: 10vh;
+    }
+}
