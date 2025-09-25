@@ -101,3 +101,33 @@
     width: 100%;
     text-align: center;
 }
+
+@media (width < 840px) {
+    .homepageResultsHeading1 {
+        font-size: 2.5rem;
+        line-height: 2rem;
+    }
+
+    .homepageResultsHeading2 {
+        font-size: 4rem;
+    }
+}
+
+@media (width < 650px) {
+    .homepageResultsHeading1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .homepageResultsHeading2 {
+        font-size: 3.2rem;
+        line-height: 2.8rem;
+    }
+}
+
+@media (width < 500px) {
+    .homepageResultsHeading1 {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+}
