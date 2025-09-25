@@ -118,11 +118,17 @@
     }
 
     .homepageResultsLeft {
-        width: 70%;
+        width: 80%;
+        margin: 0;
     }
 
     .homepageResultsRight {
-        width: 70%;
+        width: 80%;
+        margin: 0;
+    }
+
+    .homepageResult {
+        margin-bottom: 8vh;
     }
 }
 
