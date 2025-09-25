@@ -134,6 +134,16 @@
     }
 
     .hero2Paragraph {
-        margin-top: 10vh;
+        margin-top: 7vh;
+        margin-bottom: 12vh;
+    }
+
+    .hero2ButtonGroup {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero2OurServices, .hero2ContactUs {
+        width: 60%;
     }
 }
