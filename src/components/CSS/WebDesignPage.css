@@ -343,3 +343,27 @@
     width: 65%;
     background-color: rgb(14, 14, 14)  ;
 }
+
+@media (width < 750px) {
+    .singleServiceOurPackagesSubheading {
+        font-size: 1.3rem;
+    }
+
+    .singleServiceOurPackagesHeading {
+        line-height: 2rem;
+    }
+
+    .singleServiceOurPackagesHeading {
+        width: 80%!important;
+        margin-left: 10%!important;
+    }
+
+    .singleServiceBlogSubheading {
+        width: 80%!important;
+        margin-left: 0%!important;
+    }
+
+    .singleServiceBlogSection {
+        width: 100%!important;
+    }
+}
