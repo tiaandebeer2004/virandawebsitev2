@@ -358,6 +358,11 @@
         margin-left: 10%!important;
     }
 
+    .singleServiceBlogFirstHeading {
+        width: 94%!important;
+        margin-left: 3%!important;
+    }
+
     .singleServiceBlogSubheading {
         width: 80%!important;
         margin-left: 0%!important;
@@ -365,5 +370,21 @@
 
     .singleServiceBlogSection {
         width: 100%!important;
+    }
+
+    .singleServicePackageSubheading {
+        line-height: 1.3rem;
+    }
+
+    .singleServicePackage {
+        width: 100%;
+    }
+
+    .singleServicePackageMiddle {
+        width: 100%;
+    }
+
+    .singleServiceIcon {
+        margin-left: 5px;
     }
 }
