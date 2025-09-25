@@ -5,6 +5,7 @@
   z-index: 40;
   background-color: transparent;
   font-family: 'Instrument Sans';
+  pointer-events: none;
 }
 
 .staggered-menu-header {
@@ -147,6 +148,7 @@
   padding: 6em 2em 2em 2em;
   overflow-y: auto;
   z-index: 10;
+  pointer-events: auto;
 }
 
 [data-position='left'] .staggered-menu-panel {
