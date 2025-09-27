@@ -77,6 +77,8 @@ if (width < 900) {
             <p className="servicesPageMobileParagraph">Our SEO services help your business rank for valuable keywords, attract qualified traffic, and generate more leads. From keyword research to link building, we use proven strategies to ensure your business is as visible as it can be and ensure long-term results.</p>
             <button className="servicesPageServiceButton">Learn More</button>
         </div>
+
+        <Footer></Footer>
     </div>
   )
 } else {

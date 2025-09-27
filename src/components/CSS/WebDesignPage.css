@@ -355,22 +355,36 @@
 }
 
 @media (width < 750px) {
+    .singleServiceBlogButtonWrapper {
+        width: 80%;
+    }
+
+    .singleServiceBlogButton {
+        width: 100%;
+    }
+
+    .singleServiceColumns {
+        margin-bottom: 0vh!important;
+    }
+
     .singleServiceOurPackagesSubheading {
         font-size: 1.3rem;
+        margin-bottom: 3vh;
+        margin-top: 2vh;
     }
 
     .singleServiceOurPackagesHeading {
         line-height: 2rem;
-    }
-
-    .singleServiceOurPackagesHeading {
+        margin-top: 5vh;
         width: 80%!important;
         margin-left: 10%!important;
+        margin-bottom: 0vh;
     }
 
     .singleServiceBlogFirstHeading {
         width: 94%!important;
         margin-left: 3%!important;
+        margin-top: 3vh!important;
     }
 
     .singleServiceBlogSubheading {
@@ -396,5 +410,13 @@
 
     .singleServiceIcon {
         margin-left: 5px;
+    }
+
+    .spacingChangeSingleService {
+        margin-top: 0vh!important;
+    }
+
+    .singleServiceLastPackage {
+        margin-bottom: 0vh!important;
     }
 }

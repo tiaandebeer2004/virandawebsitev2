@@ -104,7 +104,7 @@ function WebDesignPage() {
             </div>
           </div>
 
-          <div className='singleServicePackage'>
+          <div className='singleServicePackage singleServiceLastPackage'>
             <h3 className="singleServicePackageHeading">PREMIUM:</h3>
             <p className="singleServicePackageSubheading">For established businesses that need highlu-optimized, large-scale websites or ecommerce stores.</p>
 
@@ -127,7 +127,7 @@ function WebDesignPage() {
           </div>
         </div>
 
-        <div className="singleServiceOurPackages">
+        <div className="singleServiceOurPackages spacingChangeSingleService">
           <h2 className="singleServiceOurPackagesHeading singleServiceBlogFirstHeading">WE DON'T JUST BUILD WEBSITES<br></br>WE BUILD DIGITAL EXPERIENCES</h2>  
         </div>
 
