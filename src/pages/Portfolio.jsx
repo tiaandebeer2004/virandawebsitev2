@@ -27,7 +27,7 @@ return (
                 <div className="portfolioCoverText">
                     <heading className="portfolioColumnHeading">EMAWENI TUGELA CANYON LODGE</heading>
                     <p className="portfolioColumnParagraph">A website for a game lodge</p>
-                    <a className='backgroundTransparent' href='https://www.emawenitugelacanyon.co.za'><button className="portfolioButton">View Website</button></a>
+                    <a className='backgroundTransparent' target="_blank" href='https://www.emawenitugelacanyon.co.za'><button className="portfolioButton">View Website</button></a>
                 </div>
             </div>
 
@@ -37,7 +37,7 @@ return (
                 <div className="portfolioCoverText">
                     <heading className="portfolioColumnHeading">COSY CLOSET</heading>
                     <p className="portfolioColumnParagraph">An online store for a second-hand clothing business</p>
-                    <a className='backgroundTransparent' href='https://www.cosycloset.co.za'><button className="portfolioButton">View Website</button></a>
+                    <a className='backgroundTransparent' target="_blank" href='https://www.cosycloset.co.za'><button className="portfolioButton">View Website</button></a>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@ return (
                 <div className="portfolioCoverText">
                     <heading className="portfolioColumnHeading">DAVIDA COFFEE CO</heading>
                     <p className="portfolioColumnParagraph">A website for a coffee roastery</p>
-                    <a className='backgroundTransparent' href='https://www.davidacoffeeco.co.za'><button className="portfolioButton">View Website</button></a>
+                    <a className='backgroundTransparent' target="_blank" href='https://www.davidacoffeeco.co.za'><button className="portfolioButton">View Website</button></a>
                 </div>
             </div>
 
@@ -57,7 +57,7 @@ return (
                 <div className="portfolioCoverText">
                     <heading className="portfolioColumnHeading">ABALE COFFEE</heading>
                     <p className="portfolioColumnParagraph">A website for a coffee importer</p>
-                    <a className='backgroundTransparent' href='https://www.abalecoffee.co.za'><button className="portfolioButton">View Website</button></a>
+                    <a className='backgroundTransparent' target="_blank" href='https://www.abalecoffee.co.za'><button className="portfolioButton">View Website</button></a>
                 </div>
             </div>
 
@@ -67,7 +67,7 @@ return (
                 <div className="portfolioCoverText">
                     <heading className="portfolioColumnHeading">HIGH MAINTENANCE</heading>
                     <p className="portfolioColumnParagraph">A website for a dispensary</p>
-                    <a className='backgroundTransparent' href='https://www.highmaintenancepcc.co.za'><button className="portfolioButton">View Website</button></a>
+                    <a className='backgroundTransparent' target="_blank" href='https://www.highmaintenancepcc.co.za'><button className="portfolioButton">View Website</button></a>
                 </div>
             </div>
            
@@ -77,7 +77,7 @@ return (
                 <div className="portfolioCoverText">
                     <heading className="portfolioColumnHeading">WHACKED</heading>
                     <p className="portfolioColumnParagraph">A website for an entertainment agency</p>
-                    <a className='backgroundTransparent' href='https://www.whacked.co.za'><button className="portfolioButton">View Website</button></a>
+                    <a className='backgroundTransparent' target="_blank" href='https://www.whacked.co.za'><button className="portfolioButton">View Website</button></a>
                 </div>
             </div>
         </div>
