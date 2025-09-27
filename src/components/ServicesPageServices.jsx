@@ -2,9 +2,12 @@ import { useState } from 'react'
 import '../components/CSS/ServicesPageServices.css'
 import useWindowDimensions from './Hooks/useWindowDimensions'
 import Footer from './Footer'
-import image1 from '../assets/Services/image1.avif'
-import image2 from '../assets/Services/image2.webp'
-import image3 from '../assets/Services/image3.avif'
+import seoImage from '../assets/Services/seoImage.png'
+import socialMediaContentCreationImage from '../assets/Services/socialMediaContentCreationImage.png'
+import graphicDesignImage from '../assets/Services/graphicDesignImage.png'
+import googleAdsImage from '../assets/Services/googleAdsImage.png'
+import metaAdsImage from '../assets/Services/metaAdsImage.png'
+import adCreationImage from '../assets/Services/adCreationImage.png'
 
 function ServicesPageServices() {
   const [count, setCount] = useState(0)
@@ -15,7 +18,7 @@ if (width < 900) {
   return (
     <div className="ServicesPageServices">
         <div className="servicesPageServiceMobile">
-            <div className="servicesPageMobileImage"></div>
+            <img src={seoImage} className="servicesPageMobileImage"></img>
 
             <h2 className="servicesPageMobileHeading">WEBSITE DEVELOPMENT</h2>
             <p className="servicesPageMobileParagraph">Losing customers to an outdated website? Our modern, mobile-friendly websites not only look beautiful – they actually get sales. Our layouts have been proven to drive conversion rates, and we offer premium SEO services to help your website rank on Google. <span className="smallerSpacing"><br></br><br></br></span>Whether you need a simple landing page or a full-blown online store, we’ll make sure your website brings the results your business deserves.</p>
@@ -23,7 +26,7 @@ if (width < 900) {
         </div>
         
         <div className="servicesPageServiceMobile">
-            <div className="servicesPageMobileImage"></div>
+            <img src={graphicDesignImage} className="servicesPageMobileImage"></img>
 
             <h2 className="servicesPageMobileHeading">GRAPHIC DESIGN</h2>
             <p className="servicesPageMobileParagraph">Your brand deserves to stand out. Our graphic design team creates stunning graphics that help you stand out from the crowd, capture potential customers’ attention, and grow your business overall. <span className="smallerSpacing"><br></br><br></br></span>Whether you need a logo, flyers, or other marketing material, you can trust us to design the most effective visuals.</p>
@@ -31,7 +34,7 @@ if (width < 900) {
         </div>
 
         <div className="servicesPageServiceMobile">
-            <div className="servicesPageMobileImage"></div>
+            <img src={seoImage} className="servicesPageMobileImage"></img>
 
             <h2 className="servicesPageMobileHeading">SOCIAL MEDIA MANAGEMENT</h2>
             <p className="servicesPageMobileParagraph">Posting great content, but getting no results? We create social media strategies that not only help you grow your following, but also turns your existing followers into loyal customers. <span className="smallerSpacing"><br></br><br></br></span>Which platform should you use? What kind of content should you post? Contact us and have our social media management team answer all your questions and create a strategy that works.</p>
@@ -39,7 +42,7 @@ if (width < 900) {
         </div>
 
         <div className="servicesPageServiceMobile">
-            <div className="servicesPageMobileImage"></div>
+            <img src={socialMediaContentCreationImage} className="servicesPageMobileImage"></img>
 
             <h2 className="servicesPageMobileHeading">SOCIAL MEDIA<br></br>CONTENT CREATION</h2>
             <p className="servicesPageMobileParagraph">Don’t have the time to post on social media? We create scroll-stopping social media content with a focus on growing your brand and driving sales. Our excellent social media team stays up to date with current trends, crafting highly engaging graphics and videos that drive sales and puts your brand out there. <span className="smallerSpacing"><br></br><br></br></span>Focus on running your business – while we focus on growing it.</p>
@@ -47,7 +50,7 @@ if (width < 900) {
         </div>
 
         <div className="servicesPageServiceMobile">
-            <div className="servicesPageMobileImage"></div>
+            <img src={googleAdsImage} className="servicesPageMobileImage"></img>
 
             <h2 className="servicesPageMobileHeading">GOOGLE ADS MANAGEMENT</h2>
             <p className="servicesPageMobileParagraph">Our Google Ad campaigns ensure that you’re seen by the right customers at the right time. Our optimized, targeted ad campaigns drive real results – more interested, qualified leads, more sales, and a higher return on investment.</p>
@@ -55,7 +58,7 @@ if (width < 900) {
         </div>
 
         <div className="servicesPageServiceMobile">
-            <div className="servicesPageMobileImage"></div>
+            <img src={metaAdsImage} className="servicesPageMobileImage"></img>
 
             <h2 className="servicesPageMobileHeading">META/FACEBOOK ADS MANAGEMENT</h2>
             <p className="servicesPageMobileParagraph">Stop boosting posts and start running campaigns that actually convert. Our Meta/Facebook ad campaigns focus on generating interested, qualified leads and driving sales. We use precise targeting and eye-catching graphic material – so that you can use Meta/Facebook Ads as a powerful tool for your business’ growth.</p>
@@ -63,7 +66,7 @@ if (width < 900) {
         </div>
 
         <div className="servicesPageServiceMobile">
-            <div className="servicesPageMobileImage"></div>
+            <img src={adCreationImage} className="servicesPageMobileImage"></img>
 
             <h2 className="servicesPageMobileHeading">AD CREATION</h2>
             <p className="servicesPageMobileParagraph">Know how to run targeted, optimized ad campaigns, but don’t have the material to use? Our Ad Creation team specializes in creating aesthetically stunning, high converting ads that help you save money on ad spend, generate higher quality leads, and make more sales.</p>
@@ -71,7 +74,7 @@ if (width < 900) {
         </div>
 
         <div className="servicesPageServiceMobile">
-            <div className="servicesPageMobileImage"></div>
+            <img src={seoImage} className="servicesPageMobileImage"></img>
 
             <h2 className="servicesPageMobileHeading">SEARCH ENGINE OPTIMIZATION</h2>
             <p className="servicesPageMobileParagraph">Our SEO services help your business rank for valuable keywords, attract qualified traffic, and generate more leads. From keyword research to link building, we use proven strategies to ensure your business is as visible as it can be and ensure long-term results.</p>
@@ -85,9 +88,9 @@ if (width < 900) {
   return (
     <div className="ServicesPageServices">
 
-    <div className="servicesPageServiceWrapper">
+    <div className="servicesPageServiceWrapper servicesPageFirstService">
         <div className="servicesPageServiceFromRight">
-            <img src={image1} className="servicesPageServiceFromRightImage"></img>
+            <img src={seoImage} className="servicesPageServiceFromRightImage"></img>
 
             <div className="servicesPageServiceFromRightColumn">
                 <h2 className="servicesPageServiceFromRightHeading">WEBSITE DEVELOPMENT</h2>
@@ -99,7 +102,7 @@ if (width < 900) {
 
     <div className="servicesPageServiceWrapper">
         <div className="servicesPageServiceFromLeft">
-            <img src={image2} className="servicesPageServiceFromLeftImage"></img>
+            <img src={graphicDesignImage} className="servicesPageServiceFromLeftImage"></img>
 
             <div className="servicesPageServiceFromLeftColumn">
                 <h2 className="servicesPageServiceFromLeftHeading">GRAPHIC DESIGN</h2>
@@ -111,7 +114,7 @@ if (width < 900) {
 
     <div className="servicesPageServiceWrapper"> 
         <div className="servicesPageServiceFromRight">
-            <img src={image3} className="servicesPageServiceFromRightImage"></img>
+            <img src={seoImage} className="servicesPageServiceFromRightImage"></img>
 
             <div className="servicesPageServiceFromRightColumn">
                 <h2 className="servicesPageServiceFromRightHeading">SOCIAL MEDIA MANAGEMENT</h2>
@@ -123,7 +126,7 @@ if (width < 900) {
 
     <div className="servicesPageServiceWrapper">
         <div className="servicesPageServiceFromLeft">
-            <div className="servicesPageServiceFromLeftImage"></div>
+            <img src={socialMediaContentCreationImage} className="servicesPageServiceFromLeftImage"></img>
 
             <div className="servicesPageServiceFromLeftColumn">
                 <h2 className="servicesPageServiceFromLeftHeading">SOCIAL MEDIA<br></br>CONTENT CREATION</h2>
@@ -135,7 +138,7 @@ if (width < 900) {
 
     <div className="servicesPageServiceWrapper">
         <div className="servicesPageServiceFromRight">
-            <div className="servicesPageServiceFromRightImage"></div>
+            <img src={googleAdsImage} className="servicesPageServiceFromRightImage"></img>
 
             <div className="servicesPageServiceFromRightColumn">
                 <h2 className="servicesPageServiceFromRightHeading">GOOGLE ADS MANAGEMENT</h2>
@@ -147,7 +150,7 @@ if (width < 900) {
 
     <div className="servicesPageServiceWrapper">
         <div className="servicesPageServiceFromLeft">
-            <div className="servicesPageServiceFromLeftImage"></div>
+            <img src={metaAdsImage} className="servicesPageServiceFromLeftImage"></img>
 
             <div className="servicesPageServiceFromLeftColumn">
                 <h2 className="servicesPageServiceFromLeftHeading">META/FACEBOOK ADS MANAGEMENT</h2>
@@ -159,7 +162,7 @@ if (width < 900) {
 
     <div className="servicesPageServiceWrapper">
         <div className="servicesPageServiceFromRight">
-            <div className="servicesPageServiceFromRightImage"></div>
+            <img src={adCreationImage} className="servicesPageServiceFromRightImage"></img>
 
             <div className="servicesPageServiceFromRightColumn">
                 <h2 className="servicesPageServiceFromRightHeading">AD CREATION</h2>
@@ -171,7 +174,7 @@ if (width < 900) {
 
     <div className="servicesPageServiceWrapper">
         <div className="servicesPageServiceFromLeft">
-            <div className="servicesPageServiceFromLeftImage"></div>
+            <img src={seoImage} className="servicesPageServiceFromLeftImage"></img>
 
             <div className="servicesPageServiceFromLeftColumn">
                 <h2 className="servicesPageServiceFromLeftHeading">SEARCH ENGINE OPTIMIZATION</h2>

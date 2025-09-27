@@ -1,6 +1,6 @@
 .ServicesPageServicesSection {
     width: 100%;
-    background-color: black;
+    background-color: #FFF5E6;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,8 +8,8 @@
 }
 
 .servicesPageOurServices {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: #FFF5E6;
     font-family: 'Instrument Sans';
     font-weight: 700;
     font-size: 6rem;
@@ -20,14 +20,14 @@
 
 .servicesPageHeadingParagraph {
     width: 60%;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: #FFF5E6;
     font-family: 'Instrument Sans';
     font-weight: 500;
     font-size: 1.3rem;
     text-align: center;
     margin-top: 3vh;
-    margin-bottom: 17vh;
+    margin-bottom: 15vh;
     opacity: 0.9;
 }
 

@@ -44,9 +44,9 @@ function ServicesPage() {
   return (
     <div className="ServicesPage">
         {(position.top <= 70) ? (
-        <Navbar></Navbar>
+        <NavbarBlack></NavbarBlack>
         ) : (
-          <NavbarBlack></NavbarBlack>
+          <Navbar></Navbar>
         )}
 
         <ServicesPageServicesSection></ServicesPageServicesSection>
