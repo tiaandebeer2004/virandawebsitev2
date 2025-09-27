@@ -8,7 +8,7 @@
   pointer-events: none;
 }
 
-.staggered-menu-header {
+.staggered-menu-headerBlack {
   border-bottom: 1px solid rgba(127.5, 127.5, 127.5);
   position: absolute;
   top: 0;
@@ -21,14 +21,14 @@
   padding-bottom: 1em;
   padding-left: 2em;
   padding-right: 2em;
-  color: black;
+  color: white;
   background: transparent;
   backdrop-filter: blur(10px);
   pointer-events: none;
   z-index: 20;
 }
 
-.staggered-menu-header > * {
+.staggered-menu-headerBlack > * {
   pointer-events: auto;
 }
 
@@ -39,14 +39,15 @@
   background-color: transparent;
 }
 
-.sm-logo-img {
+.sm-logo-imgBlack {
+  filter: invert(100%);
   display: block;
   height: 32px;
   width: auto;
   object-fit: contain;
 }
 
-.sm-toggle {
+.sm-toggleBlack {
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -54,13 +55,13 @@
   background: transparent;
   border: none;
   cursor: pointer;
-  color: black;
+  color: white;
   font-weight: 500;
   line-height: 1;
   overflow: visible;
 }
 
-.sm-toggle:focus-visible {
+.sm-toggleBlack:focus-visible {
   outline: 2px solid black;
   outline-offset: 4px;
   border-radius: 4px;
@@ -82,9 +83,9 @@
   background-color: transparent;
 }
 
-.sm-toggle-textInner {
+.sm-toggle-textInnerBlack {
     background-color: transparent;
-    color: black;
+    color: white;
   display: flex;
   flex-direction: column;
   line-height: 1;
@@ -98,7 +99,7 @@
   background-color: transparent;
 }
 
-.sm-icon {
+.sm-iconBlack {
   position: relative;
   width: 14px;
   height: 14px;
@@ -107,15 +108,15 @@
   align-items: center;
   justify-content: center;
   will-change: transform;
-  color: black;
+  color: white;
   background-color: transparent;
 }
 
-.sm-panel-itemWrap {
+.sm-panel-itemWrapBlack {
   position: relative;
   overflow: hidden;
   line-height: 1;
-  background-color: white;
+  background-color: black;
 }
 
 .sm-icon-line {
@@ -134,13 +135,13 @@
   display: none !important;
 }
 
-.staggered-menu-panel {
+.staggered-menu-panelBlack {
   position: absolute;
   top: 0;
   right: 0;
   width: clamp(260px, 38vw, 420px);
   height: 100%;
-  background: white;
+  background: black;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   display: flex;
@@ -151,7 +152,7 @@
   pointer-events: auto;
 }
 
-[data-position='left'] .staggered-menu-panel {
+[data-position='left'] .staggered-menu-panelBlack {
   right: auto;
   left: 0;
 }
@@ -172,25 +173,26 @@
   left: 0;
 }
 
-.sm-prelayer {
+.sm-prelayerBlack {
   position: absolute;
   top: 0;
   right: 0;
   height: 100%;
   width: 100%;
-  background-color: white;
+  background-color: black;
   transform: translateX(0);
 }
 
-.sm-panel-inner {
+.sm-panel-innerBlack {
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-  background-color: white;
+  background-color: black;
 }
 
-.sm-socials {
+.sm-socialsBlack {
+  background-color: black;
   margin-top: auto;
   padding-top: 2rem;
   display: flex;
@@ -198,14 +200,16 @@
   gap: 0.75rem;
 }
 
-.sm-socials-title {
+.sm-socials-titleBlack {
+  background-color: black;
   margin: 0;
   font-size: 1rem;
   font-weight: 500;
   color: var(--sm-accent, #ff0000);
 }
 
-.sm-socials-list {
+.sm-socials-listBlack {
+  background-color: black;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -216,35 +220,36 @@
   flex-wrap: wrap;
 }
 
-.sm-socials-list .sm-socials-link {
+.sm-socials-listBlack .sm-socials-linkBlack {
   opacity: 1;
 }
 
-.sm-socials-list:hover .sm-socials-link {
+.sm-socials-listBlack:hover .sm-socials-linkBlack {
   opacity: 0.35;
 }
 
-.sm-socials-list:hover .sm-socials-link:hover {
+.sm-socials-listBlack:hover .sm-socials-linkBlack:hover {
   opacity: 1;
 }
 
-.sm-socials-link:focus-visible {
+.sm-socials-linkBlack:focus-visible {
   outline: 2px solid var(--sm-accent, #ff0000);
   outline-offset: 3px;
 }
 
-.sm-socials-list:focus-within .sm-socials-link {
+.sm-socials-listBlack:focus-within .sm-socials-linkBlack {
   opacity: 0.35;
 }
 
-.sm-socials-list:focus-within .sm-socials-link:focus-visible {
+.sm-socials-listBlack:focus-within .sm-socials-linkBlack:focus-visible {
   opacity: 1;
 }
 
-.sm-socials-link {
+.sm-socials-linkBlack {
+  background-color: black;
   font-size: 1.2rem;
   font-weight: 500;
-  color: #111;
+  color: white;
   text-decoration: none;
   position: relative;
   padding: 2px 0;
@@ -254,7 +259,7 @@
     opacity 0.3s ease;
 }
 
-.sm-socials-link:hover {
+.sm-socials-linkBlack:hover {
   color: var(--sm-accent, #ff0000);
 }
 
@@ -266,7 +271,7 @@
   text-transform: uppercase;
 }
 
-.sm-panel-list {
+.sm-panel-listBlack {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -275,10 +280,10 @@
   gap: 0.5rem;
 }
 
-.sm-panel-item {
-  background-color: white;
+.sm-panel-itemBlack {
+  background-color: black;
   position: relative;
-  color: #000;
+  color: white;
   font-weight: 600;
   font-size: 3.5rem;
   cursor: pointer;
@@ -293,41 +298,41 @@
   padding-right: 1.4em;
 }
 
-.staggered-menu-panel .sm-socials-list .sm-socials-link {
+.staggered-menu-panelBlack .sm-socials-listBlack .sm-socials-linkBlack {
   opacity: 1;
   transition: opacity 0.3s ease;
 }
 
-.staggered-menu-panel .sm-socials-list:hover .sm-socials-link:not(:hover) {
+.staggered-menu-panelBlack .sm-socials-listBlack:hover .sm-socials-linkBlack:not(:hover) {
   opacity: 0.35;
 }
 
-.staggered-menu-panel .sm-socials-list:focus-within .sm-socials-link:not(:focus-visible) {
+.staggered-menu-panelBlack .sm-socials-listBlack:focus-within .sm-socials-linkBlack:not(:focus-visible) {
   opacity: 0.35;
 }
 
-.staggered-menu-panel .sm-socials-list .sm-socials-link:hover,
-.staggered-menu-panel .sm-socials-list .sm-socials-link:focus-visible {
+.staggered-menu-panelBlack .sm-socials-listBlack .sm-socials-linkBlack:hover,
+.staggered-menu-panelBlack .sm-socials-listBlack .sm-socials-linkBlack:focus-visible {
   opacity: 1;
 }
 
-.sm-panel-itemLabel {
-  background-color: white;
+.sm-panel-itemLabelBlack {
+  background-color: black;
   display: inline-block;
   will-change: transform;
   transform-origin: 50% 100%;
 }
 
-.sm-panel-item:hover {
+.sm-panel-itemBlack:hover {
   color: var(--sm-accent, #5227ff);
 }
 
-.sm-panel-list[data-numbering] {
+.sm-panel-listBlack[data-numbering] {
   counter-reset: smItem;
-  background-color: white;
+  background-color: black;
 }
 
-.sm-panel-list[data-numbering] .sm-panel-item::after {
+.sm-panel-listBlack[data-numbering] .sm-panel-itemBlack::after {
   counter-increment: smItem;
   content: counter(smItem, decimal-leading-zero);
   position: absolute;
@@ -336,7 +341,7 @@
   font-size: 18px;
   font-weight: 400;
   color: var(--sm-accent, #5227ff);
-  background-color: white;
+  background-color: black;
   letter-spacing: 0;
   pointer-events: none;
   user-select: none;
@@ -344,25 +349,17 @@
 }
 
 @media (max-width: 1024px) {
-  .staggered-menu-panel {
+  .staggered-menu-panelBlack {
     width: 100%;
     left: 0;
     right: 0;
-  }
-
-  .staggered-menu-wrapper[data-open] .sm-logo-img {
-    background-color: white;
   }
 }
 
 @media (max-width: 640px) {
-  .staggered-menu-panel {
+  .staggered-menu-panelBlack {
     width: 100%;
     left: 0;
     right: 0;
-  }
-
-  .staggered-menu-wrapper[data-open] .sm-logo-img {
-    background-color: white;
   }
 }

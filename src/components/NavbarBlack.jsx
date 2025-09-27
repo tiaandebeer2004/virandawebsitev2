@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './CSS/NavbarBlack.css'
 import useWindowDimensions from '../components/Hooks/useWindowDimensions'
-import StaggeredMenu from './StaggeredMenu'
+import StaggeredMenuBlack from './StaggeredMenuBlack'
 
 function NavbarBlack() {
   const [count, setCount] = useState(0)
@@ -9,16 +9,14 @@ function NavbarBlack() {
 
   const menuItems = [
   { label: 'Home', ariaLabel: 'Go to home page', link: '/' },
-  { label: 'Services', ariaLabel: 'Learn about us', link: '/about' },
+  { label: 'Services', ariaLabel: 'Learn about us', link: '/#/services' },
   { label: 'Portfolio', ariaLabel: 'View our services', link: '/services' },
   { label: 'About', ariaLabel: 'Get in touch', link: '/contact' },
   { label: 'Contact', ariaLabel: 'Get in touch', link: '/contact' }
 ];
 
 const socialItems = [
-  { label: 'Twitter', link: 'https://twitter.com' },
-  { label: 'GitHub', link: 'https://github.com' },
-  { label: 'LinkedIn', link: 'https://linkedin.com' }
+
 ];
 
 
@@ -49,7 +47,7 @@ if (width > 795) {
 } else {
   return (
     <div className='StaggeredMenuWrap'>
-          <StaggeredMenu
+          <StaggeredMenuBlack
             position="right"
             items={menuItems}
             socialItems={socialItems}
