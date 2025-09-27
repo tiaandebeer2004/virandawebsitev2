@@ -178,23 +178,23 @@ function WebDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">We know the frustration that inexperienced digital marketing agencies can leave you with.<br></br><br></br>Here's what makes us different:<br></br><br></br><br></br><br></br>
-             <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;OUR VALUES:</span><br></br><br></br>
-              We value transparency, honesty and excellence, keeping you informed every step of the way while exceeding our promises.
-              <br></br><br></br><br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CUSTOM DESIGN AND DEVELOPMENT:</span><br></br><br></br>
+          <p className="singleServiceBlogSubheading">We know the frustration that inexperienced digital marketing agencies can leave you with.<br></br>Here's what makes us different:<br></br><br></br>
+             <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;OUR VALUES:</span>
+              <span className="extraSpacing"><br></br></span> We value transparency, honesty and excellence, keeping you informed every step of the way while exceeding our promises. 
+              <br></br><br></br>
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CUSTOM DESIGN AND DEVELOPMENT:</span><span className="extraSpacing"><br></br></span>
               We don't build the same website for every client. Every website is custom-built to reflect your brand's identity and meet your business' needs.
-              <br></br><br></br><br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;REVISIONS:</span><br></br><br></br>
+              <br></br><br></br>
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;REVISIONS:</span><span className="extraSpacing"><br></br></span>
               We edit and revise your website as many times as needed - we'll never send you an invoice for something you're not 100% happy with.
-              <br></br><br></br><br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;MOBILE-FIRST DESIGN:</span><br></br><br></br>
+              <br></br><br></br>
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;MOBILE-FIRST DESIGN:</span><span className="extraSpacing"><br></br></span>
               More than half of website visits come from phones - we ensure that your website looks good on all devices.
-              <br></br><br></br><br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CONSISTENT CLIENT TREATMENT:</span><br></br><br></br>
+              <br></br><br></br>
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CONSISTENT CLIENT TREATMENT:</span><span className="extraSpacing"><br></br></span>
               Whether you're just starting out or an established business, we view you the same as we would Apple or Coca Cola, treating your business with the same love and care as we do our own.
-              <br></br><br></br><br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;BUILT FOR CONVERSION:</span><br></br><br></br>
+              <br></br><br></br>
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;BUILT FOR CONVERSION:</span><span className="extraSpacing"><br></br></span>
               We understand that your website doesn't mean anything if it doesn't get sales, and we focus heavily on optimizing your conversion rate.</p>
         </motion.div>
 
@@ -216,19 +216,19 @@ function WebDesignPage() {
           className='singleServiceBlogSection'
         >
           <p className="singleServiceBlogSubheading">
-              <span className='spanBold'><span className='spanRed'>01</span>&nbsp;&nbsp;&nbsp;PLANNING:</span><br></br><br></br>
+              <span className='spanBold'><span className='spanRed'>01</span>&nbsp;&nbsp;&nbsp;PLANNING:</span><span className="extraSpacing"><br></br></span>
               We have a conversation with you discussing what your website's design and functionality needs are and what you want to achieve through your website.
-              <br></br><br></br><br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>02</span>&nbsp;&nbsp;&nbsp;DEVELOPMENT:</span><br></br><br></br>
+              <br></br><br></br>
+              <span className='spanBold'><span className='spanRed'>02</span>&nbsp;&nbsp;&nbsp;DEVELOPMENT:</span><span className="extraSpacing"><br></br></span>
               We develop or redesign your website, ensuring it looks professional, works the way you want it to, and, most importantly, converts visitors into customers.
-              <br></br><br></br><br></br><br></br> 
-              <span className='spanBold'><span className='spanRed'>03</span>&nbsp;&nbsp;&nbsp;REVIEW:</span><br></br><br></br>
+              <br></br><br></br>
+              <span className='spanBold'><span className='spanRed'>03</span>&nbsp;&nbsp;&nbsp;REVIEW:</span><span className="extraSpacing"><br></br></span>
               We present you with your website and have another conversation with you - what you like, what you don't like, and what needs to change.
-              <br></br><br></br><br></br><br></br> 
-              <span className='spanBold'><span className='spanRed'>04</span>&nbsp;&nbsp;&nbsp;REVISION:</span><br></br><br></br>
+              <br></br><br></br>
+              <span className='spanBold'><span className='spanRed'>04</span>&nbsp;&nbsp;&nbsp;REVISION:</span><span className="extraSpacing"><br></br></span>
               We revise your website based on the review and repeat the process as necessary.
-              <br></br><br></br><br></br><br></br> 
-              <span className='spanBold'><span className='spanRed'>05</span>&nbsp;&nbsp;&nbsp;DEPLOYMENT:</span><br></br><br></br>
+              <br></br><br></br>
+              <span className='spanBold'><span className='spanRed'>05</span>&nbsp;&nbsp;&nbsp;DEPLOYMENT:</span><span className="extraSpacing"><br></br></span>
               We register your domain, setup your email mailboxes, and get your website live with a seamless, professional process.
           </p>
         </motion.div>

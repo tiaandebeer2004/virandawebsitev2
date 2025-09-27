@@ -271,7 +271,7 @@
     font-size: 1.3rem;
     width: 65%;
     text-align: left;
-    margin-top: 3vh;
+    margin-top: 1vh;
     opacity: 0;
     animation: scrollIn 1s 0s ease forwards;
     margin-bottom: 0vh;
@@ -280,7 +280,7 @@
 
 .singleServiceBlogHeading {
     background-color: rgb(14, 14, 14);
-    margin-bottom: 3vh;
+    margin-bottom: 0vh;
     width: 100%;
 }
 
@@ -305,18 +305,28 @@
     text-align: left!important;
     width: 74%!important;
     margin-left: 13%!important;
+    transform: translateX(-2px);
 }
 
 .singleServiceBlogHeading2 {
     text-align: left!important;
     width: 65%!important;
     margin-left: 17.5%!important;
+    transform: translateX(-2px);
+    margin-top: 10vh;
+    margin-bottom: 2vh;
+}
+
+.extraSpacing {
+    margin-top: 3vh;
+    line-height: 3rem;
+    background-color: black;
 }
 
 .singleServiceBlogButton {
     font-family: "Instrument Sans";
     font-weight: 600;
-    font-size: 1.625rem;
+    font-size: 1.3rem;
     align-self: left;
     color: white;
     padding-top: 15px;

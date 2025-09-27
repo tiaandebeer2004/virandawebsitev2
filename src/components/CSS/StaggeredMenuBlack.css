@@ -36,7 +36,7 @@
   display: flex;
   align-items: center;
   user-select: none;
-  background-color: transparent;
+  background: transparent;
 }
 
 .sm-logo-imgBlack {
@@ -45,6 +45,7 @@
   height: 32px;
   width: auto;
   object-fit: contain;
+  background: transparent;
 }
 
 .sm-toggleBlack {
