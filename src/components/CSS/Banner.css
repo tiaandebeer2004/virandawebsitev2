@@ -17,9 +17,9 @@
     list-style: none;
     text-align: center;
     font-weight: 700;
-    font-size: 5rem;
-    letter-spacing: -0.08rem;
-    line-height: 4rem;
+    font-size: 12.5vh;
+    letter-spacing: -0.2vh;
+    line-height: 10vh;
 }
 
 .webDesign {
@@ -41,11 +41,11 @@
 .viranda {
     text-align: center;
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 3.25vh;
 }
 
 .viranda {
-    margin-right: 705px;
+    margin-right: 710px;
 }
 
 .getQuote {
@@ -53,8 +53,8 @@
     height: 30vh;
     font-family: "Instrument Sans";
     font-weight: 400;
-    font-size: 2rem;
-    letter-spacing: -0.08rem;
+    font-size: 5vh;
+    letter-spacing: -0.2vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -70,9 +70,9 @@
     margin-top: 4vh;
     background-color: red;
     color: white;
-    font-size: 1.3rem;
+    font-size: 3.25vh;
     border: none;
-    padding: 1rem;
+    padding: 2.5vh;
     border-radius: 40px;
     transition: scale 0.2s;
 }

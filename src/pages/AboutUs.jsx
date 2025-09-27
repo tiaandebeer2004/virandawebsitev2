@@ -65,7 +65,7 @@ if (width < 910) {
             
             <div className="aboutUsRedTextColumn">
                 <h3 className="aboutUsColumnHeading">WHERE WE STARTED:</h3>
-                <p className="aboutUsColumnParagraph">Our story began in Port Elizabeth/Gqeberha, South Africa, where two bandmates decided to take their creativity off of the stage and into the digital space – and Viranda was born. <br></br><br></br>What started as Cayden and Tiaan’s small passion project has grown into a thriving digital marketing agency serving small and large businesses across South Africa. <br></br><br></br>Today, we combine the same creativity, collaboration, and harmony from our founders’ band days with results-driven digital marketing strategies in order to help businesses grow, stand out, and succeed in the online age.</p>
+                <p className="aboutUsColumnParagraph">Our story began in Port Elizabeth/Gqeberha, South Africa, where two bandmates decided to take their creativity off of the stage and into the digital space – and Viranda was born. <br></br><br></br>What started as Cayden and Tiaan’s small passion project has grown into a thriving digital marketing agency serving small and large businesses across South Africa. <br></br><br></br>Today, we combine the same creativity, collaboration, and harmony derived from our founders’ band with results-driven digital marketing strategies in order to help businesses grow, stand out, and succeed in the online age.</p>
             </div>
         </div>
 
