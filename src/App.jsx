@@ -7,6 +7,7 @@ import ServicesPage from './pages/ServicesPage';
 import WebDesignPage from './pages/WebDesignPage';
 import AboutUs from './pages/AboutUs';
 import Portfolio from './pages/Portfolio'
+import ScrollToTop from './components/Hooks/ScrollToTop.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
   return (
     <>
       <HashRouter>
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
           <Route path='/contact' element={<ContactPage></ContactPage>}></Route>

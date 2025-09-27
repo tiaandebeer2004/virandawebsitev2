@@ -3,6 +3,10 @@
     width: 100vw;
 }
 
+.footer a {
+    background-color: black;
+}
+
 .footerSeperator {
     height: 0.5vh;
     width: 100vw;

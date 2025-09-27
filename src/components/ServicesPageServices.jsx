@@ -73,7 +73,7 @@ if (width < 900) {
             <button className="servicesPageServiceButton">Learn More</button>
         </div>
 
-        <div className="servicesPageServiceMobile">
+        <div className="servicesPageServiceMobile serviceLastMobile">
             <img src={seoImage} className="servicesPageMobileImage"></img>
 
             <h2 className="servicesPageMobileHeading">SEARCH ENGINE OPTIMIZATION</h2>

@@ -188,4 +188,8 @@
     .smallerSpacing {
         line-height: 0.8rem;
     }
+
+    .serviceLastMobile {
+        margin-bottom: 10vh;
+    }
 }

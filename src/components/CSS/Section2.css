@@ -4,6 +4,7 @@
 }
 
 .homepageContactSectionWrapper {
+    transform: translateY(-10vh);
     padding-bottom: 10vh;
     background-color: black;
 }
