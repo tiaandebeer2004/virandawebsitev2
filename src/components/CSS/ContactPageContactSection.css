@@ -152,6 +152,7 @@
     /* CSS rules for screens with a maximum width of 768px */
     .contactPageContactSectionLeft {
         width: 100%;
+        background-color: black;
     }
 
     .contactPageContactSectionRight {
@@ -183,18 +184,22 @@
     .contactPageContactSectionHeading {
         font-size: 3rem;
         line-height: 2.8rem;
+        background-color: black;
     }
 
     .contactPageContactSectionParagraph {
         font-size: 1.3rem;
+        background-color: black;
     }
 
     .contactPageContactSectionParagraph2 {
         font-size: 1.3rem;
+        background-color: black;
     }
 
     .contactPageContactSectionContactDetails {
         font-size: 1.3rem;
+        background-color: black;
     }
 
     .contactPageFormHeading {
@@ -226,18 +231,22 @@
         font-size: 3rem;
         margin-top: 0vh;
         line-height: 3rem;
+        background-color: black;
     }
 
     .contactPageContactSectionParagraph {
         font-size: 1.3rem;
+        background-color: black;
     }
 
     .contactPageContactSectionParagraph2 {
         font-size: 1.3rem;
+        background-color: black;
     }
 
     .contactPageContactSectionContactDetails {
         font-size: 1.3rem;
+        background-color: black;
     }
 
     .contactPageFormHeading {
