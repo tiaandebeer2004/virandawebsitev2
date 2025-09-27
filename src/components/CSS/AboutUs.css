@@ -21,7 +21,7 @@
     font-size: 6rem;
     text-align: center;
     line-height: 5rem;
-    margin-top: 28vh;
+    margin-top: 23vh;
 }
 
 .aboutUsSubheading {
@@ -33,7 +33,7 @@
     text-align: center;
     background-color: transparent;
     margin-top: 3vh;
-    margin-bottom: 20vh;
+    margin-bottom: 15.5vh;
     opacity: 0.9;
     animation: scrollInAbout 1s 0s ease forwards;
 }

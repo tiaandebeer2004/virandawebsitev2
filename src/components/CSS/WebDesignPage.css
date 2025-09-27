@@ -13,7 +13,7 @@
     font-size: 6rem;
     text-align: center;
     line-height: 5rem;
-    margin-top: 28vh;
+    margin-top: 23vh;
 }
 
 .singleServiceSubheading {
@@ -26,7 +26,7 @@
     margin-top: 3vh;
     opacity: 0;
     animation: scrollIn 1s 0s ease forwards;
-    margin-bottom: 18vh;
+    margin-bottom: 16vh;
 }
 
 .singleServiceOurPackagesSubheading {
