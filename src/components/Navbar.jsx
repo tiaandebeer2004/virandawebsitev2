@@ -8,11 +8,11 @@ function Navbar() {
   const { width, height } = useWindowDimensions();
 
   const menuItems = [
-  { label: 'Home', ariaLabel: 'Go to home page', link: '/' },
-  { label: 'Services', ariaLabel: 'Learn about us', link: '/about' },
-  { label: 'Portfolio', ariaLabel: 'View our services', link: '/services' },
-  { label: 'About', ariaLabel: 'Get in touch', link: '/contact' },
-  { label: 'Contact', ariaLabel: 'Get in touch', link: '/contact' }
+  { label: 'Home', ariaLabel: 'Go to home page', link: '/virandawebsitev2/' },
+  { label: 'Services', ariaLabel: 'Learn about us', link: '/virandawebsitev2/#/services' },
+  { label: 'Portfolio', ariaLabel: 'View our services', link: '/virandawebsitev2/#/portfolio' },
+  { label: 'About', ariaLabel: 'Get in touch', link: '/virandawebsitev2/#/about' },
+  { label: 'Contact', ariaLabel: 'Get in touch', link: '/virandawebsitev2/#/contact' }
 ];
 
 const socialItems = [
