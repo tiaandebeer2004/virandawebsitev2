@@ -50,8 +50,14 @@
     color: white;
     font-size: 1.5vw;
     border: none;
-    padding: 1.5vw;
+    padding: 0.8vw 1.5vw;
     border-radius: 60px;
+    transition: scale 0.2s;
+}
+
+.hero2OurServices:hover, .hero2ContactUs:hover {
+    scale: 0.95;
+    cursor: pointer;
 }
 
 .hero2Right {
