@@ -77,9 +77,9 @@
     background-color: transparent;
     border: 1px solid gray;
     border-radius: 20px;
-    padding: 3%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding: 2.5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     position: relative;
     z-index: 2;
 }
@@ -96,9 +96,9 @@
     background-color: transparent;
     border: 1px solid rgb(255, 100, 100);;
     border-radius: 20px;
-    padding: 3%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding: 2.5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
     position: relative;
     z-index: 2;
 }
@@ -178,7 +178,7 @@
 }
 
 .singleServicePackageButton {
-    padding: 15px 65px;
+    padding: 15px 4.7vw;
     margin-top: 3vh;
     width: 100%;
     border-radius: 20px;
@@ -205,18 +205,11 @@
     margin-bottom: 24vh;
 }
 
-@media (max-width: 845px) {
-    .singleServiceHeading {
-        font-size: 5rem;
-        line-height: 4rem;
-    }
-}
-
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     .singleServiceHeading {
         font-size: 2.5rem;
         line-height: 2.6rem;
-        margin-top: 15vh;
+        margin-top: 14vh;
     }
 
     .singleServiceOurPackagesHeading {
@@ -235,7 +228,7 @@
 
     .singleServicePackageSubheading {
         font-size: 1rem;
-        line-height: 0.6rem;
+        line-height: 1.3rem;
     }
 
     .singleServicePackageButton {
@@ -273,7 +266,7 @@
 
 .singleServiceIcon {
     background-color: transparent;
-    transform: translateX(-10px);
+    transform: translateX(-0.7vw);
     font-size: 1.2rem;
     color: rgb(255, 100, 100);
 }

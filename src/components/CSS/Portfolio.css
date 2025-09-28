@@ -95,9 +95,10 @@
 
 @media (max-width: 590px) {
     .portfolioHeading {
-        font-size: 4rem;
-        margin-top: 16vh;
-        margin-bottom: 6vh;
+        font-size: 2.5rem;
+        line-height: 2.6rem;
+        margin-top: 14vh;
+        margin-bottom: 4vh;
     }
 
     .portfolioColumnHeading {
@@ -124,7 +125,8 @@
 
 @media (max-width: 500px) {
     .portfolioHeading {
-        font-size: 3.2rem;
+        font-size: 2.5rem;
+        line-height: 2.6rem;
         margin-top: 14vh;
         margin-bottom: 4vh;
     }

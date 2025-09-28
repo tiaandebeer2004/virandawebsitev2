@@ -43,7 +43,7 @@ function AboutUs() {
     };
   }, []);
 
-if (width < 910) {
+if (width < 990) {
   return (
     <div className="AboutUs">
       {(position.top <= 70) ? (
