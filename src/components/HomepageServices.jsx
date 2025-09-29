@@ -19,13 +19,13 @@ function HomepageServices() {
             <div className="homepageServicesColumns">
                 <div className="homepageService">
                     <h3 className="homepageServiceHeading">WEBSITE DEVELOPMENT:</h3>
-                    <p className="homepageServiceParagraph">Losing customers to an outdated website? Our modern, mobile-friendly websites not only look beautiful – they actually get sales.</p>
+                    <p className="homepageServiceParagraph">Losing customers to an outdated website? Our modern, mobile-friendly websites not only look beautiful – they actually get sales. Our proven layouts convert, and we offer SEO services to help your website rank on Google.</p>
                     <button className="homepageServicesServiceButton">Learn More</button>
                 </div>
 
                 <div className="homepageService">
                     <h3 className="homepageServiceHeading">GRAPHIC DESIGN:</h3>
-                    <p className="homepageServiceParagraph">Your brand deserves to stand out. Our graphic design team creates stunning graphics that help you stand out from the crowd, capture potential customers’ attention, and grow your business overall.</p>
+                    <p className="homepageServiceParagraph">Your brand deserves to stand out. Our graphic design team creates stunning, high-converting graphics that help you stand out from the crowd, capture potential customers’ attention, and grow your business overall.</p>
                     <button className="homepageServicesServiceButton">Learn More</button>
                 </div>
 
@@ -39,7 +39,7 @@ function HomepageServices() {
             <div className="homepageServicesColumns">
                 <div className="homepageService">
                     <h3 className="homepageServiceHeading">SOCIAL MEDIA CONTENT CREATION:</h3>
-                    <p className="homepageServiceParagraph">Don’t have the time to post on social media? We create scroll-stopping social media content with a focus on growing your brand and driving sales. Our excellent social media team stays up to date with current trends, crafting highly engaging graphics and videos that drive sales and puts your brand out there.</p>
+                    <p className="homepageServiceParagraph">Don’t have the time to post on social media? Our excellent social media team ensures that your business stays up to date with current trends, crafting highly engaging graphics and videos that drive sales and puts your brand out there.</p>
                     <button className="homepageServicesServiceButton">Learn More</button>
                 </div>
 
@@ -51,7 +51,7 @@ function HomepageServices() {
 
                 <div className="homepageService">
                     <h3 className="homepageServiceHeading">META/FACEBOOK ADS MANAGEMENT:</h3>
-                    <p className="homepageServiceParagraph">Stop boosting posts and start running campaigns that actually convert. Our Meta/Facebook ad campaigns focus on generating interested, qualified leads and driving sales. We use precise targeting and eye-catching graphic material – so that you can use Meta/Facebook Ads as a powerful tool for your business’ growth.</p>
+                    <p className="homepageServiceParagraph">Stop boosting posts and start running campaigns that actually convert. We use precise targeting and eye-catching graphic material, and our Meta/Facebook ad campaigns focus on generating interested, qualified leads and driving sales.</p>
                     <button className="homepageServicesServiceButton">Learn More</button>
                 </div>
             </div>
