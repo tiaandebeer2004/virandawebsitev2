@@ -72,7 +72,7 @@
     color: white;
     font-size: 3.25vh;
     border: none;
-    padding: 2.5vh;
+    padding: 1.5vh 2.5vh;
     border-radius: 40px;
     transition: scale 0.2s;
 }
