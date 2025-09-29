@@ -23,7 +23,7 @@ function Banner() {
 
                 <div className="getQuote">
                     <p className="moreClients">Taking on more clients? Stop hoping, start closing.</p>
-                    <button className="contactUs">FREE GROWTH SESSION</button>
+                    <button className="contactUs">Free Growth Session</button>
                 </div>
             </div>
         </div>
