@@ -4,7 +4,7 @@ import { useWindowScrollPositions } from './Hooks/useWindowScrollPositions'
 import Hero2 from './Hero2'
 import HomepageServices from './HomepageServices'
 import HomepageResults from './HomepageResults'
-import ContactPageContactSection from './ContactPageContactSection'
+import ContactPageContactSectionHome from './ContactPageContactSectionHome'
 import Footer from '../components/Footer.jsx'
 
 function Section2() {
@@ -28,10 +28,12 @@ function Section2() {
               <HomepageResults></HomepageResults>
 
               <div className="homepageContactSectionWrapper">
-                  <ContactPageContactSection></ContactPageContactSection>
+                  <ContactPageContactSectionHome></ContactPageContactSectionHome>
               </div>
 
-              <Footer></Footer>
+              <div className="homepageFooterWrapper">
+                  <Footer></Footer>
+              </div>
           </div>
       </>
     )
