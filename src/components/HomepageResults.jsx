@@ -19,7 +19,7 @@ function HomepageResults() {
                     <div className="homepageResult">
                         <img src={whackedWebsite} alt="whacked website" className="homepageResultsImage" />
                         <h3 className="homepageResultsColumnHeading">WHACKED MANAGEMENT</h3>
-                        <p className="homepageResultsColumnResult">500 000 WEBSITE VISITS IN 3 MONTHS</p>
+                        <p className="homepageResultsColumnResult">500 000 WEBSITE VISITS IN 3 MONTHS<br></br><br></br></p>
                     </div>
 
                     <div className="homepageResult">
