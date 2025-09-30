@@ -5,6 +5,10 @@
     margin-bottom: 15vh;
 }
 
+.black {
+    color: black!important;
+}
+
 .homepageOurServices {
     background-color: rgb(14, 14, 14);
     color: white;
@@ -17,16 +21,14 @@
 }
 
 .homepageServicesServiceButton {
-    background-color: red;
+    background-color: black;
     color: white;
     font-size: 1.15vw;
     border: none;
     padding: 0.5vw 0vw;
-    width: 50%;
     border-radius: 60px;
     transition: scale 0.2s;
     border-radius: 30px 30px 30px 30px / 30px 30px 30px 30px;
-    background-color: red;
     transition: scale 0.2s;
 }
 
@@ -40,12 +42,23 @@
     font-weight: 400;
     font-size: 1.15vw;
     letter-spacing: 1px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.9);
+    background-color: transparent;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+
+.homepageServiceParagraphBig {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1.5vw;
+    letter-spacing: 1px;
     opacity: 0.9;
     text-align: left;
     color: white;
-    background-color: rgb(14, 14, 14);
-    margin-top: 2vh;
-    margin-bottom: 3vh;
+    background-color: #9c2c2c;
+    width: 50%;
 }
 
 .homepageServiceHeading {
@@ -54,20 +67,31 @@
     font-size: 1.5vw;
     text-align: left;
     color: white;
-    background-color: rgb(14, 14, 14);
+    background-color: transparent;
+}
+
+.homepageServiceHeadingBig {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+    line-height: 3vw;
+    text-align: left;
+    color: white;
+    background-color: #9c2c2c;
+    width: 45%;
 }
 
 .bentoLogos {
     font-size: 1.5vw;
     text-align: left;
     color: rgb(255, 100, 100);
-    background-color: rgb(14, 14, 14);
+    background-color: transparent;
 }
 
 .bentoLogo {
     color: rgb(255, 100, 100);
     margin-bottom: 2vh;
-    background-color: rgb(14, 14, 14);
+    background-color: transparent;
 }
 
 .homepageServicesColumns {
@@ -80,7 +104,7 @@
 }
 
 .homepageServicesBentoColumns {
-    width: 87%;
+    width: 95%;
     margin: 0 auto;
     background-color: rgb(14, 14, 14);
     display: flex;
@@ -95,15 +119,15 @@
 }
 
 .bentoTopLeft {
-    background-color: rgb(14, 14, 14);
+    background-color: #9c2c2c;
     width: 50%;
     display: flex;
-    flex-direction: column;
-    align-items: left;
+    align-items: flex-end;
     padding: 2%;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 15px;
     margin: 10px;
+    justify-content: space-between;
+    padding-bottom: 40px;
 }
 
 .bentoTopRight {
@@ -125,12 +149,11 @@
 
 .bentoTopRightBottomLeft {
     width: 50%;
-    background-color: rgb(14, 14, 14);
+    background-color: #FFF5E6;;
     display: flex;
     flex-direction: column;
     align-items: left;
     padding: 2%;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 15px;
     margin-right: 10px;
     margin-top: 10px;
@@ -138,12 +161,11 @@
 
 .bentoTopRightBottomRight {
     width: 50%;
-    background-color: rgb(14, 14, 14);
+    background-color: #9c2c2c;
     display: flex;
     flex-direction: column;
     align-items: left;
     padding: 2%;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 15px;
     margin-left: 10px;
     margin-top: 10px;
@@ -151,12 +173,11 @@
 
 .bentoTopRightLeft {
     width: 50%;
-    background-color: rgb(14, 14, 14);
+    background-color: #9c2c2c;
     display: flex;
     flex-direction: column;
     align-items: left;
     padding: 2%;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 15px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -164,12 +185,11 @@
 
 .bentoTopRightRight {
     width: 50%;
-    background-color: rgb(14, 14, 14);
+    background-color: #FFF5E6;
     display: flex;
     flex-direction: column;
     align-items: left;
     padding: 2%;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 15px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -188,7 +208,6 @@
     flex-direction: column;
     align-items: left;
     padding: 2%;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 15px;
     margin: 10px;
 }
@@ -206,6 +225,5 @@
     width: 32%;
     background-color: rgb(14, 14, 14);
     padding: 2%;
-    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 15px;
 }
