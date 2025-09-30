@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
 
 .banner {
     width: 100%;
@@ -8,7 +8,7 @@
 }
 
 .bannerHeading {
-    font-family: "Instrument Sans";
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     width: 90%;
     margin: 8vh auto;
     margin-top: 5vh;
@@ -53,10 +53,9 @@
 .getQuote {
     width: 80%;
     height: 30vh;
-    font-family: "Instrument Sans";
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 400;
     font-size: 5vh;
-    letter-spacing: -0.2vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

@@ -27,7 +27,7 @@
     width: 100%;
     background-color: black;
     color: white;
-    font-family: "Instrument Sans";
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 700;
     font-size: 5.8vw;
     letter-spacing: -0.1vw;
@@ -67,7 +67,7 @@
 }
 
 .hero2Paragraph {
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 500;
     font-size: 1.5vw;
     text-align: center;
@@ -103,7 +103,7 @@
 }
 
 .hero2Taglines {
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 1.15vw;
     margin-left: 5%;

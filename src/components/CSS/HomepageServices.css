@@ -8,7 +8,7 @@
 .homepageOurServices {
     background-color: black;
     color: white;
-    font-family: "Instrument Sans";
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 700;
     font-size: 5rem;
     letter-spacing: -0.08rem;
@@ -35,7 +35,7 @@
 }
 
 .homepageServiceParagraph {
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 400;
     font-size: 1.5vw;
     opacity: 0.9;
@@ -47,7 +47,7 @@
 }
 
 .homepageServiceHeading {
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 1.9vw;
     text-align: center;

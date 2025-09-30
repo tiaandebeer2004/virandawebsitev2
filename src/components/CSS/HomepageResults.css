@@ -6,7 +6,7 @@
 .homepageResultsHeading1 {
     background-color: transparent;
     color: white;
-    font-family: "Instrument Sans";
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 500;
     font-size: 3.2rem;
     letter-spacing: -0.08rem;
@@ -19,7 +19,7 @@
 .homepageResultsHeading2 {
     background-color: transparent;
     color: white;
-    font-family: "Instrument Sans";
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 700;
     font-size: 5rem;
     letter-spacing: -0.08rem;
@@ -81,7 +81,7 @@
 .homepageResultsColumnHeading {
     background-color: transparent;
     color: white;
-    font-family: "Instrument Sans";
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     padding-top: 2vh;
@@ -93,7 +93,7 @@
 .homepageResultsColumnResult {
     background-color: transparent;
     color: white;
-    font-family: "Instrument Sans";
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 2rem;
     padding-top: 0.5vh;
