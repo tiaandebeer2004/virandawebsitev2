@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareCheck } from '@fortawesome/free-solid-svg-icons'
 
-function WebDesignPage() {
+function SEOPage() {
   const [count, setCount] = useState(0)
   const singleServiceRef = useRef(null);
     const [position, setPosition] = useState({});
@@ -50,8 +50,8 @@ function WebDesignPage() {
             )}
       
       <div className="singleServicePageBanner">
-        <h1 className="singleServiceHeading">WEBSITE<br></br>DEVELOPMENT</h1>
-        <p className="singleServiceSubheading">Losing customers to an outdated website? Our modern, mobile-friendly websites not only look beautiful – they actually get sales. Our layouts have been proven to drive conversion rates, and we offer premium SEO services to help your website rank on Google. <br></br><br></br>Whether you need a simple landing page or a full-blown online store, we’ll make sure your website brings the results your business deserves.</p>
+        <h1 className="singleServiceHeading">SEARCH ENGINE<br></br>OPTIMIZATION</h1>
+        <p className="singleServiceSubheading">Our SEO services help your business rank for valuable keywords, attract qualified traffic, and generate more leads. <br></br><br></br>From keyword research to link building, we use proven strategies to ensure your business is as visible as it can be and ensure long-term results.</p>
 
       <div className="singleServiceSection2" ref={singleServiceRef}>
         <div className="singleServiceOurPackages">
@@ -63,7 +63,7 @@ function WebDesignPage() {
           <div className="singleServicePackage">
             <div className="singleServicePackageTopPart">
             <h3 className="singleServicePackageHeading">BASIC:</h3>
-            <p className="singleServicePackageSubheading">For small businesses that are looking to start their online presence in the right way.</p>
+            <p className="singleServicePackageSubheading">For small businesses that are looking to start their online business in the right way.</p>
             </div>
 
             <div className="singleServicePackageBottomPart">
@@ -276,4 +276,4 @@ function WebDesignPage() {
   )
 }
 
-export default WebDesignPage
+export default SEOPage

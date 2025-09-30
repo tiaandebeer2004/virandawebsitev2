@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareCheck } from '@fortawesome/free-solid-svg-icons'
 
-function WebDesignPage() {
+function GoogleAdsPage() {
   const [count, setCount] = useState(0)
   const singleServiceRef = useRef(null);
     const [position, setPosition] = useState({});
@@ -50,8 +50,8 @@ function WebDesignPage() {
             )}
       
       <div className="singleServicePageBanner">
-        <h1 className="singleServiceHeading">WEBSITE<br></br>DEVELOPMENT</h1>
-        <p className="singleServiceSubheading">Losing customers to an outdated website? Our modern, mobile-friendly websites not only look beautiful – they actually get sales. Our layouts have been proven to drive conversion rates, and we offer premium SEO services to help your website rank on Google. <br></br><br></br>Whether you need a simple landing page or a full-blown online store, we’ll make sure your website brings the results your business deserves.</p>
+        <h1 className="singleServiceHeading">GOOGLE AD<br></br>MANAGEMENT</h1>
+        <p className="singleServiceSubheading">Our Google Ad campaigns ensure that you’re seen by the right customers at the right time. <br></br><br></br>Our optimized, targeted ad campaigns drive real results – more interested, qualified leads, more sales, and a higher return on investment.</p>
 
       <div className="singleServiceSection2" ref={singleServiceRef}>
         <div className="singleServiceOurPackages">
@@ -63,7 +63,7 @@ function WebDesignPage() {
           <div className="singleServicePackage">
             <div className="singleServicePackageTopPart">
             <h3 className="singleServicePackageHeading">BASIC:</h3>
-            <p className="singleServicePackageSubheading">For small businesses that are looking to start their online presence in the right way.</p>
+            <p className="singleServicePackageSubheading">For small businesses that are looking to start their online business in the right way.</p>
             </div>
 
             <div className="singleServicePackageBottomPart">
@@ -140,7 +140,7 @@ function WebDesignPage() {
         </div>
 
         <div className="singleServiceOurPackages spacingChangeSingleService">
-          <h2 className="singleServiceOurPackagesHeading singleServiceBlogFirstHeading">WE DON'T JUST BUILD WEBSITES<br></br>WE BUILD DIGITAL EXPERIENCES</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogFirstHeading">TURNING SEARCHES INTO SALES:</h2>  
         </div>
 
         <motion.div
@@ -150,7 +150,7 @@ function WebDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">In the digital age, your website is the first impression potential customers get of your business. "Having a website just to have one" isn't enough anymore: your website should be your brand ambassador, your 24/7 salesperson, and your most valuable marketing tool.<br></br><br></br>At Viranda, we're not just "your website guys." Our expert team crafts digital experiences that are fast, beatiful, and most importantly, built to convert.</p>
+          <p className="singleServiceBlogSubheading">Picture this: a potential customer is searching for your products/services on Google. Who do they see - you, or your competitors? Your Google Ads strategy can make or break your business. A bad ad strategy wastes your money, harms your brand, and doesn't get results, while a good strategy can mean increasing your revenue tenfold.<br></br><br></br>At Viranda, your Google Ads don't just show up - they get results. We use highly specific and optimized targeting to ensure you get the maximum amount of leads, and that these leads are high-quality and quote-ready.</p>
         </motion.div>
 
         <motion.div
@@ -160,7 +160,7 @@ function WebDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogHeading'
         >
-          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">WHY YOU NEED A WEBSITE DEVELOPMENT TEAM:</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">WHY YOU NEED GOOGLE ADS MANAGEMENT:</h2>  
         </motion.div>
 
         <motion.div
@@ -170,7 +170,7 @@ function WebDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">We've all heard it before: "I just used a template" or "my brother built me a website for free." But here's the truth - at a time where markets are becoming more and more competitive, "good enough" is no longer good enough.<br></br><br></br>That's why you need an agency like ours: where experienced professionals can build you a website that looks professional on all devices, ranks well on search engines, and drives users to take action - things that a template or a family member can't provide. Whether you want people to fill in contact forms, make purchases, or give you a call - our websites don't just make taking action easy, they make it hard to resist.</p>
+          <p className="singleServiceBlogSubheading">The Google Ads platform is extremely powerful, but it's also extremely competitive. If you try and set up your own ad campaign with little to no experience, your ads will get demolished by the competition and your money will be wasted. Incorrect targeting can also lead to you getting leads that are not interested in your services, or live outside of your service areas.<br></br><br></br>That's why you need a professional Google Ads Management team like Viranda to manage your Google Ads. We know exactly how Google Ads work and how to get results - and our proven strategies ensure relevant, high-quality, and quote-ready leads.</p>
         </motion.div>
 
         <motion.div
@@ -190,24 +190,19 @@ function WebDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">We know the frustration that inexperienced digital marketing agencies can leave you with.<br></br>Here's what makes us different:<br></br><br></br>
+          <p className="singleServiceBlogSubheading">We're not and agency that "sets and forgets it," we're constantly optimizing and improving our Google Ads campaigns. <br></br>Here's what makes us different:<br></br><br></br>
              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;OUR VALUES:</span>
-              <span className="extraSpacing"><br></br></span> We value transparency, honesty and excellence, keeping you informed every step of the way while exceeding our promises. 
+We value transparency, honesty, and excellence. You'll always have access to your Google Ads manager so that you can see exactly what we're doing and what results we're bringing in.
               <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CUSTOM DESIGN AND DEVELOPMENT:</span><span className="extraSpacing"><br></br></span>
-              We don't build the same website for every client. Every website is custom-built to reflect your brand's identity and meet your business' needs.
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;TESTING:</span><span className="extraSpacing"><br></br></span>
+We A/B test multiple ad campaigns, so that we can focus on the ads that bring in the best results.
               <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;REVISIONS:</span><span className="extraSpacing"><br></br></span>
-              We edit and revise your website as many times as needed - we'll never send you an invoice for something you're not 100% happy with.
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;OPTIMIZATION:</span><span className="extraSpacing"><br></br></span>
+We're constantly optimizing our ad campaigns, ensuring you get the best return on ad spend.
               <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;MOBILE-FIRST DESIGN:</span><span className="extraSpacing"><br></br></span>
-              More than half of website visits come from phones - we ensure that your website looks good on all devices.
-              <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CONSISTENT CLIENT TREATMENT:</span><span className="extraSpacing"><br></br></span>
-              Whether you're just starting out or an established business, we view you the same as we would Apple or Coca Cola, treating your business with the same love and care as we do our own.
-              <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;BUILT FOR CONVERSION:</span><span className="extraSpacing"><br></br></span>
-              We understand that your website doesn't mean anything if it doesn't get sales, and we focus heavily on optimizing your conversion rate.</p>
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CONVERSION-BASED:</span><span className="extraSpacing"><br></br></span>
+Our ads don't just get clicks, they get customers.
+             </p>
         </motion.div>
 
         <motion.div
@@ -229,19 +224,19 @@ function WebDesignPage() {
         >
           <p className="singleServiceBlogSubheading">
               <span className='spanBold'><span className='spanRed'>01</span>&nbsp;&nbsp;&nbsp;PLANNING:</span><span className="extraSpacing"><br></br></span>
-              We have a conversation with you discussing what your website's design and functionality needs are and what you want to achieve through your website.
+We have a conversation with you discussing your business, target audience, and what you want to achieve from Google Ads.
               <br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>02</span>&nbsp;&nbsp;&nbsp;DEVELOPMENT:</span><span className="extraSpacing"><br></br></span>
-              We develop or redesign your website, ensuring it looks professional, works the way you want it to, and, most importantly, converts visitors into customers.
+              <span className='spanBold'><span className='spanRed'>02</span>&nbsp;&nbsp;&nbsp;SETUP:</span><span className="extraSpacing"><br></br></span>
+We set up and start running your ad campaigns.
               <br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>03</span>&nbsp;&nbsp;&nbsp;REVIEW:</span><span className="extraSpacing"><br></br></span>
-              We present you with your website and have another conversation with you - what you like, what you don't like, and what needs to change.
+              <span className='spanBold'><span className='spanRed'>03</span>&nbsp;&nbsp;&nbsp;TESTING:</span><span className="extraSpacing"><br></br></span>
+We decide which ad campaign is bringing in the best results, and dedicate the ad spend to that ad.
               <br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>04</span>&nbsp;&nbsp;&nbsp;REVISION:</span><span className="extraSpacing"><br></br></span>
-              We revise your website based on the review and repeat the process as necessary.
+              <span className='spanBold'><span className='spanRed'>04</span>&nbsp;&nbsp;&nbsp;OPTIMIZATION:</span><span className="extraSpacing"><br></br></span>
+We tweak and optimize your ad campaign over time, improving your amount of leads, lead quality, and return on ad spend.
               <br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>05</span>&nbsp;&nbsp;&nbsp;DEPLOYMENT:</span><span className="extraSpacing"><br></br></span>
-              We register your domain, setup your email mailboxes, and get your website live with a seamless, professional process.
+              <span className='spanBold'><span className='spanRed'>05</span>&nbsp;&nbsp;&nbsp;REPORTING:</span><span className="extraSpacing"><br></br></span>
+We provide monthly result reports detailing the results your ad campaigns have been getting.
           </p>
         </motion.div>
 
@@ -252,7 +247,7 @@ function WebDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogHeading'
         >
-          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">READY TO GROW?</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">READY TO START RUNNING ADS THAT WORK?</h2>  
         </motion.div>
 
         <motion.div
@@ -262,7 +257,7 @@ function WebDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">Your website isn't just another project - it's a long-term investment in your brand's future. Whether you need a new website or a redesign, we're ready to help you create something that works.</p>
+          <p className="singleServiceBlogSubheading">A great Google Ads strategy can be your top salesperson. We're ready to help you create something that works.</p>
         </motion.div>
         
         <div className="singleServiceBlogButtonWrapper spacingBelow">
@@ -276,4 +271,4 @@ function WebDesignPage() {
   )
 }
 
-export default WebDesignPage
+export default GoogleAdsPage

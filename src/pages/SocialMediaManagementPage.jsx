@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquareCheck } from '@fortawesome/free-solid-svg-icons'
 
-function WebDesignPage() {
+function SocialMediaManagementPage() {
   const [count, setCount] = useState(0)
   const singleServiceRef = useRef(null);
     const [position, setPosition] = useState({});
@@ -50,12 +50,12 @@ function WebDesignPage() {
             )}
       
       <div className="singleServicePageBanner">
-        <h1 className="singleServiceHeading">WEBSITE<br></br>DEVELOPMENT</h1>
-        <p className="singleServiceSubheading">Losing customers to an outdated website? Our modern, mobile-friendly websites not only look beautiful – they actually get sales. Our layouts have been proven to drive conversion rates, and we offer premium SEO services to help your website rank on Google. <br></br><br></br>Whether you need a simple landing page or a full-blown online store, we’ll make sure your website brings the results your business deserves.</p>
+        <h1 className="singleServiceHeading">SOCIAL MEDIA<br></br>MANAGEMENT</h1>
+        <p className="singleServiceSubheading">Posting great content, but getting no results? We create social media strategies that not only help you grow your following, but also turns your existing followers into loyal customers. <br></br><br></br>Which platform should you use? What kind of content should you post? Contact us and have our social media management team answer all your questions and create a strategy that works.</p>
 
       <div className="singleServiceSection2" ref={singleServiceRef}>
         <div className="singleServiceOurPackages">
-          <h2 className="singleServiceOurPackagesHeading">OUR WEBSITE PACKAGES</h2>  
+          <h2 className="singleServiceOurPackagesHeading">OUR SOCIAL MEDIA MANAGEMENT PACKAGES</h2>  
           <p className="singleServiceOurPackagesSubheading">Get a beautiful, high-converting, and SEO-friendly website.</p>
         </div>
 
@@ -63,7 +63,7 @@ function WebDesignPage() {
           <div className="singleServicePackage">
             <div className="singleServicePackageTopPart">
             <h3 className="singleServicePackageHeading">BASIC:</h3>
-            <p className="singleServicePackageSubheading">For small businesses that are looking to start their online presence in the right way.</p>
+            <p className="singleServicePackageSubheading">For small businesses that are looking to start their online business in the right way.</p>
             </div>
 
             <div className="singleServicePackageBottomPart">
@@ -276,4 +276,4 @@ function WebDesignPage() {
   )
 }
 
-export default WebDesignPage
+export default SocialMediaManagementPage
