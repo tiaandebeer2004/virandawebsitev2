@@ -123,6 +123,11 @@
         margin-bottom: 3vh;
     }
 
+    .circle {
+        height: 10vh;
+        width: 10vh;
+    }
+
     .hero2TaglinesGroup {
         flex-direction: column;
         align-items: center;
