@@ -16,7 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
@@ -45,7 +45,7 @@
 }
 
 .freeConsultation {
-    font-family: "Instrument Sans";
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 1rem;
     color: white;

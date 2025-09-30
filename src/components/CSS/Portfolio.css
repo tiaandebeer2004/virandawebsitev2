@@ -1,7 +1,7 @@
 .portfolioHeading {
     color: black;
     background-color: transparent;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 700;
     font-size: 6rem;
     text-align: center;
@@ -22,7 +22,7 @@
     width: 80%;
     color: white;
     background-color: transparent;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 700;
     font-size: 3.2rem;
     text-align: center;
@@ -33,7 +33,7 @@
     width: 80%;
     color: white;
     background-color: transparent;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 500;
     font-size: 2rem;
     text-align: center;
@@ -68,7 +68,7 @@
 }
 
 .portfolioButton {
-    font-family: "Instrument Sans";
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 1.3rem;
     color: white;

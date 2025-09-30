@@ -16,7 +16,7 @@
 .aboutUsHeading {
     color: black;
     background-color: transparent;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 700;
     font-size: 6rem;
     text-align: center;
@@ -26,7 +26,7 @@
 
 .aboutUsSubheading {
     color: rgba(0, 0, 0, 0.9);
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
     width: 65%;
@@ -70,7 +70,7 @@
 
 .aboutUsColumnHeading {
     color: white;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 700;
     font-size: 5rem;
     line-height: 4.3rem;
@@ -80,7 +80,7 @@
 
 .aboutUsColumnParagraph {
     color: white;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
     text-align: left;

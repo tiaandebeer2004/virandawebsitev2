@@ -8,7 +8,7 @@
 .singleServiceHeading {
     color: black;
     background-color: transparent;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 700;
     font-size: 6rem;
     text-align: center;
@@ -18,7 +18,7 @@
 
 .singleServiceSubheading {
     color: rgba(0, 0, 0, 0.9);
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
     width: 65%;
@@ -37,7 +37,7 @@
 
 .singleServiceOurPackagesHeading {
     color: black;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 700;
     font-size: 4rem;
     text-align: left;
@@ -84,7 +84,7 @@
 
 .singleServicePackageHeading {
     color: black;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
     text-align: left;
@@ -93,7 +93,7 @@
 
 .singleServicePackageNumber {
     color: black;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
     text-align: left;
@@ -103,7 +103,7 @@
 
 .singleServicePackageSubheading {
     color: rgba(0, 0, 0, 0.8);
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 1.3rem;
     text-align: left;
@@ -113,7 +113,7 @@
 
 .singleServicePackageFrom {
     color: rgba(0, 0, 0, 0.8);
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 1.625rem;
     text-align: left;
@@ -123,7 +123,7 @@
 
 .singleServicePackageFeature {
     color: rgba(0, 0, 0, 0.9);
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 1.3rem;
     text-align: left;
@@ -148,7 +148,7 @@
     border: none;
     background-color: black;
     color: white;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 1.3rem;
     text-align: center;

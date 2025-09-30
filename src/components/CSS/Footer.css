@@ -57,7 +57,7 @@
 .footerHeading {
     background-color: black;
     color: white;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 2rem;
     text-align: left;
@@ -67,7 +67,7 @@
     background-color: black;
     color: white;
     text-decoration: none;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 400;
     font-size: 1rem;
     margin: 1vh 0;

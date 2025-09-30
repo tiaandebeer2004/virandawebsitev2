@@ -8,7 +8,7 @@
 .singleServiceHeading {
     color: black;
     background-color: transparent;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 700;
     font-size: 6rem;
     text-align: center;
@@ -18,7 +18,7 @@
 
 .singleServiceSubheading {
     color: rgba(0, 0, 0, 0.9);
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
     width: 65%;
@@ -31,7 +31,7 @@
 
 .singleServiceOurPackagesSubheading {
     color: rgba(255, 255, 255, 0.8);
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 500;
     font-size: 1.625rem;
     width: 100%;
@@ -51,7 +51,7 @@
 
 .singleServiceOurPackagesHeading {
     color: white;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 700;
     font-size: 4rem;
     line-height: 4rem;
@@ -115,7 +115,7 @@
 
 .singleServicePackageHeading {
     color: white;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 2rem;
     text-align: left;
@@ -124,7 +124,7 @@
 
 .singleServicePackageNumber {
     color: rgb(255, 100, 100);
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
     text-align: left;
@@ -134,7 +134,7 @@
 
 .singleServicePackageSubheading {
     color: rgba(255, 255, 255, 0.8);
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 1.3rem;
     text-align: left;
@@ -149,7 +149,7 @@
 
 .singleServicePackageFrom {
     color: white;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 1.625rem;
     text-align: left;
@@ -159,7 +159,7 @@
 
 .singleServicePackageFeature {
     color: rgba(255, 255, 255, 0.8);
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 1.3rem;
     text-align: left;
@@ -185,7 +185,7 @@
     border: none;
     background-color: rgb(255, 100, 100);
     color: black;
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 1.3rem;
     text-align: center;
@@ -273,7 +273,7 @@
 
 .singleServiceBlogSubheading {
     color: rgba(255, 255, 255, 0.9);
-    font-family: 'Instrument Sans';
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
     width: 65%;
@@ -331,7 +331,7 @@
 }
 
 .singleServiceBlogButton {
-    font-family: "Instrument Sans";
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 1.3rem;
     align-self: left;
