@@ -29,6 +29,7 @@
     margin-top: 3vh;
     margin-bottom: 15vh;
     opacity: 0.9;
+    animation: scrollInAbout 1s 0s ease forwards;
 }
 
 @media (max-width: 500px) {
@@ -40,5 +41,15 @@
 
     .servicesPageHeadingParagraph {
         margin-bottom: 6vh;
+    }
+}
+
+@keyframes scrollInAbout {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    } to {
+        opacity: 0.9;
+        transform: translateY(0px);
     }
 }

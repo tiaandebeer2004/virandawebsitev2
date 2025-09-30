@@ -5,10 +5,5 @@
 
 .homepageContactSectionWrapper {
     transform: translateY(-15vh);
-    padding-bottom: 10vh;
     background-color: #FFF5E6;
-}
-
-.homepageFooterWrapper {
-    transform: translateY(-15vh);
 }
