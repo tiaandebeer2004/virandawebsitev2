@@ -29,7 +29,7 @@ if (width < 800) {
             <div className="homepageServicesBentoColumns">
                 <div className="bentoTopLeft">            
                     <h3 className="homepageServiceHeadingBig">LEVEL UP YOUR MARKETING,<br></br>LEVEL UP YOUR BUSINESS:</h3>
-                    <p className="homepageServiceParagraphBig">We help businesses grow through targeted Google & Facebook Ads, custom web development, and impactful social media management—plus a full range of digital marketing services designed to get you real results. We're ready to help you grow, scale, and build the business of your dreams.</p>
+                    <p className="homepageServiceParagraphBig">We help businesses grow through targeted Google & Facebook Ads, custom web development, and impactful social media management—plus a full range of digital marketing services designed to get you real results.</p>
                 </div>
 
                     <div className="bentoTopRight">
@@ -46,34 +46,40 @@ if (width < 800) {
 
                             <div className="bentoTopRightRight redBG">
                                 <div className="bentoLogos">
-                                    
+                                    <FontAwesomeIcon className='bentoLogo' icon="fa-solid fa-pen" />
                                 </div>
 
                                 <h3 className="homepageServiceHeading">GRAPHIC DESIGN:</h3>
                                 <p className="homepageServiceParagraph">Graphics that people don't just see, but remember.</p>
-                                <button className="homepageServicesServiceButton whiteButton">Learn More</button>    
+                                <button className="homepageServicesServiceButton whiteButton">View More</button>    
                             </div>
                         </div>
 
                         <div className="bentoTopRightBottom">
                             <div className="bentoTopRightBottomLeft">
                                 <div className="bentoLogos">
-                                    
+                                    <FontAwesomeIcon className='bentoLogo black' icon="fa-brands fa-facebook" />
+                                    <FontAwesomeIcon className='bentoLogo black' icon="fa-brands fa-instagram" />
+                                    <FontAwesomeIcon className='bentoLogo black' icon="fa-brands fa-youtube" />
+                                    <FontAwesomeIcon className='bentoLogo black' icon="fa-brands fa-tiktok" />
                                 </div>
 
                                 <h3 className="homepageServiceHeading black">SOCIAL MEDIA MANAGEMENT:</h3>
                                 <p className="homepageServiceParagraph black">Grow your following and turn your existing followers into loyal customers.</p>
-                                <button className="homepageServicesServiceButton">Learn More</button>
+                                <button className="homepageServicesServiceButton">View More</button>
                             </div>
 
                             <div className="bentoTopRightBottomRight redBG">
                                 <div className="bentoLogos">
-                                    
+                                    <FontAwesomeIcon className='bentoLogo' icon="fa-brands fa-facebook" />
+                                    <FontAwesomeIcon className='bentoLogo' icon="fa-brands fa-instagram" />
+                                    <FontAwesomeIcon className='bentoLogo' icon="fa-brands fa-youtube" />
+                                    <FontAwesomeIcon className='bentoLogo' icon="fa-brands fa-tiktok" />
                                 </div>
 
                                 <h3 className="homepageServiceHeading">SOCIAL MEDIA CONTENT CREATION:</h3>
                                 <p className="homepageServiceParagraph">Content that doesn't just get likes - it gets sales.</p>
-                                <button className="homepageServicesServiceButton whiteButton">Learn More</button>
+                                <button className="homepageServicesServiceButton whiteButton">View More</button>
                             </div>
                         </div>
                     </div>
@@ -84,75 +90,50 @@ if (width < 800) {
                         <div className="bentoTopRightTop">
                             <div className="bentoTopRightLeft">
                                 <div className="bentoLogos">
-
+                                    <FontAwesomeIcon className='bentoLogo black' icon="fa-brands fa-google" />
                                 </div>
 
-                                <h3 className="homepageServiceHeading black">WEBSITE DEVELOPMENT:</h3>
-                                <p className="homepageServiceParagraph black">Websites that not only look beautiful – they actually get sales.</p>
-                                <button className="homepageServicesServiceButton">Learn More</button>
+                                <h3 className="homepageServiceHeading black">GOOGLE ADS MANAGEMENT:</h3>
+                                <p className="homepageServiceParagraph black">Get seen by the right customers at the right time.</p>
+                                <button className="homepageServicesServiceButton">View More</button>
                             </div>
 
                             <div className="bentoTopRightRight redBG">
                                 <div className="bentoLogos">
-                                   
+                                    <FontAwesomeIcon className='bentoLogo' icon="fa-brands fa-meta" />
+                                    <FontAwesomeIcon className='bentoLogo' icon="fa-brands fa-facebook" />
                                 </div>
 
-                                <h3 className="homepageServiceHeading">GRAPHIC DESIGN:</h3>
-                                <p className="homepageServiceParagraph">Graphics that people don't just see, but remember.</p>
-                                <button className="homepageServicesServiceButton whiteButton">Learn More</button>    
+                                <h3 className="homepageServiceHeading">META/FACEBOOK ADS MANAGEMENT:</h3>
+                                <p className="homepageServiceParagraph">Stop boosting posts, start running campaigns that actually convert.</p>
+                                <button className="homepageServicesServiceButton whiteButton">View More</button>   
                             </div>
                         </div>
 
                         <div className="bentoTopRightBottom">
                             <div className="bentoTopRightBottomLeft">
                                 <div className="bentoLogos">
-                                    
+                                    <FontAwesomeIcon className='bentoLogo black' icon="fa-solid fa-camera" />
                                 </div>
 
-                                <h3 className="homepageServiceHeading black">SOCIAL MEDIA MANAGEMENT:</h3>
-                                <p className="homepageServiceParagraph black">Grow your following and turn your existing followers into loyal customers.</p>
-                                <button className="homepageServicesServiceButton">Learn More</button>
+                                <h3 className="homepageServiceHeading black">AD<br></br>CREATION:</h3>
+                                <p className="homepageServiceParagraph black">Less money spent on ads, higher quality leads, and more sales.</p>
+                                <button className="homepageServicesServiceButton">View More</button>
                             </div>
 
                             <div className="bentoTopRightBottomRight redBG">
                                 <div className="bentoLogos">
-                                    
+                                    <FontAwesomeIcon className='bentoLogo' icon="fa-brands fa-google" />
                                 </div>
 
-                                <h3 className="homepageServiceHeading">SOCIAL MEDIA CONTENT CREATION:</h3>
-                                <p className="homepageServiceParagraph">Content that doesn't just get likes - it gets sales.</p>
-                                <button className="homepageServicesServiceButton whiteButton">Learn More</button>
+                                <h3 className="homepageServiceHeading">SEARCH ENGINE OPTIMIZATION:</h3>
+                                <p className="homepageServiceParagraph">Attract qualified traffic, and generate more leads.</p>
+                                <button className="homepageServicesServiceButton whiteButton">View More</button>
                             </div>
                         </div>
                 </div>
             </div>
-
-                <div className="bentoBottom">
-                    <div className="bentoBottomSingle">
-                        <h3 className="homepageServiceHeading black">GOOGLE ADS MANAGEMENT:</h3>
-                        <p className="homepageServiceParagraph black">Get seen by the right customers at the right time.</p>
-                        <button className="homepageServicesServiceButton">VIEW SERVICE</button>
-                    </div>
-
-                    <div className="bentoBottomSingle redBG">
-                        <h3 className="homepageServiceHeading">META/FACEBOOK ADS MANAGEMENT:</h3>
-                        <p className="homepageServiceParagraph">Stop boosting posts, start running campaigns that actually convert.</p>
-                        <button className="homepageServicesServiceButton whiteButton">VIEW SERVICE</button>
-                    </div>
-
-                    <div className="bentoBottomSingle">
-                        <h3 className="homepageServiceHeading black">AD<br></br>CREATION:</h3>
-                        <p className="homepageServiceParagraph black">Less money spent on ads, higher quality leads, and more sales.</p>
-                        <button className="homepageServicesServiceButton">VIEW SERVICE</button>
-                    </div>
-
-                    <div className="bentoBottomSingle redBG">
-                        <h3 className="homepageServiceHeading">SEARCH ENGINE OPTIMIZATION:</h3>
-                        <p className="homepageServiceParagraph">Attract qualified traffic, and generate more leads.</p>
-                        <button className="homepageServicesServiceButton whiteButton">VIEW SERVICE</button>
-                    </div>
-                </div>
-            </div>
+        </div>
       </>
     )
 } else {

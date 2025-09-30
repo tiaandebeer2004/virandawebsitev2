@@ -240,8 +240,14 @@
 
 @media (width < 800px) {
     .bentoTopLeft {
-        width: 100%;
+        width: 97%;
         margin: 0 auto;
+        padding: 3%;
+        padding-top: 40px;
+    }
+
+    .bentoLogo {
+        font-size: 1.3rem;
     }
 
     .homepageServiceHeading {
@@ -254,13 +260,63 @@
         line-height: 1.3rem;
     }
 
+    .homepageServiceHeadingBig {
+        font-size: 2rem;
+        line-height: 1.8rem;
+    }
+
+    .homepageServiceParagraphBig {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+
     .bentoTopRightTop {
         width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 
     .bentoTopRight {
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    .bentoTopRightRight {
         width: 100%;
         margin: 0 auto;
         margin-top: 20px;
+        padding: 3%;
+    }
+
+    .bentoTopRightLeft {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 3%;
+    }
+
+    .homepageServicesServiceButton {
+        font-size: 1.3rem;
+        padding: 5px 0px;
+        width: 50%;
+    }
+
+    .bentoTopRightBottom {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .bentoTopRightBottomLeft {
+        width: 100%;
+        margin-top: 20px;
+        padding: 3%;
+    }
+
+    .bentoTopRightBottomRight {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+        padding: 3%;
     }
 }
