@@ -1,6 +1,6 @@
 .HomepageResults {
     width: 100%;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .homepageResultsHeading1 {
@@ -53,28 +53,28 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .homepageResultsLeft {
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     width: 40%;
 }
 
 .homepageResultsRight {
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     width: 40%;
     margin-top: 0vh;
 }
 
 .homepageResultsImage {
     width: 100%;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     border-radius: 30px;
 }
 
 .homepageResult {
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     margin-bottom: 15vh;
 }
 

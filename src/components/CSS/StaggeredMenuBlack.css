@@ -117,7 +117,7 @@
   position: relative;
   overflow: hidden;
   line-height: 1;
-  background-color: black;
+  background-color: rgb(14, 14, 14);
 }
 
 .sm-icon-line {
@@ -180,7 +180,7 @@
   right: 0;
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: rgb(14, 14, 14);
   transform: translateX(0);
 }
 
@@ -189,11 +189,11 @@
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-  background-color: black;
+  background-color: rgb(14, 14, 14);
 }
 
 .sm-socialsBlack {
-  background-color: black;
+  background-color: rgb(14, 14, 14);
   margin-top: auto;
   padding-top: 2rem;
   display: flex;
@@ -202,7 +202,7 @@
 }
 
 .sm-socials-titleBlack {
-  background-color: black;
+  background-color: rgb(14, 14, 14);
   margin: 0;
   font-size: 1rem;
   font-weight: 500;
@@ -210,7 +210,7 @@
 }
 
 .sm-socials-listBlack {
-  background-color: black;
+  background-color: rgb(14, 14, 14);
   list-style: none;
   margin: 0;
   padding: 0;
@@ -247,7 +247,7 @@
 }
 
 .sm-socials-linkBlack {
-  background-color: black;
+  background-color: rgb(14, 14, 14);
   font-size: 1.2rem;
   font-weight: 500;
   color: white;
@@ -282,7 +282,7 @@
 }
 
 .sm-panel-itemBlack {
-  background-color: black;
+  background-color: rgb(14, 14, 14);
   position: relative;
   color: white;
   font-weight: 600;
@@ -318,7 +318,7 @@
 }
 
 .sm-panel-itemLabelBlack {
-  background-color: black;
+  background-color: rgb(14, 14, 14);
   display: inline-block;
   will-change: transform;
   transform-origin: 50% 100%;
@@ -330,7 +330,7 @@
 
 .sm-panel-listBlack[data-numbering] {
   counter-reset: smItem;
-  background-color: black;
+  background-color: rgb(14, 14, 14);
 }
 
 .sm-panel-listBlack[data-numbering] .sm-panel-itemBlack::after {
@@ -342,7 +342,7 @@
   font-size: 18px;
   font-weight: 400;
   color: var(--sm-accent, #5227ff);
-  background-color: black;
+  background-color: rgb(14, 14, 14);
   letter-spacing: 0;
   pointer-events: none;
   user-select: none;

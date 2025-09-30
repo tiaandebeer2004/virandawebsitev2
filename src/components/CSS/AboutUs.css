@@ -39,7 +39,7 @@
 }
 
 .aboutUsRed {
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     width: 100%;
     display: flex;
     flex-direction: column;

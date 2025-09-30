@@ -1,6 +1,8 @@
 import { useRef, useEffect, useState } from 'react'
 import './CSS/HomepageServices.css'
 import useWindowDimensions from '../components/Hooks/useWindowDimensions'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone } from '@fortawesome/free-solid-svg-icons'
 
 function HomepageServices() {
   const [count, setCount] = useState(0)
@@ -25,14 +27,18 @@ function HomepageServices() {
                     <div className="bentoTopRight">
                         <div className="bentoTopRightTop">
                             <div className="bentoTopRightLeft">
+                                <div className="bentoLogos">
+                                    <FontAwesomeIcon className='bentoLogo' icon={faPhone} />
+                                </div>
+
                                 <h3 className="homepageServiceHeading">WEBSITE DEVELOPMENT:</h3>
-                                <p className="homepageServiceParagraph">Losing customers to an outdated website? Our modern, mobile-friendly websites not only look beautiful – they actually get sales. Our proven layouts convert, and we offer SEO services to help your website rank on Google.</p>
+                                <p className="homepageServiceParagraph">Our modern, mobile-friendly websites not only look beautiful – they actually get sales.</p>
                                 <button className="homepageServicesServiceButton">Learn More</button>
                             </div>
 
                             <div className="bentoTopRightRight">
                                 <h3 className="homepageServiceHeading">GRAPHIC DESIGN:</h3>
-                                <p className="homepageServiceParagraph">Your brand deserves to stand out. Our graphic design team creates stunning, high-converting graphics that help you stand out from the crowd, capture potential customers’ attention, and grow your business overall.</p>
+                                <p className="homepageServiceParagraph">Our stunning, high-converting graphics help you stand out from the crowd, capture potential customers’ attention, and grow your business overall.</p>
                                 <button className="homepageServicesServiceButton">Learn More</button>    
                             </div>
                         </div>
@@ -40,13 +46,13 @@ function HomepageServices() {
                         <div className="bentoTopRightBottom">
                             <div className="bentoTopRightBottomLeft">
                                 <h3 className="homepageServiceHeading">SOCIAL MEDIA MANAGEMENT:</h3>
-                                <p className="homepageServiceParagraph">Posting great content, but getting no results? We create social media strategies that not only help you grow your following, but also turns your existing followers into loyal customers.</p>
+                                <p className="homepageServiceParagraph">We create social media strategies that not only help you grow your following, but also turns your existing followers into loyal customers.</p>
                                 <button className="homepageServicesServiceButton">Learn More</button>
                             </div>
 
                             <div className="bentoTopRightBottomRight">
                                 <h3 className="homepageServiceHeading">SOCIAL MEDIA CONTENT CREATION:</h3>
-                                <p className="homepageServiceParagraph">Don’t have the time to post on social media? Our excellent social media team ensures that your business stays up to date with current trends, crafting highly engaging graphics and videos that drive sales and puts your brand out there.</p>
+                                <p className="homepageServiceParagraph">Our highly engaging graphics and videos keep your business up to date, puts your brand out there, and drives sales.</p>
                                 <button className="homepageServicesServiceButton">Learn More</button>
                             </div>
                         </div>

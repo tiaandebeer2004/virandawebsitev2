@@ -1,7 +1,7 @@
 .Hero2 {
     padding-top: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     display: flex;
     opacity: 0;
     animation: fadeInHero2 0.5s forwards ease;
@@ -20,12 +20,12 @@
 
 .hero2Left {
     width: 100%;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .hero2LeftHeading {
     width: 100%;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     color: white;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 700;
@@ -40,7 +40,7 @@
     margin-left: 5%;
     margin-right: 5%;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     display: flex;
     gap: 30px;
 }
@@ -62,7 +62,7 @@
 
 .hero2Right {
     width: 0%;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     height: 100vh;
 }
 
@@ -74,21 +74,21 @@
     margin-left: 10%;
     margin-right: 10%;
     color: white;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     margin-bottom: 3%;
 }
 
 .hero2TaglinesGroup {
     display: flex;
     width: 100%;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     justify-content: center;
 }
 
 .hero2TaglineGroup {
     width: 25%;
     margin-top: 5vh;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,7 +96,7 @@
 }
 
 .circle {
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     border-radius: 50%;
     height: 8vw;
     width: 8vw;
@@ -111,7 +111,7 @@
     margin-right: 5%;
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     margin-bottom: 3%;
     margin-top: 3%;
 }

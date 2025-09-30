@@ -1,5 +1,5 @@
 .ContactPageContactSection {
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -10,18 +10,18 @@
     margin-top: 20vh;
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     margin-bottom: 12vh;
 }
 
 .contactPageContactSectionLeft {
     width: 48%;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .contactPageContactSectionRight {
     width: 48%;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .contactPageContactSectionHeading {
@@ -29,7 +29,7 @@
     font-weight: 700;
     font-size: 5rem;
     color: white;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     letter-spacing: -0.08rem;
     line-height: 4rem;
 }
@@ -40,7 +40,7 @@
     font-size: 1.3rem;
     padding-top: 4vh;
     color: rgba(255, 255, 255, 0.8);
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .contactPageContactSectionParagraph2 {
@@ -49,7 +49,7 @@
     font-size: 1.3rem;
     padding-top: 3vh;
     color: rgba(255, 255, 255, 0.8);
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .contactPageContactSectionContactDetails {
@@ -58,11 +58,11 @@
     font-size: 1.6rem;
     padding-top: 7vh;
     color: rgba(255, 255, 255, 1);
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .contactPageIcon {
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     color: rgb(255, 100, 100);
 }
 
@@ -152,7 +152,7 @@
     /* CSS rules for screens with a maximum width of 768px */
     .contactPageContactSectionLeft {
         width: 100%;
-        background-color: black;
+        background-color: rgb(14, 14, 14);
     }
 
     .contactPageContactSectionRight {
@@ -184,22 +184,22 @@
     .contactPageContactSectionHeading {
         font-size: 3rem;
         line-height: 2.8rem;
-        background-color: black;
+        background-color: rgb(14, 14, 14);
     }
 
     .contactPageContactSectionParagraph {
         font-size: 1.3rem;
-        background-color: black;
+        background-color: rgb(14, 14, 14);
     }
 
     .contactPageContactSectionParagraph2 {
         font-size: 1.3rem;
-        background-color: black;
+        background-color: rgb(14, 14, 14);
     }
 
     .contactPageContactSectionContactDetails {
         font-size: 1.3rem;
-        background-color: black;
+        background-color: rgb(14, 14, 14);
     }
 
     .contactPageFormHeading {
@@ -231,22 +231,22 @@
         font-size: 3rem;
         margin-top: 0vh;
         line-height: 3rem;
-        background-color: black;
+        background-color: rgb(14, 14, 14);
     }
 
     .contactPageContactSectionParagraph {
         font-size: 1.3rem;
-        background-color: black;
+        background-color: rgb(14, 14, 14);
     }
 
     .contactPageContactSectionParagraph2 {
         font-size: 1.3rem;
-        background-color: black;
+        background-color: rgb(14, 14, 14);
     }
 
     .contactPageContactSectionContactDetails {
         font-size: 1.3rem;
-        background-color: black;
+        background-color: rgb(14, 14, 14);
     }
 
     .contactPageFormHeading {

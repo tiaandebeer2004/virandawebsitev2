@@ -8,11 +8,11 @@
     border-bottom: 1px solid rgba(127.5, 127.5, 127.5);
     position: fixed;
     z-index: 999;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .VIRANDABlack {
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .navbarColumnsBlack {
@@ -23,7 +23,7 @@
     justify-content: space-between;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     border-bottom: 1px solid rgba(127.5, 127.5, 127.5);
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .navbarLeftBlack {
@@ -31,7 +31,7 @@
     display: flex;
     justify-content: left;
     color: white;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .navbarMiddleBlack {
@@ -39,17 +39,17 @@
     display: flex;
     gap: 30px;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
 }
 
 .navbarMiddleBlack a {
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     color: white;
     text-decoration: none;
 }
 
 .navbarRightBlack {
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     width: 20%;
     display: flex;
     justify-content: right;
