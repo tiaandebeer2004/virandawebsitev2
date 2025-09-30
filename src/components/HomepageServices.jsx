@@ -76,27 +76,27 @@ function HomepageServices() {
                 </div>
 
                 <div className="bentoBottom">
-                    <div className="bentoBottomSingle">
+                    <div className="bentoBottomSingle redBG2">
                         <h3 className="homepageServiceHeading">GOOGLE ADS MANAGEMENT:</h3>
                         <p className="homepageServiceParagraph">Get seen by the right customers at the right time.</p>
                         <button className="homepageServicesServiceButton">VIEW SERVICE</button>
                     </div>
 
                     <div className="bentoBottomSingle">
-                        <h3 className="homepageServiceHeading">META/FACEBOOK ADS MANAGEMENT:</h3>
-                        <p className="homepageServiceParagraph">Stop boosting posts, start running campaigns that actually convert.</p>
+                        <h3 className="homepageServiceHeading black">META/FACEBOOK ADS MANAGEMENT:</h3>
+                        <p className="homepageServiceParagraph black">Stop boosting posts, start running campaigns that actually convert.</p>
                         <button className="homepageServicesServiceButton">VIEW SERVICE</button>
                     </div>
 
-                    <div className="bentoBottomSingle">
+                    <div className="bentoBottomSingle redBG">
                         <h3 className="homepageServiceHeading">AD<br></br>CREATION:</h3>
                         <p className="homepageServiceParagraph">Less money spent on ads, higher quality leads, and more sales.</p>
                         <button className="homepageServicesServiceButton">VIEW SERVICE</button>
                     </div>
 
                     <div className="bentoBottomSingle">
-                        <h3 className="homepageServiceHeading">SEARCH ENGINE OPTIMIZATION:</h3>
-                        <p className="homepageServiceParagraph">Attract qualified traffic, and generate more leads.</p>
+                        <h3 className="homepageServiceHeading black">SEARCH ENGINE OPTIMIZATION:</h3>
+                        <p className="homepageServiceParagraph black">Attract qualified traffic, and generate more leads.</p>
                         <button className="homepageServicesServiceButton">VIEW SERVICE</button>
                     </div>
                 </div>

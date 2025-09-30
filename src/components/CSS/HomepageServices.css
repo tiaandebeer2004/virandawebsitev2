@@ -149,7 +149,7 @@
 
 .bentoTopRightBottomLeft {
     width: 50%;
-    background-color: #FFF5E6;;
+    background-color: #FFF5E6;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -159,9 +159,17 @@
     margin-top: 10px;
 }
 
+.redBG {
+    background-color: #a62323!important;
+}
+
+.redBG2 {
+    background-color: #a62323!important;
+}
+
 .bentoTopRightBottomRight {
     width: 50%;
-    background-color: #9c2c2c;
+    background-color: #a62323;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -173,7 +181,7 @@
 
 .bentoTopRightLeft {
     width: 50%;
-    background-color: #9c2c2c;
+    background-color: #a62323;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -203,7 +211,7 @@
 
 .bentoBottomSingle {
     width: 25%;
-    background-color: rgb(14, 14, 14);
+    background-color: #FFF5E6;
     display: flex;
     flex-direction: column;
     align-items: left;
