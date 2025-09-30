@@ -21,6 +21,7 @@
 }
 
 .homepageServicesServiceButton {
+    width: 50%;
     background-color: black;
     color: white;
     font-size: 1.15vw;
@@ -84,12 +85,12 @@
 .bentoLogos {
     font-size: 1.5vw;
     text-align: left;
-    color: rgb(255, 100, 100);
+    color: white;
     background-color: transparent;
 }
 
 .bentoLogo {
-    color: rgb(255, 100, 100);
+    color: white;
     margin-bottom: 2vh;
     background-color: transparent;
 }
@@ -116,6 +117,11 @@
 .bentoTop {
     background-color: rgb(14, 14, 14);
     display: flex;
+}
+
+.whiteButton {
+    background-color: white!important;
+    color: black!important;
 }
 
 .bentoTopLeft {
@@ -160,16 +166,12 @@
 }
 
 .redBG {
-    background-color: #a62323!important;
-}
-
-.redBG2 {
-    background-color: #a62323!important;
+    background-color: #9c2c2c!important;
 }
 
 .bentoTopRightBottomRight {
     width: 50%;
-    background-color: #a62323;
+    background-color: #FFF5E6;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -181,7 +183,7 @@
 
 .bentoTopRightLeft {
     width: 50%;
-    background-color: #a62323;
+    background-color: #FFF5E6;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -234,4 +236,31 @@
     background-color: rgb(14, 14, 14);
     padding: 2%;
     border-radius: 15px;
+}
+
+@media (width < 800px) {
+    .bentoTopLeft {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .homepageServiceHeading {
+        font-size: 1.625rem;
+        line-height: 1.5rem;
+    }
+
+    .homepageServiceParagraph {
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+
+    .bentoTopRightTop {
+        width: 100%;
+    }
+
+    .bentoTopRight {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
 }

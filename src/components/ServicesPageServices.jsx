@@ -22,6 +22,7 @@ if (width < 900) {
 
             <h2 className="servicesPageMobileHeading">WEBSITE DEVELOPMENT</h2>
             <p className="servicesPageMobileParagraph">Losing customers to an outdated website? Our modern, mobile-friendly websites not only look beautiful – they actually get sales. Our layouts have been proven to drive conversion rates, and we offer premium SEO services to help your website rank on Google. <span className="smallerSpacing"><br></br><br></br></span>Whether you need a simple landing page or a full-blown online store, we’ll make sure your website brings the results your business deserves.</p>
+            
             <button className="servicesPageServiceButton">Learn More</button>
         </div>
         
