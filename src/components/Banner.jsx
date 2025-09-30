@@ -8,7 +8,7 @@ function Banner() {
   const { scrollX, scrollY } = useWindowScrollPositions()
   const { width, height } = useWindowDimensions();
 
-if (width < 800) {
+if (width < 795) {
   return (
     <>
         <div className="bannerWrapper">
@@ -17,10 +17,14 @@ if (width < 800) {
                     <p className="viranda">VIRANDA</p>
 
                     <ul className="bannerUL">
-                        <li className="webDesign">WEB<br></br>DESIGN</li>
-                        <li className="graphicDesign">GRAPHIC<br></br>DESIGN</li>
-                        <li className="socialMedia">SOCIAL<br></br>MEDIA</li>
-                        <li className="adManagement">AD<br></br>MANAGEMENT</li>
+                        <li className="webDesign">WEB</li>
+                        <li className="webDesign2">DESIGN</li>
+                        <li className="graphicDesign">GRAPHIC</li>
+                        <li className="graphicDesign2">DESIGN</li>
+                        <li className="socialMedia">SOCIAL</li>
+                        <li className="socialMedia2">MEDIA</li>
+                        <li className="adManagement">AD</li>
+                        <li className="adManagement2">MANAGEMENT</li>
                     </ul>
                 </div>
 
@@ -41,10 +45,10 @@ if (width < 800) {
                     <p className="viranda">VIRANDA</p>
 
                     <ul className="bannerUL">
-                        <li className="webDesign">WEB DESIGN</li>
-                        <li className="graphicDesign">GRAPHIC DESIGN</li>
-                        <li className="socialMedia">SOCIAL MEDIA</li>
-                        <li className="adManagement">AD MANAGEMENT</li>
+                        <li className="webDesign" style={{ position: 'relative', left: (0 - (scrollY/50)) + 'vh', top: (0 - (scrollY/100)) + 'vh' }}>WEB DESIGN</li>
+                        <li className="graphicDesign" style={{ position: 'relative', left: (0 - (scrollY/50)) + 'vh', top: (0 - (scrollY/100)) + 'vh' }}>GRAPHIC DESIGN</li>
+                        <li className="socialMedia" style={{ position: 'relative', right: (0 - (scrollY/50)) + 'vh', bottom: (0 - (scrollY/100)) + 'vh' }}>SOCIAL MEDIA</li>
+                        <li className="adManagement" style={{ position: 'relative', right: (0 - (scrollY/50)) + 'vh', bottom: (0 - (scrollY/100)) + 'vh' }}>AD MANAGEMENT</li>
                     </ul>
                 </div>
 

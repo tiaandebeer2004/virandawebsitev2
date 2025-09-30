@@ -3,6 +3,7 @@ import './CSS/Hero2.css'
 import ghostIcon from '../assets/ghostIcon.png'
 import burnMoneyIcon from '../assets/burnMoney.png'
 import clickIcon from '../assets/clickIcon.png'
+import { motion } from 'framer-motion'
 
 function Hero2() {
   const [count, setCount] = useState(0)
@@ -12,7 +13,7 @@ function Hero2() {
         <div className="Hero2">
             <div className="hero2Left">
                 <h2 className="hero2LeftHeading">WE KNOW.<br></br>YOU'RE TIRED OF:<br></br></h2>
-
+                    
                 <div className="hero2TaglinesGroup">
                     <div className="hero2TaglineGroup">
                         <img src={ghostIcon} alt="ghost icon" className="circle" />

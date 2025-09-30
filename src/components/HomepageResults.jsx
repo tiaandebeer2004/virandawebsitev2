@@ -11,9 +11,10 @@ function HomepageResults() {
     return (
       <>
         <div className="HomepageResults">
+          
             <h2 className="homepageResultsHeading1">WE DON'T JUST TALK BIG</h2>   
             <h2 className="homepageResultsHeading2 linearWipe">WE DELIVER BIGGER</h2>   
-
+          
             <div className="homepageResultsColumns">
                 <div className="homepageResultsLeft">
                     <div className="homepageResult">
