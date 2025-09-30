@@ -56,25 +56,25 @@ function HomepageServices() {
                 <div className="bentoBottom">
                     <div className="bentoBottomSingle">
                         <h3 className="homepageServiceHeading">GOOGLE ADS MANAGEMENT:</h3>
-                        <p className="homepageServiceParagraph">Our Google Ad campaigns ensure that you’re seen by the right customers at the right time. Our optimized, targeted ad campaigns drive real results – more interested, qualified leads, more sales, and a higher return on investment.</p>
+                        <p className="homepageServiceParagraph">Our Google Ad campaigns ensure that you’re seen by the right customers at the right time.</p>
                         <button className="homepageServicesServiceButton">Learn More</button>
                     </div>
 
                     <div className="bentoBottomSingle">
                         <h3 className="homepageServiceHeading">META/FACEBOOK ADS MANAGEMENT:</h3>
-                        <p className="homepageServiceParagraph">Stop boosting posts and start running campaigns that actually convert. We use precise targeting and eye-catching graphic material, and our Meta/Facebook ad campaigns focus on generating interested, qualified leads and driving sales.</p>
+                        <p className="homepageServiceParagraph">Stop boosting posts and start running campaigns that actually convert.</p>
                         <button className="homepageServicesServiceButton">Learn More</button>
                     </div>
 
                     <div className="bentoBottomSingle">
                         <h3 className="homepageServiceHeading">AD CREATION:</h3>
-                        <p className="homepageServiceParagraph">Know how to run targeted, optimized ad campaigns, but don’t have the material to use? Our Ad Creation team specializes in creating aesthetically stunning, high converting ads that help you save money on ad spend, generate higher quality leads, and make more sales.</p>
+                        <p className="homepageServiceParagraph">Our ads help you save money on ad spend, generate higher quality leads, and make more sales.</p>
                         <button className="homepageServicesServiceButton">Learn More</button>
                     </div>
 
                     <div className="bentoBottomSingle">
                         <h3 className="homepageServiceHeading">SEARCH ENGINE OPTIMIZATION:</h3>
-                        <p className="homepageServiceParagraph">Our SEO services help your business rank for valuable keywords, attract qualified traffic, and generate more leads. From keyword research to link building, we use proven strategies to ensure your business is as visible as it can be and ensure long-term results.</p>
+                        <p className="homepageServiceParagraph">Our SEO services help your business rank for valuable keywords, attract qualified traffic, and generate more leads.</p>
                         <button className="homepageServicesServiceButton">Learn More</button>
                     </div>
                 </div>

@@ -143,6 +143,9 @@
     .hero2Paragraph {
         margin-top: 7vh;
         margin-bottom: 12vh;
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        letter-spacing: 0.8px;
     }
 
     .hero2ButtonGroup {
@@ -152,5 +155,8 @@
 
     .hero2OurServices, .hero2ContactUs {
         width: 60%;
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+        padding: 10px 10px;
     }
 }
