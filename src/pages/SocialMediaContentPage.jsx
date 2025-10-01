@@ -55,30 +55,27 @@ function SocialMediaContentPage() {
 
       <div className="singleServiceSection2" ref={singleServiceRef}>
         <div className="singleServiceOurPackages">
-          <h2 className="singleServiceOurPackagesHeading">OUR WEBSITE PACKAGES</h2>  
-          <p className="singleServiceOurPackagesSubheading">Get a beautiful, high-converting, and SEO-friendly website.</p>
+          <h2 className="singleServiceOurPackagesHeading">OUR SOCIAL MEDIA CONTENT CREATION PACKAGES</h2>  
+          <p className="singleServiceOurPackagesSubheading">Get eye-catching, engaging and high-converting social media content.</p>
         </div>
 
         <div className="singleServiceColumns">
           <div className="singleServicePackage">
             <div className="singleServicePackageTopPart">
             <h3 className="singleServicePackageHeading">BASIC:</h3>
-            <p className="singleServicePackageSubheading">For small businesses that are looking to start their online business in the right way.</p>
+            <p className="singleServicePackageSubheading">For small businesses that are looking to start their social media presence in the right way.</p>
             </div>
 
             <div className="singleServicePackageBottomPart">
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>4 image posts per month</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Remote</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>2 platforms</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Posts are optimized for each platform</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Monthly monitoring</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Basic monthly result reports</p>
 
             <p className="singleServicePackageFrom">FROM:</p>
-            <h3 className="singleServicePackageNumber">R5 000+</h3>
+            <h3 className="singleServicePackageNumber">R1 500/M</h3>
 
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
@@ -89,22 +86,19 @@ function SocialMediaContentPage() {
           <div className='singleServicePackageMiddle'>
             <div className="singleServicePackageTopPart">
             <h3 className="singleServicePackageHeading">STANDARD:</h3>
-            <p className="singleServicePackageSubheading">For growing businesses that are looking to optimize their online presence.</p>
+            <p className="singleServicePackageSubheading">For growing businesses that are looking to optimize their social media presence.</p>
             </div>
 
             <div className="singleServicePackageBottomPart">
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/> 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>8 image posts or 4 image and 1 video post per month</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Remote</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>3 platforms</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Posts are optimized for each platform</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Weekly monitoring</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Detailed monthly result reports</p>
 
             <p className="singleServicePackageFrom">FROM:</p>
-            <h3 className="singleServicePackageNumber">R10 000+</h3>
+            <h3 className="singleServicePackageNumber">R3 000/M</h3>
 
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
@@ -115,22 +109,20 @@ function SocialMediaContentPage() {
           <div className='singleServicePackage singleServiceLastPackage'>
             <div className="singleServicePackageTopPart">
             <h3 className="singleServicePackageHeading">PREMIUM:</h3>
-            <p className="singleServicePackageSubheading">For established businesses that need highlu-optimized, large-scale websites or ecommerce stores.</p>
+            <p className="singleServicePackageSubheading">For established businesses that need a highly-optimized social media presence.</p>
             </div>
 
             <div className="singleServicePackageBottomPart">
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/> 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>12 image posts or 8 image and 2 video posts per month</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Remote or on-site</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>All major platforms</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Posts are optimized for each platform</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Bi-weekly or daily monitoring</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Comprehensive monthly result reports</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Free social media management</p>
 
             <p className="singleServicePackageFrom">FROM:</p>
-            <h3 className="singleServicePackageNumber">R15 000+</h3>
+            <h3 className="singleServicePackageNumber">R4 000/M</h3>
 
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
@@ -140,7 +132,7 @@ function SocialMediaContentPage() {
         </div>
 
         <div className="singleServiceOurPackages spacingChangeSingleService">
-          <h2 className="singleServiceOurPackagesHeading singleServiceBlogFirstHeading">WE DON'T JUST BUILD WEBSITES<br></br>WE BUILD DIGITAL EXPERIENCES</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogFirstHeading">SOCIAL MEDIA THAT SELLS</h2>  
         </div>
 
         <motion.div
@@ -150,7 +142,7 @@ function SocialMediaContentPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">In the digital age, your website is the first impression potential customers get of your business. "Having a website just to have one" isn't enough anymore: your website should be your brand ambassador, your 24/7 salesperson, and your most valuable marketing tool.<br></br><br></br>At Viranda, we're not just "your website guys." Our expert team crafts digital experiences that are fast, beatiful, and most importantly, built to convert.</p>
+          <p className="singleServiceBlogSubheading">With the rise of short-form content, you've only got a few seconds to stop a viewer's scrolling before they move on. Your content needs to capture attention, grow your business, and most importantly, drive action.<br></br><br></br>At Viranda, we ensure that your social media content not only captures attention, looks professional, and stays up to date with the current trends, but that it also serves a clear purpose - converting views into loyal customers.</p>
         </motion.div>
 
         <motion.div
@@ -160,7 +152,7 @@ function SocialMediaContentPage() {
           viewport={{once: true}}
           className='singleServiceBlogHeading'
         >
-          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">WHY YOU NEED A WEBSITE DEVELOPMENT TEAM:</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">WHY YOU NEED A PROFESSIONAL SOCIAL MEDIA CONTENT CREATION TEAM:</h2>  
         </motion.div>
 
         <motion.div
@@ -170,7 +162,7 @@ function SocialMediaContentPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">We've all heard it before: "I just used a template" or "my brother built me a website for free." But here's the truth - at a time where markets are becoming more and more competitive, "good enough" is no longer good enough.<br></br><br></br>That's why you need an agency like ours: where experienced professionals can build you a website that looks professional on all devices, ranks well on search engines, and drives users to take action - things that a template or a family member can't provide. Whether you want people to fill in contact forms, make purchases, or give you a call - our websites don't just make taking action easy, they make it hard to resist.</p>
+          <p className="singleServiceBlogSubheading">Posting just to post doesn't cut it anymore. Badly designed template posts don't capture attention and makes your business appear unprofessional.<br></br><br></br>That's why you need a professional social media content creation team like Viranda, that can ensure your content always looks professional and up to date, grows your brand, and increases your sales.</p>
         </motion.div>
 
         <motion.div
@@ -190,24 +182,23 @@ function SocialMediaContentPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">We know the frustration that inexperienced digital marketing agencies can leave you with.<br></br>Here's what makes us different:<br></br><br></br>
+          <p className="singleServiceBlogSubheading">We don't just create generic, cookie-cutter social media content. Our content is designed to fit your brand, fit your audience, and bring in more customers. Here's what makes us different:<br></br><br></br>
              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;OUR VALUES:</span>
-              <span className="extraSpacing"><br></br></span> We value transparency, honesty and excellence, keeping you informed every step of the way while exceeding our promises. 
+              <span className="extraSpacing"><br></br></span> We value transparency, honesty, and excellence - you'll always know exactly what we're doing and what to expect.
               <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CUSTOM DESIGN AND DEVELOPMENT:</span><span className="extraSpacing"><br></br></span>
-              We don't build the same website for every client. Every website is custom-built to reflect your brand's identity and meet your business' needs.
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CUSTOM VISUALS:</span><span className="extraSpacing"><br></br></span>
+All of our content is custom made so that your brand can stand out and have a coherent image - no templates.
               <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;REVISIONS:</span><span className="extraSpacing"><br></br></span>
-              We edit and revise your website as many times as needed - we'll never send you an invoice for something you're not 100% happy with.
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CONSISTENCY:</span><span className="extraSpacing"><br></br></span>
+We deliver steady, reliable content, making sure your social media accounts never go quiet.
               <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;MOBILE-FIRST DESIGN:</span><span className="extraSpacing"><br></br></span>
-              More than half of website visits come from phones - we ensure that your website looks good on all devices.
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CONVERSION-BASED:</span><span className="extraSpacing"><br></br></span>
+We understand that likes mean nothing if you don't get more customers. Our content is focused on driving people to take action and buy from you.
               <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CONSISTENT CLIENT TREATMENT:</span><span className="extraSpacing"><br></br></span>
-              Whether you're just starting out or an established business, we view you the same as we would Apple or Coca Cola, treating your business with the same love and care as we do our own.
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;BRAND BUILDING:</span><span className="extraSpacing"><br></br></span>
+Our content doesn't just look good, it all works together in order to build a coherent brand image for your business that people can remember and become loyal too.
               <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;BUILT FOR CONVERSION:</span><span className="extraSpacing"><br></br></span>
-              We understand that your website doesn't mean anything if it doesn't get sales, and we focus heavily on optimizing your conversion rate.</p>
+              </p>
         </motion.div>
 
         <motion.div
@@ -229,19 +220,19 @@ function SocialMediaContentPage() {
         >
           <p className="singleServiceBlogSubheading">
               <span className='spanBold'><span className='spanRed'>01</span>&nbsp;&nbsp;&nbsp;PLANNING:</span><span className="extraSpacing"><br></br></span>
-              We have a conversation with you discussing what your website's design and functionality needs are and what you want to achieve through your website.
+We have a meeting with you discussing your target audience, business, and what you want to achieve from your social media content.
               <br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>02</span>&nbsp;&nbsp;&nbsp;DEVELOPMENT:</span><span className="extraSpacing"><br></br></span>
-              We develop or redesign your website, ensuring it looks professional, works the way you want it to, and, most importantly, converts visitors into customers.
+              <span className='spanBold'><span className='spanRed'>02</span>&nbsp;&nbsp;&nbsp;STRATEGY:</span><span className="extraSpacing"><br></br></span>
+We form an effective, engaging social media strategy around the informatiom we get in the planning stage.
               <br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>03</span>&nbsp;&nbsp;&nbsp;REVIEW:</span><span className="extraSpacing"><br></br></span>
-              We present you with your website and have another conversation with you - what you like, what you don't like, and what needs to change.
+              <span className='spanBold'><span className='spanRed'>03</span>&nbsp;&nbsp;&nbsp;CONTENT CREATION:</span><span className="extraSpacing"><br></br></span>
+We create the actual content - engaging, eye-catching, and high-impact.
               <br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>04</span>&nbsp;&nbsp;&nbsp;REVISION:</span><span className="extraSpacing"><br></br></span>
-              We revise your website based on the review and repeat the process as necessary.
+              <span className='spanBold'><span className='spanRed'>04</span>&nbsp;&nbsp;&nbsp;REVIEW:</span><span className="extraSpacing"><br></br></span>
+We send the content over to you to approve and revise if necessary - we'll never send you an invoice for something you're not happy with.
               <br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>05</span>&nbsp;&nbsp;&nbsp;DEPLOYMENT:</span><span className="extraSpacing"><br></br></span>
-              We register your domain, setup your email mailboxes, and get your website live with a seamless, professional process.
+              <span className='spanBold'><span className='spanRed'>05</span>&nbsp;&nbsp;&nbsp;DELIVERY:</span><span className="extraSpacing"><br></br></span>
+We send the content to you in high-quality file formats optimized for the social media platforms you will be uploading the content on.
           </p>
         </motion.div>
 
@@ -252,7 +243,7 @@ function SocialMediaContentPage() {
           viewport={{once: true}}
           className='singleServiceBlogHeading'
         >
-          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">READY TO GROW?</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">READY TO GROW ON SOCIAL MEDIA?</h2>  
         </motion.div>
 
         <motion.div
@@ -262,7 +253,7 @@ function SocialMediaContentPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">Your website isn't just another project - it's a long-term investment in your brand's future. Whether you need a new website or a redesign, we're ready to help you create something that works.</p>
+          <p className="singleServiceBlogSubheading">Your social media should stand out, capture attention, and drive action. We're ready to help you create content that doesn't just exist, it works.</p>
         </motion.div>
         
         <div className="singleServiceBlogButtonWrapper spacingBelow">

@@ -56,7 +56,7 @@ function GraphicDesignPage() {
       <div className="singleServiceSection2" ref={singleServiceRef}>
         <div className="singleServiceOurPackages">
           <h2 className="singleServiceOurPackagesHeading">OUR GRAPHIC DESIGN PACKAGES</h2>  
-          <p className="singleServiceOurPackagesSubheading">Get stunning, effective, and memorable graphics.</p>
+          <p className="singleServiceOurPackagesSubheading">Get stunning, effective, and memorable graphics. Graphic design is a very vast field, and we cover a full range of graphic design services that aren't listed as packages. These are just to give you an idea - contact us to make your ideas come to life.</p>
         </div>
 
         <div className="singleServiceColumns">
@@ -67,18 +67,11 @@ function GraphicDesignPage() {
             </div>
 
             <div className="singleServicePackageBottomPart">
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Logo designs</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>A large amount of logo options to pick from</p>
 
             <p className="singleServicePackageFrom">FROM:</p>
-            <h3 className="singleServicePackageNumber">R5 000+</h3>
+            <h3 className="singleServicePackageNumber">R2 000</h3>
 
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
@@ -89,22 +82,16 @@ function GraphicDesignPage() {
           <div className='singleServicePackageMiddle'>
             <div className="singleServicePackageTopPart">
             <h3 className="singleServicePackageHeading">STANDARD:</h3>
-            <p className="singleServicePackageSubheading">For growing businesses that are looking to optimize their online presence.</p>
+            <p className="singleServicePackageSubheading">For growing businesses that are looking to create graphics beyond just a logo.</p>
             </div>
 
             <div className="singleServicePackageBottomPart">
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/> 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Packaging design</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Marketing material, flyers, etc.</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>A large amount of design options to pick from</p>
 
             <p className="singleServicePackageFrom">FROM:</p>
-            <h3 className="singleServicePackageNumber">R10 000+</h3>
+            <h3 className="singleServicePackageNumber">R3 000</h3>
 
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
@@ -115,22 +102,16 @@ function GraphicDesignPage() {
           <div className='singleServicePackage singleServiceLastPackage'>
             <div className="singleServicePackageTopPart">
             <h3 className="singleServicePackageHeading">PREMIUM:</h3>
-            <p className="singleServicePackageSubheading">For established businesses that need highlu-optimized, large-scale websites or ecommerce stores.</p>
+            <p className="singleServicePackageSubheading">For established businesses that need a full range of graphic design services.</p>
             </div>
 
             <div className="singleServicePackageBottomPart">
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/> 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>A complete design/redesign of all your business' design materials</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Coherent concepts across all designs</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>A large amount of design options to pick from</p>
 
             <p className="singleServicePackageFrom">FROM:</p>
-            <h3 className="singleServicePackageNumber">R15 000+</h3>
+            <h3 className="singleServicePackageNumber">R5 000</h3>
 
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
@@ -140,7 +121,7 @@ function GraphicDesignPage() {
         </div>
 
         <div className="singleServiceOurPackages spacingChangeSingleService">
-          <h2 className="singleServiceOurPackagesHeading singleServiceBlogFirstHeading">WE DON'T JUST BUILD WEBSITES<br></br>WE BUILD DIGITAL EXPERIENCES</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogFirstHeading">WE DON’T JUST DESIGN GRAPHICS, WE DESIGN BRANDS</h2>  
         </div>
 
         <motion.div
@@ -150,7 +131,8 @@ function GraphicDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">In the digital age, your website is the first impression potential customers get of your business. "Having a website just to have one" isn't enough anymore: your website should be your brand ambassador, your 24/7 salesperson, and your most valuable marketing tool.<br></br><br></br>At Viranda, we're not just "your website guys." Our expert team crafts digital experiences that are fast, beatiful, and most importantly, built to convert.</p>
+          <p className="singleServiceBlogSubheading">Your visuals are the language your customers understand first. The design of your logo, brand colors, and marketing materials isn’t just decorative – it’s how your customers recognize you, trust you, and remember you.<br></br><br></br>At Viranda, we don’t just make things look pretty, we create brand identities that grab attention, tells stories, and makes people trust you.
+</p>
         </motion.div>
 
         <motion.div
@@ -160,7 +142,7 @@ function GraphicDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogHeading'
         >
-          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">WHY YOU NEED A WEBSITE DEVELOPMENT TEAM:</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">WHY YOU NEED A PROFESSIONAL DESIGN TEAM:</h2>  
         </motion.div>
 
         <motion.div
@@ -170,7 +152,8 @@ function GraphicDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">We've all heard it before: "I just used a template" or "my brother built me a website for free." But here's the truth - at a time where markets are becoming more and more competitive, "good enough" is no longer good enough.<br></br><br></br>That's why you need an agency like ours: where experienced professionals can build you a website that looks professional on all devices, ranks well on search engines, and drives users to take action - things that a template or a family member can't provide. Whether you want people to fill in contact forms, make purchases, or give you a call - our websites don't just make taking action easy, they make it hard to resist.</p>
+          <p className="singleServiceBlogSubheading">Modern graphic design tools like Canva and AI art generators have made designing pretty graphics really easy, so why do you need a professional design team? Because Canva templates and AI tools have one fatal flaw – they can’t capture what makes your business unique. These free tools spit out generic, impersonal graphics that makes your business appear forgettable, unprofessional, and untrustworthy. <br></br><br></br>With the help of a professional design team like Viranda, you can be confident knowing that all of your designs will look polished, grab attention, and stand out above the noise. We focus on creating brand identities, so that people can recognize and remember your brand - just by looking at your graphics.
+</p>
         </motion.div>
 
         <motion.div
@@ -190,24 +173,18 @@ function GraphicDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">We know the frustration that inexperienced digital marketing agencies can leave you with.<br></br>Here's what makes us different:<br></br><br></br>
+          <p className="singleServiceBlogSubheading">We’ve seen what happens when brands settle for cheap or rushed design. At Viranda, we do things differently, avoiding any frustration, inconsistency, or wasted money. Here’s what makes us different:<br></br><br></br>
              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;OUR VALUES:</span>
-              <span className="extraSpacing"><br></br></span> We value transparency, honesty and excellence, keeping you informed every step of the way while exceeding our promises. 
+              <span className="extraSpacing"><br></br></span> We value transparency, honesty, and excellence, keeping you informed every step of the way while exceeding our promises.
               <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CUSTOM DESIGN AND DEVELOPMENT:</span><span className="extraSpacing"><br></br></span>
-              We don't build the same website for every client. Every website is custom-built to reflect your brand's identity and meet your business' needs.
-              <br></br><br></br>
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CUSTOM DESIGN:</span><span className="extraSpacing"><br></br></span>
+We don’t use templates, or follow a general design style. Every design element is tailor-made to suit your business, and create a unique identity that you will be recognized by,              <br></br><br></br>
               <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;REVISIONS:</span><span className="extraSpacing"><br></br></span>
-              We edit and revise your website as many times as needed - we'll never send you an invoice for something you're not 100% happy with.
-              <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;MOBILE-FIRST DESIGN:</span><span className="extraSpacing"><br></br></span>
-              More than half of website visits come from phones - we ensure that your website looks good on all devices.
-              <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CONSISTENT CLIENT TREATMENT:</span><span className="extraSpacing"><br></br></span>
-              Whether you're just starting out or an established business, we view you the same as we would Apple or Coca Cola, treating your business with the same love and care as we do our own.
-              <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;BUILT FOR CONVERSION:</span><span className="extraSpacing"><br></br></span>
-              We understand that your website doesn't mean anything if it doesn't get sales, and we focus heavily on optimizing your conversion rate.</p>
+We’re constantly revising and reviewing our designs until we reach perfection – never settling for “it’s almost there.”              <br></br><br></br>
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CONSISTENCY:</span><span className="extraSpacing"><br></br></span>
+We ensure that all of your marketing material, whether it’s your logo, social media graphics, or anything else, all look like they belong together – consistent, professional, and instantly recognizable.              <br></br><br></br>
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;BUILT FOR IMPACT:</span><span className="extraSpacing"><br></br></span>
+We don’t just make things that look pretty – we create strategic, eye-catching designs focused on catching the attention of potential customers and driving them towards becoming loyal supporters.              </p>
         </motion.div>
 
         <motion.div
@@ -229,20 +206,15 @@ function GraphicDesignPage() {
         >
           <p className="singleServiceBlogSubheading">
               <span className='spanBold'><span className='spanRed'>01</span>&nbsp;&nbsp;&nbsp;PLANNING:</span><span className="extraSpacing"><br></br></span>
-              We have a conversation with you discussing what your website's design and functionality needs are and what you want to achieve through your website.
-              <br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>02</span>&nbsp;&nbsp;&nbsp;DEVELOPMENT:</span><span className="extraSpacing"><br></br></span>
-              We develop or redesign your website, ensuring it looks professional, works the way you want it to, and, most importantly, converts visitors into customers.
-              <br></br><br></br>
+We have a conversation with you discussing what you need designed, how you want your designs to look, and what you want to achieve through your designs.              <br></br><br></br>
+              <span className='spanBold'><span className='spanRed'>02</span>&nbsp;&nbsp;&nbsp;CONCEPTUALIZATION:</span><span className="extraSpacing"><br></br></span>
+We design multiple designs – ensuring that they all look professional, are eye-catching, and drive action.              <br></br><br></br>
               <span className='spanBold'><span className='spanRed'>03</span>&nbsp;&nbsp;&nbsp;REVIEW:</span><span className="extraSpacing"><br></br></span>
-              We present you with your website and have another conversation with you - what you like, what you don't like, and what needs to change.
-              <br></br><br></br>
+We present your designs to you and have another conversation – what you like, what you don’t like, and what needs to change.              <br></br><br></br>
               <span className='spanBold'><span className='spanRed'>04</span>&nbsp;&nbsp;&nbsp;REVISION:</span><span className="extraSpacing"><br></br></span>
-              We revise your website based on the review and repeat the process as necessary.
-              <br></br><br></br>
+We redesign your material based on the review and repeat the process as necessary,              <br></br><br></br>
               <span className='spanBold'><span className='spanRed'>05</span>&nbsp;&nbsp;&nbsp;DEPLOYMENT:</span><span className="extraSpacing"><br></br></span>
-              We register your domain, setup your email mailboxes, and get your website live with a seamless, professional process.
-          </p>
+We send your polished designs over to you in high resolution.          </p>
         </motion.div>
 
         <motion.div
@@ -262,7 +234,7 @@ function GraphicDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">Your website isn't just another project - it's a long-term investment in your brand's future. Whether you need a new website or a redesign, we're ready to help you create something that works.</p>
+          <p className="singleServiceBlogSubheading">Your design isn’t just decoration – it’s your brand’s identity, voice, and reputation. Whether you need designs for a new business, or you’re looking to redesign your visuals, we’re ready to design something that works.</p>
         </motion.div>
         
         <div className="singleServiceBlogButtonWrapper spacingBelow">
