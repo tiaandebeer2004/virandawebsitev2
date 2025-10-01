@@ -159,4 +159,6 @@
 .backgroundTransparent {
     background-color: transparent;
     text-decoration: none;
+    width: 100%;
+    cursor: auto;
 }

@@ -21,16 +21,19 @@ return (
         <div className="portfolioPageBanner">
             <h1 className="portfolioHeading">PORTFOLIO</h1>
 
+            <a className='backgroundTransparent' target="_blank" href='https://www.emawenitugelacanyon.co.za'>
             <div className="portfolioCover">
                 <img src={emaweniWebsite} alt="emaweni tugela canyon lodge website" className="portfolioCoverImage" />
                 
                 <div className="portfolioCoverText">
                     <heading className="portfolioColumnHeading">EMAWENI TUGELA CANYON LODGE</heading>
                     <p className="portfolioColumnParagraph">A website for a game lodge</p>
-                    <a className='backgroundTransparent' target="_blank" href='https://www.emawenitugelacanyon.co.za'><button className="portfolioButton">View Website</button></a>
+                    <button className="portfolioButton">View Website</button>
                 </div>
             </div>
+            </a>
 
+            <a className='backgroundTransparent' target="_blank" href='https://www.cosycloset.co.za'>
             <div className="portfolioCover">
                 <img src={cosyclosetWebsite} alt="cosy closet website" className="portfolioCoverImage" />
                 
@@ -40,7 +43,9 @@ return (
                     <a className='backgroundTransparent' target="_blank" href='https://www.cosycloset.co.za'><button className="portfolioButton">View Website</button></a>
                 </div>
             </div>
+            </a>
 
+            <a className='backgroundTransparent' target="_blank" href='https://www.davidacoffeeco.co.za'>
             <div className="portfolioCover">
                 <img src={davidaWebsite} alt="davida coffee co website" className="portfolioCoverImage" />
                 
@@ -50,7 +55,9 @@ return (
                     <a className='backgroundTransparent' target="_blank" href='https://www.davidacoffeeco.co.za'><button className="portfolioButton">View Website</button></a>
                 </div>
             </div>
+            </a>
 
+            <a className='backgroundTransparent' target="_blank" href='https://www.abalecoffee.co.za'>
             <div className="portfolioCover">
                 <img src={abaleWebsite} alt="abale coffee website" className="portfolioCoverImage" />
                 
@@ -60,7 +67,9 @@ return (
                     <a className='backgroundTransparent' target="_blank" href='https://www.abalecoffee.co.za'><button className="portfolioButton">View Website</button></a>
                 </div>
             </div>
+            </a>
 
+            <a className='backgroundTransparent' target="_blank" href='https://www.highmaintenancepcc.co.za'>
             <div className="portfolioCover">
                 <img src={highmaintenanceWebsite} alt="high maintenance website" className="portfolioCoverImage" />
                                     
@@ -70,7 +79,9 @@ return (
                     <a className='backgroundTransparent' target="_blank" href='https://www.highmaintenancepcc.co.za'><button className="portfolioButton">View Website</button></a>
                 </div>
             </div>
-           
+            </a>
+
+            <a className='backgroundTransparent' target="_blank" href='https://www.whacked.co.za'>
             <div className="portfolioCover">
                 <img src={whackedWebsite} alt="whacked management website" className="portfolioCoverImage" />
                                     
@@ -80,6 +91,7 @@ return (
                     <a className='backgroundTransparent' target="_blank" href='https://www.whacked.co.za'><button className="portfolioButton">View Website</button></a>
                 </div>
             </div>
+            </a>
         </div>
 
         <Footer></Footer>
