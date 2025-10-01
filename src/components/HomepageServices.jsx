@@ -36,7 +36,10 @@ if (width < 800) {
                         <div className="bentoTopRightTop">
                             <div className="bentoTopRightLeft">
                                 <div className="bentoLogos">
-                                    <FontAwesomeIcon className='bentoLogo black' icon="fa-brands fa-google" />
+                                    <FontAwesomeIcon className='bentoLogo black' icon="fa-brands fa-react" />
+                                    <FontAwesomeIcon className='bentoLogo black' icon="fa-brands fa-wordpress" />
+                                    <FontAwesomeIcon className='bentoLogo black' icon="fa-brands fa-html5" />
+                                    <FontAwesomeIcon className='bentoLogo black' icon="fa-brands fa-css" />
                                 </div>
 
                                 <h3 className="homepageServiceHeading black">WEBSITE DEVELOPMENT:</h3>

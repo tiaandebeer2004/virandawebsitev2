@@ -55,30 +55,26 @@ function AdCreationPage() {
 
       <div className="singleServiceSection2" ref={singleServiceRef}>
         <div className="singleServiceOurPackages">
-          <h2 className="singleServiceOurPackagesHeading">OUR WEBSITE PACKAGES</h2>  
-          <p className="singleServiceOurPackagesSubheading">Get a beautiful, high-converting, and SEO-friendly website.</p>
+          <h2 className="singleServiceOurPackagesHeading">OUR AD CREATION PACKAGES</h2>  
+          <p className="singleServiceOurPackagesSubheading">Get stunning, engaging, and high-converting ads.</p>
         </div>
 
         <div className="singleServiceColumns">
           <div className="singleServicePackage">
             <div className="singleServicePackageTopPart">
             <h3 className="singleServicePackageHeading">BASIC:</h3>
-            <p className="singleServicePackageSubheading">For small businesses that are looking to start their online business in the right way.</p>
+            <p className="singleServicePackageSubheading">For small businesses that are looking to start their advertising journey in the right way.</p>
             </div>
 
             <div className="singleServicePackageBottomPart">
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>2 image ads</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Remote</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Basic editing</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Optimized for conversion</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Free copywriting</p>
 
             <p className="singleServicePackageFrom">FROM:</p>
-            <h3 className="singleServicePackageNumber">R5 000+</h3>
+            <h3 className="singleServicePackageNumber">R1 000+</h3>
 
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
@@ -89,22 +85,18 @@ function AdCreationPage() {
           <div className='singleServicePackageMiddle'>
             <div className="singleServicePackageTopPart">
             <h3 className="singleServicePackageHeading">STANDARD:</h3>
-            <p className="singleServicePackageSubheading">For growing businesses that are looking to optimize their online presence.</p>
+            <p className="singleServicePackageSubheading">For growing businesses that are looking to optimize their online advertisements.</p>
             </div>
 
             <div className="singleServicePackageBottomPart">
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/> 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>1 video ad</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Remote</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Basic editing</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Optimized for conversion</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Free copywriting</p>
 
             <p className="singleServicePackageFrom">FROM:</p>
-            <h3 className="singleServicePackageNumber">R10 000+</h3>
+            <h3 className="singleServicePackageNumber">R2 000</h3>
 
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
@@ -115,22 +107,18 @@ function AdCreationPage() {
           <div className='singleServicePackage singleServiceLastPackage'>
             <div className="singleServicePackageTopPart">
             <h3 className="singleServicePackageHeading">PREMIUM:</h3>
-            <p className="singleServicePackageSubheading">For established businesses that need highlu-optimized, large-scale websites or ecommerce stores.</p>
+            <p className="singleServicePackageSubheading">For established businesses that need highly-optimized advertising.</p>
             </div>
 
             <div className="singleServicePackageBottomPart">
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Feature 1</p>
-            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/> 1</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>1 video ad</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Remote or on-site</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Advanced editing</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Optimized for conversion</p>
+            <p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/>Free copywriting</p>
 
             <p className="singleServicePackageFrom">FROM:</p>
-            <h3 className="singleServicePackageNumber">R15 000+</h3>
+            <h3 className="singleServicePackageNumber">R3 000</h3>
 
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>

@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './CSS/Hero2.css'
 import ghostIcon from '../assets/ghostIcon.png'
-import burnMoneyIcon from '../assets/burnMoney.png'
-import clickIcon from '../assets/clickIcon.png'
+import burnMoneyIcon from '../assets/burnMoney.jpg'
+import clickIcon from '../assets/clickIcon.jpg'
 import { motion } from 'framer-motion'
 
 function Hero2() {
