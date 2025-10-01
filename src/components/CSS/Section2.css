@@ -3,6 +3,12 @@
     background-color: rgb(14, 14, 14);
 }
 
+.preSection {
+    width: 100%;
+    padding-top: 78vh;
+    background-color: rgb(14, 14, 14);
+}
+
 .homepageContactSectionWrapper {
     transform: translateY(-15vh);
     background-color: #FFF5E6;

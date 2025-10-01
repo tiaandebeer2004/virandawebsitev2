@@ -14,15 +14,23 @@ function Section2() {
   if (scrollY < 500) {
     return (
       <>
-          <div className="preSection2" style={{ position: 'fixed', height: (scrollY/5) + 'vh', top: (50 - (scrollY/10)) + 'vh' }}>
-              
+          <div className="preSection2" style={{ overflow: 'hidden', position: 'fixed', height: (scrollY/5) + 'vh', top: (50 - (scrollY/10)) + 'vh' }}>
+              <Hero2></Hero2>    
+              <HomepageServices></HomepageServices>
+              <HomepageResults></HomepageResults>
+
+              <div className="homepageContactSectionWrapper">
+                  <ContactPageContactSection></ContactPageContactSection>
+              </div>
+
+                  <Footer></Footer>    
           </div>
       </>
     )
   } else {
     return (
       <>
-          <div className="preSection2" style={{ position: 'absolute', top: 0}}>
+          <div className="preSection" style={{ position: 'absolute', top: 0}}>
               <Hero2></Hero2>    
               <HomepageServices></HomepageServices>
               <HomepageResults></HomepageResults>

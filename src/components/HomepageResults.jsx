@@ -24,9 +24,9 @@ function HomepageResults() {
                     </div>
 
                     <div className="homepageResult">
-                        <img src={craftrepublicLogo} alt="craft republic logo" className="homepageResultsImage" />
-                        <h3 className="homepageResultsColumnHeading">CRAFT REPUBLIC</h3>
-                        <p className="homepageResultsColumnResult">COMPLETE REBRAND FROM A STALE, BORING BRAND TO A UNIQUE, BOLD BRAND WHICH STANDS OUT AND GETS SALES</p>
+                        <img src={craftrepublicLogo} alt="emaweni tugela canyon lodge website" className="homepageResultsImage" />
+                        <h3 className="homepageResultsColumnHeading">EMAWENI TUGELA CANYON LODGE</h3>
+                        <p className="homepageResultsColumnResult">FROM HAVING TO RELY ON LUCK TO GETTING CONSISTENT RESULTS</p>
                     </div>
                 </div>
 
