@@ -350,6 +350,12 @@
     transition: scale 0.2s;
 }
 
+.singleServicePackageFeatureDiv {
+    background-color: transparent;
+    display: flex;
+    justify-content: left;
+}
+
 .singleServiceBlogButton:hover {
     scale: 0.95;
     cursor: pointer;

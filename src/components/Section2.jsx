@@ -6,11 +6,44 @@ import HomepageServices from './HomepageServices'
 import HomepageResults from './HomepageResults'
 import ContactPageContactSection from './ContactPageContactSection'
 import Footer from '../components/Footer.jsx'
+import useWindowDimensions from './Hooks/useWindowDimensions.jsx'
 
 function Section2() {
   const [count, setCount] = useState(0)
   const { scrollX, scrollY } = useWindowScrollPositions()
+  const { width, height } = useWindowDimensions();
 
+if (width < 840) {
+  if (scrollY < 500) {
+    return (
+      <>
+          <div className="preSection2" style={{ overflow: 'hidden', position: 'fixed', height: (scrollY/5) + 'vh', top: (50 - (scrollY/10)) + 'vh' }}>
+              <Hero2></Hero2>    
+              <HomepageServices></HomepageServices>
+              <HomepageResults></HomepageResults>
+
+                  <ContactPageContactSection></ContactPageContactSection>
+
+                  <Footer></Footer>    
+          </div>
+      </>
+    )
+  } else {
+    return (
+      <>
+          <div className="preSection" style={{ position: 'absolute', top: 0}}>
+              <Hero2></Hero2>    
+              <HomepageServices></HomepageServices>
+              <HomepageResults></HomepageResults>
+
+                  <ContactPageContactSection></ContactPageContactSection>
+
+                  <Footer></Footer>
+          </div>
+      </>
+    )
+  }
+} else {
   if (scrollY < 500) {
     return (
       <>
@@ -44,6 +77,7 @@ function Section2() {
       </>
     )
   }
+}
 
 }
 

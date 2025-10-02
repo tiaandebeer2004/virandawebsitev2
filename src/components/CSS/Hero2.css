@@ -116,10 +116,10 @@
     margin-top: 3%;
 }
 
-@media (width < 800px) {
+@media (width < 840px) {
     .hero2LeftHeading {
-        font-size: 3.2rem;
-        line-height: 3rem;
+        font-size: 4rem;
+        line-height: 3.7rem;
         margin-bottom: 3vh;
     }
 
@@ -163,5 +163,13 @@
         font-size: 1.3rem;
         line-height: 1.3rem;
         padding: 10px 10px;
+    }
+}
+
+@media (width < 650px) {
+    .hero2LeftHeading {
+        font-size: 3.2rem;
+        line-height: 3rem;
+        margin-bottom: 3vh;
     }
 }

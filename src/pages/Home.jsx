@@ -13,7 +13,7 @@ function Home() {
 
   return (
     <>
-      {(scrollY <= (height - 150)) ? (
+      {(scrollY <= (height - 240)) ? (
         <Navbar></Navbar>
       ) : (
         <NavbarBlack></NavbarBlack>

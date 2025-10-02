@@ -242,7 +242,12 @@
     border-radius: 15px;
 }
 
-@media (width < 800px) {
+@media (width < 840px) {
+    .homepageOurServices {
+        font-size: 4rem;
+        line-height: 3.7rem;
+    }
+
     .bentoTopLeft {
         width: 97%;
         margin: 0 auto;
@@ -322,5 +327,12 @@
         margin: 0 auto;
         margin-top: 20px;
         padding: 3%;
+    }
+}
+
+@media (width < 650px) {
+    .homepageOurServices {
+        font-size: 3.2rem;
+        line-height: 3rem;
     }
 }
