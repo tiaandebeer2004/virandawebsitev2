@@ -75,7 +75,7 @@ function MetaAdsPage() {
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Perfect for businesses looking to start running ads</p></div>
 
             <p className="singleServicePackageFrom">FROM:</p>
-            <h3 className="singleServicePackageNumber">R1 000/M + AD SPEND</h3>
+            <h3 className="singleServicePackageNumber">R1 000/M<br></br>+ AD SPEND</h3>
 
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
@@ -98,7 +98,7 @@ function MetaAdsPage() {
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Perfect for businesses looking to get better results and save money from their ads</p></div>
 
             <p className="singleServicePackageFrom">FROM:</p>
-            <h3 className="singleServicePackageNumber">R2 000/M + AD SPEND</h3>
+            <h3 className="singleServicePackageNumber">R2 000/M<br></br>+ AD SPEND</h3>
 
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
@@ -121,7 +121,7 @@ function MetaAdsPage() {
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Comprehensive monthly result reports</p></div>
 
             <p className="singleServicePackageFrom">FROM:</p>
-            <h3 className="singleServicePackageNumber">R3 000/M + AD SPEND</h3>
+            <h3 className="singleServicePackageNumber">R3 000/M<br></br>+ AD SPEND</h3>
 
             <div className="singleServicePackageButtonGroup">
               <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>

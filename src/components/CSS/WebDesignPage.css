@@ -127,9 +127,10 @@
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
     font-size: 2.5rem;
+    line-height: 2rem;
     text-align: left;
     background-color: transparent;
-    transform: translateY(-10px);
+    transform: translateY(0px);
 }
 
 .singleServicePackageSubheading {
@@ -181,7 +182,7 @@
     padding: 15px 4.7vw;
     margin-top: 3vh;
     width: 100%;
-    border-radius: 20px;
+    border-radius: 30px;
     border: none;
     background-color: rgb(255, 100, 100);
     color: black;

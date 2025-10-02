@@ -133,7 +133,7 @@ function SocialMediaManagementPage() {
         </div>
 
         <div className="singleServiceOurPackages spacingChangeSingleService">
-          <h2 className="singleServiceOurPackagesHeading singleServiceBlogFirstHeading">WE DON'T JUST BUILD WEBSITES<br></br>WE BUILD DIGITAL EXPERIENCES</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogFirstHeading">STAY VISIBLE, STAY CONSISTENT</h2>  
         </div>
 
         <motion.div
@@ -143,7 +143,8 @@ function SocialMediaManagementPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">In the digital age, your website is the first impression potential customers get of your business. "Having a website just to have one" isn't enough anymore: your website should be your brand ambassador, your 24/7 salesperson, and your most valuable marketing tool.<br></br><br></br>At Viranda, we're not just "your website guys." Our expert team crafts digital experiences that are fast, beatiful, and most importantly, built to convert.</p>
+          <p className="singleServiceBlogSubheading">Posting great content but getting no results? With the ever-changing nature of social media algorithms, great content means nothing if it’s not posted with the right schedule, caption, and hashtags.<br></br><br></br>We know that between running your business, creating social media content, and juggling everything else, you don’t have the time to master the latest social media algorithms, so let us do it for you.
+</p>
         </motion.div>
 
         <motion.div
@@ -153,7 +154,7 @@ function SocialMediaManagementPage() {
           viewport={{once: true}}
           className='singleServiceBlogHeading'
         >
-          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">WHY YOU NEED A WEBSITE DEVELOPMENT TEAM:</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">WHY YOU NEED SOCIAL MEDIA MANAGEMENT:</h2>  
         </motion.div>
 
         <motion.div
@@ -163,7 +164,7 @@ function SocialMediaManagementPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">We've all heard it before: "I just used a template" or "my brother built me a website for free." But here's the truth - at a time where markets are becoming more and more competitive, "good enough" is no longer good enough.<br></br><br></br>That's why you need an agency like ours: where experienced professionals can build you a website that looks professional on all devices, ranks well on search engines, and drives users to take action - things that a template or a family member can't provide. Whether you want people to fill in contact forms, make purchases, or give you a call - our websites don't just make taking action easy, they make it hard to resist.</p>
+          <p className="singleServiceBlogSubheading">Social media can make or break your company. Great content builds trust, engages viewers, and builds your brand, but if this content is posted at the wrong time, on the wrong platform, or with the wrong caption it can confuse your audience, hurt your platform, and undo all the effort you put into the content itself.<br></br><br></br>That’s why you need a professional team of social media managers like Viranda to create content schedules and strategies that build your brand instead of hurting it. You give us the content and we handle the rest – scheduling, posting, monitoring and reporting.</p>
         </motion.div>
 
         <motion.div
@@ -183,24 +184,16 @@ function SocialMediaManagementPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">We know the frustration that inexperienced digital marketing agencies can leave you with.<br></br>Here's what makes us different:<br></br><br></br>
+          <p className="singleServiceBlogSubheading">At Viranda, we understand the hard work and effort that goes into creating high-quality content. That’s why we’re passionate about optimizing the posting schedule and posting methods of this content, ensuring that your hard work is not wasted. Here’s what makes us different:<br></br><br></br>
              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;OUR VALUES:</span>
-              <span className="extraSpacing"><br></br></span> We value transparency, honesty and excellence, keeping you informed every step of the way while exceeding our promises. 
+              <span className="extraSpacing"><br></br></span> We value transparency, honesty, and excellence – you’ll always know how your content is being managed and why. 
               <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CUSTOM DESIGN AND DEVELOPMENT:</span><span className="extraSpacing"><br></br></span>
-              We don't build the same website for every client. Every website is custom-built to reflect your brand's identity and meet your business' needs.
-              <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;REVISIONS:</span><span className="extraSpacing"><br></br></span>
-              We edit and revise your website as many times as needed - we'll never send you an invoice for something you're not 100% happy with.
-              <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;MOBILE-FIRST DESIGN:</span><span className="extraSpacing"><br></br></span>
-              More than half of website visits come from phones - we ensure that your website looks good on all devices.
-              <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CONSISTENT CLIENT TREATMENT:</span><span className="extraSpacing"><br></br></span>
-              Whether you're just starting out or an established business, we view you the same as we would Apple or Coca Cola, treating your business with the same love and care as we do our own.
-              <br></br><br></br>
-              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;BUILT FOR CONVERSION:</span><span className="extraSpacing"><br></br></span>
-              We understand that your website doesn't mean anything if it doesn't get sales, and we focus heavily on optimizing your conversion rate.</p>
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;CONSISTENCY:</span><span className="extraSpacing"><br></br></span>
+We schedule posts in advance, ensuring your brand’s social media posting stays consistent at all times.              <br></br><br></br>
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;PLATFORM OPTIMIZATION:</span><span className="extraSpacing"><br></br></span>
+We tailor scheduling and posting methods to each platform, ensuring your content reaches the right people at the right time.              <br></br><br></br>
+              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;REPORTING:</span><span className="extraSpacing"><br></br></span>
+We provide full result reports, so you can be confident that we’re actually getting you results.              </p>
         </motion.div>
 
         <motion.div
@@ -222,20 +215,15 @@ function SocialMediaManagementPage() {
         >
           <p className="singleServiceBlogSubheading">
               <span className='spanBold'><span className='spanRed'>01</span>&nbsp;&nbsp;&nbsp;PLANNING:</span><span className="extraSpacing"><br></br></span>
-              We have a conversation with you discussing what your website's design and functionality needs are and what you want to achieve through your website.
-              <br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>02</span>&nbsp;&nbsp;&nbsp;DEVELOPMENT:</span><span className="extraSpacing"><br></br></span>
-              We develop or redesign your website, ensuring it looks professional, works the way you want it to, and, most importantly, converts visitors into customers.
-              <br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>03</span>&nbsp;&nbsp;&nbsp;REVIEW:</span><span className="extraSpacing"><br></br></span>
-              We present you with your website and have another conversation with you - what you like, what you don't like, and what needs to change.
-              <br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>04</span>&nbsp;&nbsp;&nbsp;REVISION:</span><span className="extraSpacing"><br></br></span>
-              We revise your website based on the review and repeat the process as necessary.
-              <br></br><br></br>
-              <span className='spanBold'><span className='spanRed'>05</span>&nbsp;&nbsp;&nbsp;DEPLOYMENT:</span><span className="extraSpacing"><br></br></span>
-              We register your domain, setup your email mailboxes, and get your website live with a seamless, professional process.
-          </p>
+We have a conversation with you, discussing your audience and what you want to achieve through social media. We also advise you on what type of content would be best for your brand and give you content ideas.              <br></br><br></br>
+              <span className='spanBold'><span className='spanRed'>02</span>&nbsp;&nbsp;&nbsp;SCHEDULING:</span><span className="extraSpacing"><br></br></span>
+You send us your content, and we create schedules and post your content across multiple platforms, optimizing your post schedule, captions, and platform choices in order to provide you with the best results.                <br></br><br></br>
+              <span className='spanBold'><span className='spanRed'>03</span>&nbsp;&nbsp;&nbsp;OPTIMIZATION:</span><span className="extraSpacing"><br></br></span>
+We adjust your posting schedule and posting methods in order to optimize your growth.              <br></br><br></br>
+              <span className='spanBold'><span className='spanRed'>04</span>&nbsp;&nbsp;&nbsp;MONITORING:</span><span className="extraSpacing"><br></br></span>
+We track which posts do well, why they do well, and implement our research and monitoring into your strategy in order to further optimize growth.              <br></br><br></br>
+              <span className='spanBold'><span className='spanRed'>05</span>&nbsp;&nbsp;&nbsp;REPORTING:</span><span className="extraSpacing"><br></br></span>
+We provide monthly result reports detailing how your social media accounts are performing.          </p>
         </motion.div>
 
         <motion.div
@@ -245,7 +233,7 @@ function SocialMediaManagementPage() {
           viewport={{once: true}}
           className='singleServiceBlogHeading'
         >
-          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">READY TO GROW?</h2>  
+          <h2 className="singleServiceOurPackagesHeading singleServiceBlogHeading2">READY TO GROW YOUR SOCIAL MEDIA PRESENCE?</h2>  
         </motion.div>
 
         <motion.div
@@ -255,7 +243,7 @@ function SocialMediaManagementPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">Your website isn't just another project - it's a long-term investment in your brand's future. Whether you need a new website or a redesign, we're ready to help you create something that works.</p>
+          <p className="singleServiceBlogSubheading">You’ve got the content – we’ve got the strategy. We’re passionate about growing brands and businesses – and we’re ready to grow yours too.</p>
         </motion.div>
         
         <div className="singleServiceBlogButtonWrapper spacingBelow">
