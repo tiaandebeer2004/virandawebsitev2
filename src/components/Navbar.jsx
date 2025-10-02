@@ -8,7 +8,7 @@ function Navbar() {
   const { width, height } = useWindowDimensions();
 
   const menuItems = [
-  { label: 'Home', ariaLabel: 'Go to home page', link: '/' },
+  { label: 'Home', ariaLabel: 'Go to home page', link: '' },
   { label: 'Services', ariaLabel: 'View our services', link: '#/services' },
   { label: 'Portfolio', ariaLabel: 'View our portfolio', link: '#/portfolio' },
   { label: 'About', ariaLabel: 'Learn about us', link: '#/about' },
@@ -30,7 +30,7 @@ if (width > 795) {
               </div>
 
               <div className="navbarMiddle">
-                <a href="/" className="home un">Home</a>
+                <a href="" className="home un">Home</a>
                 <a href="#/services" className="services un">Services</a>
                 <a href="#/about" className="aboutUs un">About Us</a>
                 <a href="#/portfolio" className="portfolio un">Portfolio</a>

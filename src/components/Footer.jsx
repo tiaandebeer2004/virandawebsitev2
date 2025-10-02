@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footerBottom">
             <div className="footerLeft">
                 <p className="footerHeading">Viranda</p>
-                <a href="/" className="footerSubheading">Home</a>
+                <a href="" className="footerSubheading">Home</a>
             </div>
 
             <div className="footerLeftMiddle">

@@ -8,7 +8,7 @@ function NavbarBlack() {
   const { width, height } = useWindowDimensions();
 
   const menuItems = [
-  { label: 'Home', ariaLabel: 'Go to home page', link: '/' },
+  { label: 'Home', ariaLabel: 'Go to home page', link: '' },
   { label: 'Services', ariaLabel: 'View our services', link: '#/services' },
   { label: 'Portfolio', ariaLabel: 'View our portfolio', link: '#/portfolio' },
   { label: 'About', ariaLabel: 'Learn about us', link: '#/about' },
@@ -30,7 +30,7 @@ if (width > 795) {
               </div>
 
               <div className="navbarMiddleBlack">
-                <a href="/" className="homeBlack unBlack">Home</a>
+                <a href="" className="homeBlack unBlack">Home</a>
                 <a href="#/services" className="servicesBlack unBlack">Services</a>
                 <a href="#/about" className="aboutUsBlack unBlack">About Us</a>
                 <a href="#/portfolio" className="portfolioBlack unBlack">Portfolio</a>
