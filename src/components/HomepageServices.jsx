@@ -1,6 +1,9 @@
 import { useRef, useEffect, useState } from 'react'
 import './CSS/HomepageServices.css'
 import useWindowDimensions from '../components/Hooks/useWindowDimensions'
+import { SiAdobephotoshop } from "react-icons/si";
+import { SiAdobeillustrator } from "react-icons/si";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 
@@ -49,7 +52,9 @@ if (width < 800) {
 
                             <div className="bentoTopRightRight redBG">
                                 <div className="bentoLogos">
-                                    <FontAwesomeIcon className='bentoLogo' icon="fa-solid fa-pen" />
+                                    <SiAdobephotoshop classname="bentoLogo"/>
+                                    <FontAwesomeIcon className='bentoLogo' icon="fa-brands fa-figma" />
+                                    <SiAdobeillustrator className='bentoLogo' />
                                 </div>
 
                                 <h3 className="homepageServiceHeading">GRAPHIC DESIGN:</h3>
@@ -169,7 +174,9 @@ if (width < 800) {
 
                             <div className="bentoTopRightRight redBG">
                                 <div className="bentoLogos">
-                                    <FontAwesomeIcon className='bentoLogo' icon="fa-solid fa-pen" />
+                                    <SiAdobephotoshop className="bentoLogo"/>
+                                    <FontAwesomeIcon className='bentoLogo' icon="fa-brands fa-figma" />
+                                    <SiAdobeillustrator className='bentoLogo' />
                                 </div>
 
                                 <h3 className="homepageServiceHeading">GRAPHIC DESIGN:</h3>

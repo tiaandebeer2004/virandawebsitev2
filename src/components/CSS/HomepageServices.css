@@ -95,6 +95,10 @@
     background-color: transparent;
 }
 
+.bentoLogoImage {
+    width: 1.5vw;
+}
+
 .homepageServicesColumns {
     width: 87%;
     margin: 0 auto;

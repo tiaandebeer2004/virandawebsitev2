@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import '../components/CSS/Portfolio.css'
 import Navbar from '../components/Navbar'
+import NavbarBlack from '../components/NavbarBlack'
 import Footer from '../components/Footer'
 import emaweniWebsite from '../assets/Portfolio/emaweniWebsite.png'
 import cosyclosetWebsite from '../assets/Portfolio/cosyclosetWebsite.png'
@@ -13,16 +14,51 @@ import useWindowDimensions from '../components/Hooks/useWindowDimensions'
 function Portfolio() {
   const [count, setCount] = useState(0)
   const { width, height } = useWindowDimensions();
+  const portfolioRef = useRef(null);
+    const [position, setPosition] = useState({});
+
+    useEffect(() => {
+      const updatePosition = () => {
+        if (portfolioRef.current) {
+          const rect = portfolioRef.current.getBoundingClientRect();
+          setPosition({
+            top: rect.top,
+            left: rect.left,
+            right: rect.right,
+            bottom: rect.bottom,
+            width: rect.width,
+            height: rect.height,
+          });
+        }
+      };
+  
+      // Initial position update
+      updatePosition();
+  
+      // Update position on scroll and resize events
+      window.addEventListener('scroll', updatePosition);
+      window.addEventListener('resize', updatePosition);
+  
+      // Cleanup event listeners on component unmount
+      return () => {
+        window.removeEventListener('scroll', updatePosition);
+        window.removeEventListener('resize', updatePosition);
+      };
+    }, []);
 
 return (
     <div className="Portfolio">
-        <Navbar></Navbar>
+        {(position.top <= 70) ? (
+                      <NavbarBlack></NavbarBlack>
+                    ) : (
+                      <Navbar></Navbar>
+                    )}
         
         <div className="portfolioPageBanner">
             <h1 className="portfolioHeading">PORTFOLIO</h1>
 
             <a className='backgroundTransparent' target="_blank" href='https://www.emawenitugelacanyon.co.za'>
-            <div className="portfolioCover">
+            <div className="portfolioCover" ref={portfolioRef}>
                 <img src={emaweniWebsite} alt="emaweni tugela canyon lodge website" className="portfolioCoverImage" />
                 
                 <div className="portfolioCoverText">
