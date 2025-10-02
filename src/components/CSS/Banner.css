@@ -87,6 +87,10 @@
 }
 
 @media (max-width: 795px) {
+    .bannerHeading {
+        width: 100%;
+    }
+
     .viranda {
         font-size: 3.5vw;
         margin-right: 70vw;
@@ -99,35 +103,59 @@
         font-size: 13.5vw;
         letter-spacing: -0.1vh;
         line-height: 10.45vw;
-        width: 95%;
-        margin: 0;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .webDesign {
-        margin-right: 50vw;
+        margin: 0 auto;
+        font-size: 40vw;
+        line-height: 24.5vw;
     }
 
     .webDesign2 {
-        margin-left: 0;
-        margin-right: 19vw;
-        margin-bottom: 3vh;
+        margin: 0 auto;
+        font-size: 24.5vw;
+        line-height: 24.5vw;
+        margin-bottom: 5vh;
+    }
+
+    .graphicDesign {
+        margin: 0 auto;
+        font-size: 20vw;
+        line-height: 11vw;
     }
 
     .graphicDesign2 {
-        margin-left: 25vw;
-        margin-bottom: 3vh;
+        margin: 0 auto;
+        font-size: 24.5vw;
+        line-height: 24.5vw;
+        margin-bottom: 5vh;
     }
 
     .socialMedia {
-        margin-right: 30vw;
+        margin: 0 auto;
+        font-size: 25vw;
+        line-height: 14.5vw;
     }
 
     .socialMedia2 {
-        margin-right: 10;
-        margin-bottom: 3vh;
+        margin: 0 auto;
+        margin-bottom: 5vh;
+        font-size: 29.5vw;
+        line-height: 29.5vw;
+    }
+
+    .adManagement {
+        margin: 0 auto;
+        font-size: 22.8vw;
+        line-height: 16vw;
     }
 
     .adManagement2 {
-        margin: 0;
+        margin: 0 auto;
+        font-size: 13vw;
+        letter-spacing: -0.1vh;
+        line-height: 10.45vw;
     }
 }

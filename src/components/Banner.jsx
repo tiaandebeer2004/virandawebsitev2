@@ -23,7 +23,7 @@ if (width < 795) {
                         <li className="graphicDesign2">DESIGN</li>
                         <li className="socialMedia">SOCIAL</li>
                         <li className="socialMedia2">MEDIA</li>
-                        <li className="adManagement">AD</li>
+                        <li className="adManagement">ADVERT</li>
                         <li className="adManagement2">MANAGEMENT</li>
                     </ul>
                 </div>
