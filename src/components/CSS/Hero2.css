@@ -160,10 +160,10 @@
     }
 
     .hero2OurServices, .hero2ContactUs {
-        width: 60%;
+        width: 90%;
         font-size: 1.3rem;
         line-height: 1.3rem;
-        padding: 10px 10px;
+        padding: 10px 0px;
     }
 }
 
