@@ -51,7 +51,7 @@ function GraphicDesignPage() {
       
       <div className="singleServicePageBanner">
         <h1 className="singleServiceHeading">GRAPHIC<br></br>DESIGN</h1>
-        <p className="singleServiceSubheading">Your brand deserves to stand out. Our graphic design team creates stunning graphics that help you stand out from the crowd, capture potential customers’ attention, and grow your business overall. <br></br><br></br>Whether you need a logo, flyers, or other marketing material, you can trust us to design the most effective visuals.</p>
+        <p className="singleServiceSubheading">Your brand deserves to stand out. Our graphic designers creates stunning graphics that help you stand out from the crowd, capture potential customers’ attention, and grow your business overall. <br></br><br></br>Whether you need a logo, flyers, or other marketing material, you can trust us to design the most effective visuals.</p>
 
       <div className="singleServiceSection2" ref={singleServiceRef}>
         <div className="singleServiceOurPackages">

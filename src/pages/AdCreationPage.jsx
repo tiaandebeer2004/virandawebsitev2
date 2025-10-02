@@ -183,10 +183,10 @@ function AdCreationPage() {
               <span className="extraSpacing"><br></br></span> We value transparency, honesty, and excellence. You'll always know the reasons behind every one of our ad creation decisions.
               <br></br><br></br>
               <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;STRATEGIC COPYWRITING:</span><span className="extraSpacing"><br></br></span>
-              Our copywriting team is involved in every ad we create, ensuring that your copy actually gets customers instead of just quick clicks.
+              Our copywriters are involved in every ad we create, ensuring that your copy actually gets customers instead of just quick clicks.
               <br></br><br></br>
               <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;PROFESSIONAL DESIGN:</span><span className="extraSpacing"><br></br></span>
-              Our professional design/videography team ensures that every ad looks polished, professional and eye-catching.
+              Our professional designers and videographers ensure that every ad looks polished, professional and eye-catching.
               <br></br><br></br>
               <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;AD TESTING:</span><span className="extraSpacing"><br></br></span>
               We provide you with multiple ads - so that you can test a variety of options and find out which one gets the best results.

@@ -17,7 +17,7 @@ if (width < 795) {
                     <p className="viranda">VIRANDA</p>
 
                     <ul className="bannerUL">
-                        <li className="webDesign">WEB</li>
+                        <li className="webDesign">WEBSITE</li>
                         <li className="webDesign2">DESIGN</li>
                         <li className="graphicDesign">GRAPHIC</li>
                         <li className="graphicDesign2">DESIGN</li>

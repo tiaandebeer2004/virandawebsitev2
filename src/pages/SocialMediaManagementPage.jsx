@@ -51,7 +51,7 @@ function SocialMediaManagementPage() {
       
       <div className="singleServicePageBanner">
         <h1 className="singleServiceHeading">SOCIAL MEDIA<br></br>MANAGEMENT</h1>
-        <p className="singleServiceSubheading">Posting great content, but getting no results? We create social media strategies that not only help you grow your following, but also turns your existing followers into loyal customers. <br></br><br></br>Which platform should you use? What kind of content should you post? Contact us and have our social media management team answer all your questions and create a strategy that works.</p>
+        <p className="singleServiceSubheading">Posting great content, but getting no results? We create social media strategies that not only help you grow your following, but also turns your existing followers into loyal customers. <br></br><br></br>Which platform should you use? What kind of content should you post? Contact us and have our social media managers answer all your questions and create a strategy that works.</p>
 
       <div className="singleServiceSection2" ref={singleServiceRef}>
         <div className="singleServiceOurPackages">
