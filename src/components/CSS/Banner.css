@@ -171,7 +171,8 @@
 .bannerMobileTopSection {
     padding-top: 14vh;
     width: 70%;
-    margin-left: 2.5vw;
+    margin-left: 4vw;
+    background-color: transparent;
 }
 
 .bannerMobileViranda {
@@ -180,6 +181,7 @@
     font-size: 12vw;
     letter-spacing: -0.2vh;
     line-height: 6.3vw;
+    background-color: transparent;
 }
 
 .bannerMobileCopy {
@@ -188,6 +190,7 @@
     font-size: 4vw;
     line-height: 4vw;
     margin-top: 5vh;
+    background-color: transparent;
 }
 
 .bannerMobileDigital {
@@ -198,7 +201,7 @@
 
 .bannerMobileDigitalWrapper {
     position: absolute;
-    right: 1vw;
+    right: 2.5vw;
     bottom: 1vh;
     z-index: 999;
     background-color: transparent;
@@ -208,7 +211,29 @@
     width: 230vw;
     position: absolute;
     transform: translateX(-90vw) translateY(3vh);
+    z-index: -1;
     height: 230vw;
     background: red;
     border-radius: 50%;
+}
+
+.bannerMobileClickHere {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+    line-height: 5vw;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    top: 55vh;
+}
+
+.bannerMobileArrow {
+    color: white;
+    font-size: 30vw;
+    background-color: transparent;
+    position: absolute;
+    bottom: -1vh;
+    z-index: 999;
+    left: 0;
 }
