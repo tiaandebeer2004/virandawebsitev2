@@ -15,22 +15,22 @@ const Footer = () => {
 
             <div className="footerLeftMiddle">
                 <p className="footerHeading">Pages</p>
-                <a href="/#/services" className="footerSubheading">Services</a>
-                <a href="/#/about" className="footerSubheading">About Us</a>
-                <a href="/#/portfolio" className="footerSubheading">Portfolio</a>
-                <a href="/#/contact" className="footerSubheading">Contact</a>
+                <a href="#/services" className="footerSubheading">Services</a>
+                <a href="#/about" className="footerSubheading">About Us</a>
+                <a href="#/portfolio" className="footerSubheading">Portfolio</a>
+                <a href="#/contact" className="footerSubheading">Contact</a>
             </div>
 
             <div className="footerRightMiddle">
                 <p className="footerHeading">Services</p>
-                <a href="/#/services/website-development" className="footerSubheading">Website Development</a>
-                <a href="/#/services/graphic-design" className="footerSubheading">Graphic Design</a>
-                <a href="/#/services/social-media-management" className="footerSubheading">Social Media Management</a>
-                <a href="/#/services/social-media-content-creation" className="footerSubheading">Social Media Content Creation</a>
-                <a href="/#/services/google-ads-management" className="footerSubheading">Google Ads Management</a>
-                <a href="/#/services/facebook-meta-ads-management" className="footerSubheading">Meta/Facebook Ads Management</a>
-                <a href="/#/services/ad-creation" className="footerSubheading">Ad Creation</a>
-                <a href="/#/services/search-engine-optimization" className="footerSubheading">Search Engine Optimization</a>
+                <a href="#/services/website-development" className="footerSubheading">Website Development</a>
+                <a href="#/services/graphic-design" className="footerSubheading">Graphic Design</a>
+                <a href="#/services/social-media-management" className="footerSubheading">Social Media Management</a>
+                <a href="#/services/social-media-content-creation" className="footerSubheading">Social Media Content Creation</a>
+                <a href="#/services/google-ads-management" className="footerSubheading">Google Ads Management</a>
+                <a href="#/services/facebook-meta-ads-management" className="footerSubheading">Meta/Facebook Ads Management</a>
+                <a href="#/services/ad-creation" className="footerSubheading">Ad Creation</a>
+                <a href="#/services/search-engine-optimization" className="footerSubheading">Search Engine Optimization</a>
             </div>
 
             <div className="footerRight">

@@ -77,7 +77,7 @@ function AdCreationPage() {
             <h3 className="singleServicePackageNumber">R1 000+</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -99,7 +99,7 @@ function AdCreationPage() {
             <h3 className="singleServicePackageNumber">R2 000</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -121,7 +121,7 @@ function AdCreationPage() {
             <h3 className="singleServicePackageNumber">R3 000</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -251,7 +251,7 @@ We send the polished ads to you in high-resolution, along with some professional
         </motion.div>
         
         <div className="singleServiceBlogButtonWrapper spacingBelow">
-            <a href='/#/contact' className='singleServicePackageLink'><button className="singleServiceBlogButton">Get a Free Consultation</button></a>
+            <a href='#/contact' className='singleServicePackageLink'><button className="singleServiceBlogButton">Get a Free Consultation</button></a>
         </div> 
       </div>  
       </div>

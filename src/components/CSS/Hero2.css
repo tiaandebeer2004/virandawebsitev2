@@ -8,13 +8,6 @@
     padding-top: 30vh;
 }
 
-.hero2ButtonAMobile {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-}
-
 @keyframes fadeInHero2 {
     0% {
         opacity: 0;
@@ -174,6 +167,13 @@
         line-height: 1.3rem;
         border-radius: 0;
         padding: 10px 10px;
+    }
+
+    .hero2ButtonAMobile {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
     }
 }
 

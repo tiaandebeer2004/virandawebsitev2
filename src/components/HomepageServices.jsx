@@ -47,7 +47,7 @@ if (width < 800) {
 
                                 <h3 className="homepageServiceHeading black">WEBSITE DEVELOPMENT:</h3>
                                 <p className="homepageServiceParagraph black">Websites that not only look beautiful – they actually get sales.</p>
-                                <a href="/#/services/website-development"><button className="homepageServicesServiceButton">Learn More</button></a>
+                                <a href="#/services/website-development"><button className="homepageServicesServiceButton">Learn More</button></a>
                             </div>
 
                             <div className="bentoTopRightRight redBG">
@@ -59,7 +59,7 @@ if (width < 800) {
 
                                 <h3 className="homepageServiceHeading">GRAPHIC DESIGN:</h3>
                                 <p className="homepageServiceParagraph">Graphics that people don't just see, but remember.</p>
-                                <a href="/#/services/graphic-design"><button className="homepageServicesServiceButton whiteButton">View More</button></a>   
+                                <a href="#/services/graphic-design"><button className="homepageServicesServiceButton whiteButton">View More</button></a>   
                             </div>
                         </div>
 
@@ -74,7 +74,7 @@ if (width < 800) {
 
                                 <h3 className="homepageServiceHeading black">SOCIAL MEDIA MANAGEMENT:</h3>
                                 <p className="homepageServiceParagraph black">Grow your following and turn your existing followers into loyal customers.</p>
-                                <a href="/#/services/social-media-management"><button className="homepageServicesServiceButton">View More</button></a>
+                                <a href="#/services/social-media-management"><button className="homepageServicesServiceButton">View More</button></a>
                             </div>
 
                             <div className="bentoTopRightBottomRight redBG">
@@ -87,7 +87,7 @@ if (width < 800) {
 
                                 <h3 className="homepageServiceHeading">SOCIAL MEDIA CONTENT CREATION:</h3>
                                 <p className="homepageServiceParagraph">Content that doesn't just get likes - it gets sales.</p>
-                                <a href="/#/services/social-media-content-creation"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
+                                <a href="#/services/social-media-content-creation"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@ if (width < 800) {
 
                                 <h3 className="homepageServiceHeading black">GOOGLE ADS MANAGEMENT:</h3>
                                 <p className="homepageServiceParagraph black">Get seen by the right customers at the right time.</p>
-                                <a href="/#/services/google-ads-management"><button className="homepageServicesServiceButton">View More</button></a>
+                                <a href="#/services/google-ads-management"><button className="homepageServicesServiceButton">View More</button></a>
                             </div>
 
                             <div className="bentoTopRightRight redBG">
@@ -114,7 +114,7 @@ if (width < 800) {
 
                                 <h3 className="homepageServiceHeading">META/FACEBOOK ADS MANAGEMENT:</h3>
                                 <p className="homepageServiceParagraph">Stop boosting posts, start running campaigns that actually convert.</p>
-                                <a href="/#/services/facebook-meta-ads-management"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
+                                <a href="#/services/facebook-meta-ads-management"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
                             </div>
                         </div>
 
@@ -126,7 +126,7 @@ if (width < 800) {
 
                                 <h3 className="homepageServiceHeading black">AD<br></br>CREATION:</h3>
                                 <p className="homepageServiceParagraph black">Less money spent on ads, higher quality leads, and more sales.</p>
-                                <a href="/#/services/ad-creation"><button className="homepageServicesServiceButton">View More</button></a>
+                                <a href="#/services/ad-creation"><button className="homepageServicesServiceButton">View More</button></a>
                             </div>
 
                             <div className="bentoTopRightBottomRight redBG">
@@ -136,7 +136,7 @@ if (width < 800) {
 
                                 <h3 className="homepageServiceHeading">SEARCH ENGINE OPTIMIZATION:</h3>
                                 <p className="homepageServiceParagraph">Attract qualified traffic, and generate more leads.</p>
-                                <a href="/#/services/search-engine-optimization"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
+                                <a href="#/services/search-engine-optimization"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
                             </div>
                         </div>
                 </div>
@@ -169,7 +169,7 @@ if (width < 800) {
 
                                 <h3 className="homepageServiceHeading black">WEBSITE DEVELOPMENT:</h3>
                                 <p className="homepageServiceParagraph black">Websites that not only look beautiful – they actually get sales.</p>
-                                <a href="/#/services/website-development"><button className="homepageServicesServiceButton">View More</button></a>
+                                <a href="#/services/website-development"><button className="homepageServicesServiceButton">View More</button></a>
                             </div>
 
                             <div className="bentoTopRightRight redBG">
@@ -181,7 +181,7 @@ if (width < 800) {
 
                                 <h3 className="homepageServiceHeading">GRAPHIC DESIGN:</h3>
                                 <p className="homepageServiceParagraph">Graphics that people don't just see, but remember.</p>
-                                <a href="/#/services/graphic-design"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
+                                <a href="#/services/graphic-design"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
                             </div>
                         </div>
 
@@ -196,7 +196,7 @@ if (width < 800) {
 
                                 <h3 className="homepageServiceHeading black">SOCIAL MEDIA MANAGEMENT:</h3>
                                 <p className="homepageServiceParagraph black">Grow your following and turn your existing followers into loyal customers.</p>
-                                <a href="/#/services/social-media-management"><button className="homepageServicesServiceButton">View More</button></a>
+                                <a href="#/services/social-media-management"><button className="homepageServicesServiceButton">View More</button></a>
                             </div>
 
                             <div className="bentoTopRightBottomRight redBG">
@@ -209,7 +209,7 @@ if (width < 800) {
 
                                 <h3 className="homepageServiceHeading">SOCIAL MEDIA CONTENT CREATION:</h3>
                                 <p className="homepageServiceParagraph">Content that doesn't just get likes - it gets sales.</p>
-                                <a href="/#/services/social-media-content-creation"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
+                                <a href="#/services/social-media-content-creation"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
                             </div>
                         </div>
                     </div>
@@ -223,7 +223,7 @@ if (width < 800) {
 
                         <h3 className="homepageServiceHeading black">GOOGLE ADS MANAGEMENT:</h3>
                         <p className="homepageServiceParagraph black">Get seen by the right customers at the right time.</p>
-                        <a href="/#/services/google-ads-management"><button className="homepageServicesServiceButton">View More</button></a>
+                        <a href="#/services/google-ads-management"><button className="homepageServicesServiceButton">View More</button></a>
                     </div>
 
                     <div className="bentoBottomSingle redBG">
@@ -234,7 +234,7 @@ if (width < 800) {
 
                         <h3 className="homepageServiceHeading">META/FACEBOOK ADS MANAGEMENT:</h3>
                         <p className="homepageServiceParagraph">Stop boosting posts, start running campaigns that actually convert.</p>
-                        <a href="/#/services/facebook-meta-ads-management"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
+                        <a href="#/services/facebook-meta-ads-management"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
                     </div>
 
                     <div className="bentoBottomSingle">
@@ -244,7 +244,7 @@ if (width < 800) {
 
                         <h3 className="homepageServiceHeading black">AD<br></br>CREATION:</h3>
                         <p className="homepageServiceParagraph black">Less money spent on ads, higher quality leads, and more sales.</p>
-                        <a href="/#/services/ad-creation"><button className="homepageServicesServiceButton">View More</button></a>
+                        <a href="#/services/ad-creation"><button className="homepageServicesServiceButton">View More</button></a>
                     </div>
 
                     <div className="bentoBottomSingle redBG">
@@ -254,7 +254,7 @@ if (width < 800) {
 
                         <h3 className="homepageServiceHeading">SEARCH ENGINE OPTIMIZATION:</h3>
                         <p className="homepageServiceParagraph">Attract qualified traffic, and generate more leads.</p>
-                        <a href="/#/services/search-engine-optimization"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
+                        <a href="#/services/search-engine-optimization"><button className="homepageServicesServiceButton whiteButton">View More</button></a>
                     </div>
                 </div>
             </div>

@@ -9,10 +9,10 @@ function NavbarBlack() {
 
   const menuItems = [
   { label: 'Home', ariaLabel: 'Go to home page', link: '/' },
-  { label: 'Services', ariaLabel: 'View our services', link: '/#/services' },
-  { label: 'Portfolio', ariaLabel: 'View our portfolio', link: '/#/portfolio' },
-  { label: 'About', ariaLabel: 'Learn about us', link: '/#/about' },
-  { label: 'Contact', ariaLabel: 'Contact us', link: '/#/contact' }
+  { label: 'Services', ariaLabel: 'View our services', link: '#/services' },
+  { label: 'Portfolio', ariaLabel: 'View our portfolio', link: '#/portfolio' },
+  { label: 'About', ariaLabel: 'Learn about us', link: '#/about' },
+  { label: 'Contact', ariaLabel: 'Contact us', link: '#/contact' }
 ];
 
 const socialItems = [
@@ -31,14 +31,14 @@ if (width > 795) {
 
               <div className="navbarMiddleBlack">
                 <a href="/" className="homeBlack unBlack">Home</a>
-                <a href="/#/services" className="servicesBlack unBlack">Services</a>
-                <a href="/#/about" className="aboutUsBlack unBlack">About Us</a>
-                <a href="/#/portfolio" className="portfolioBlack unBlack">Portfolio</a>
-                <a href="/#/contact" className="contactBlack unBlack">Contact</a>
+                <a href="#/services" className="servicesBlack unBlack">Services</a>
+                <a href="#/about" className="aboutUsBlack unBlack">About Us</a>
+                <a href="#/portfolio" className="portfolioBlack unBlack">Portfolio</a>
+                <a href="#/contact" className="contactBlack unBlack">Contact</a>
               </div>
 
               <div className="navbarRightBlack">
-                <a href="/#/contact"><button className="freeConsultationBlack">Let's Talk</button></a>
+                <a href="#/contact"><button className="freeConsultationBlack">Let's Talk</button></a>
               </div>
             </div>
         </div>
