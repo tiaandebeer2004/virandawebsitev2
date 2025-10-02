@@ -51,7 +51,7 @@ function SocialMediaContentPage() {
       
       <div className="singleServicePageBanner">
         <h1 className="singleServiceHeading">SOCIAL MEDIA<br></br>CONTENT CREATION</h1>
-        <p className="singleServiceSubheading">Don’t have the time to post on social media? We create scroll-stopping social media content with a focus on growing your brand and driving sales. Our excellent social media team stays up to date with current trends, crafting highly engaging graphics and videos that drive sales and puts your brand out there. <br></br><br></br>Focus on running your business – while we focus on growing it.</p>
+        <p className="singleServiceSubheading">Don’t have the time to post on social media? We create scroll-stopping social media content with a focus on growing your brand and driving sales. Our excellent social media content creators stay up to date with current trends, crafting highly engaging graphics and videos that drive sales and puts your brand out there. <br></br><br></br>Focus on running your business – while we focus on growing it.</p>
 
       <div className="singleServiceSection2" ref={singleServiceRef}>
         <div className="singleServiceOurPackages">
