@@ -14,9 +14,7 @@
     background-color: #FFF5E6;
 }
 
-@media (width < 840) {
-    .homepageContactSectionWrapper {
-        transform: none;
-        background-color: #FFF5E6;
-    }
+.homepageContactSectionWrapper2 {
+    transform: translateY(-10vh);
+    background-color: #FFF5E6;
 }

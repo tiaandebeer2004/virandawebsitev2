@@ -52,7 +52,7 @@ if (width < 800) {
 
                             <div className="bentoTopRightRight redBG">
                                 <div className="bentoLogos">
-                                    <SiAdobephotoshop classname="bentoLogo"/>
+                                    <SiAdobephotoshop className="bentoLogo"/>
                                     <FontAwesomeIcon className='bentoLogo' icon="fa-brands fa-figma" />
                                     <SiAdobeillustrator className='bentoLogo' />
                                 </div>

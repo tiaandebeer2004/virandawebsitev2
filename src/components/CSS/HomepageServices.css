@@ -253,6 +253,7 @@
         margin: 0 auto;
         padding: 3%;
         padding-top: 40px;
+        padding-bottom: 4%;
     }
 
     .bentoLogo {
@@ -270,8 +271,8 @@
     }
 
     .homepageServiceHeadingBig {
-        font-size: 2rem;
-        line-height: 1.8rem;
+        font-size: 1.625rem;
+        line-height: 1.5rem;
     }
 
     .homepageServiceParagraphBig {
@@ -295,6 +296,8 @@
         margin: 0 auto;
         margin-top: 20px;
         padding: 3%;
+        padding-top: 4%;
+        padding-bottom: 4%;
     }
 
     .bentoTopRightLeft {
@@ -302,6 +305,8 @@
         margin: 0 auto;
         margin-top: 20px;
         padding: 3%;
+        padding-top: 4%;
+        padding-bottom: 4%;
     }
 
     .homepageServicesServiceButton {
@@ -320,6 +325,8 @@
         width: 100%;
         margin-top: 20px;
         padding: 3%;
+        padding-top: 4%;
+        padding-bottom: 4%;
     }
 
     .bentoTopRightBottomRight {
@@ -327,6 +334,8 @@
         margin: 0 auto;
         margin-top: 20px;
         padding: 3%;
+        padding-top: 4%;
+        padding-bottom: 4%;
     }
 }
 

@@ -22,8 +22,10 @@ if (width < 840) {
               <HomepageServices></HomepageServices>
               <HomepageResults></HomepageResults>
 
+              <div className="homepageContactSectionWrapper2">
                   <ContactPageContactSection></ContactPageContactSection>
-
+              </div>
+              
                   <Footer></Footer>    
           </div>
       </>
@@ -36,7 +38,9 @@ if (width < 840) {
               <HomepageServices></HomepageServices>
               <HomepageResults></HomepageResults>
 
+              <div className="homepageContactSectionWrapper2">
                   <ContactPageContactSection></ContactPageContactSection>
+              </div>
 
                   <Footer></Footer>
           </div>
