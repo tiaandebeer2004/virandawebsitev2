@@ -51,7 +51,7 @@ function AdCreationPage() {
       
       <div className="singleServicePageBanner">
         <h1 className="singleServiceHeading">AD CREATION</h1>
-        <p className="singleServiceSubheading">Know how to run targeted, optimized ad campaigns, but don’t have the material to use? <br></br><br></br>Our Ad Creation team specializes in creating aesthetically stunning, high converting ads that help you save money on ad spend, generate higher quality leads, and make more sales.</p>
+        <p className="singleServiceSubheading">Know how to run targeted, optimized ad campaigns, but don’t have the material to use? <br></br><br></br>Our Ad Creators specialize in creating aesthetically stunning, high converting ads that help you save money on ad spend, generate higher quality leads, and make more sales.</p>
 
       <div className="singleServiceSection2" ref={singleServiceRef}>
         <div className="singleServiceOurPackages">
