@@ -51,7 +51,7 @@ function AdCreationPage() {
       
       <div className="singleServicePageBanner">
         <h1 className="singleServiceHeading">AD CREATION</h1>
-        <p className="singleServiceSubheading">Know how to run targeted, optimized ad campaigns, but don’t have the material to use? <br></br><br></br>Our Ad Creators specialize in creating aesthetically stunning, high converting ads that help you save money on ad spend, generate higher quality leads, and make more sales.</p>
+        <p className="singleServiceSubheading">Know how to run targeted, optimized ad campaigns, but don’t have the material to use? <br></br><br></br>Our ad creators specialize in creating aesthetically stunning, high converting ads that help you save money on ad spend, generate higher quality leads, and make more sales.</p>
 
       <div className="singleServiceSection2" ref={singleServiceRef}>
         <div className="singleServiceOurPackages">
@@ -178,7 +178,7 @@ function AdCreationPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">We understand that your ads shouldn't just get clicks - they should get customers. We value integrity, and we tailor your ads to get conversions that are good for your business, not clicks that are good for our portfolio page. <br></br>Here's what makes us different:<br></br><br></br>
+          <p className="singleServiceBlogSubheading">We understand that your ads shouldn't just get clicks - they should get customers. We value integrity, and we tailor your ads to get conversions that are good for your business, not clicks that are good for our portfolio page. Here's what makes us different:<br></br><br></br>
              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;OUR VALUES:</span>
               <span className="extraSpacing"><br></br></span> We value transparency, honesty, and excellence. You'll always know the reasons behind every one of our ad creation decisions.
               <br></br><br></br>
@@ -247,7 +247,7 @@ We send the polished ads to you in high-resolution, along with some professional
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">Your ads shouldn't just get views - they should get customers. We're ready to grow your business, are you.</p>
+          <p className="singleServiceBlogSubheading">Your ads shouldn't just get views - they should get customers. We're ready to grow your business, are you?</p>
         </motion.div>
         
         <div className="singleServiceBlogButtonWrapper spacingBelow">
