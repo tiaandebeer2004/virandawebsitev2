@@ -35,7 +35,7 @@ function App() {
           <Route path='/services/google-ads-management' element={<GoogleAdsPage></GoogleAdsPage>}></Route>
           <Route path='/services/facebook-meta-ads-management' element={<MetaAdsPage></MetaAdsPage>}></Route>
           <Route path='/services/ad-creation' element={<AdCreationPage></AdCreationPage>}></Route>
-          <Route path='/services/seo' element={<SEOPage></SEOPage>}></Route>
+          <Route path='/services/search-engine-optimization' element={<SEOPage></SEOPage>}></Route>
           <Route path='/portfolio' element={<Portfolio></Portfolio>}></Route>
         </Routes>
       </HashRouter>
