@@ -107,7 +107,7 @@ function GoogleAdsPage() {
           <div className='singleServicePackage singleServiceLastPackage'>
             <div className="singleServicePackageTopPart">
             <h3 className="singleServicePackageHeading">PREMIUM:</h3>
-            <p className="singleServicePackageSubheading">For established businesses that need highlu-optimized, large-scale websites or ecommerce stores.</p>
+            <p className="singleServicePackageSubheading">For established businesses that need a highly-optimized Google Ads strategy.</p>
             </div>
 
             <div className="singleServicePackageBottomPart">
