@@ -16,13 +16,13 @@ if (width < 795) {
         <div className="bannerWrapper">
             <div className="bannerWrapperMobile">
                 <div className="bannerMobileTopSection">
-                    <h1 className="bannerMobileViranda">VIRANDA</h1>
+                    <h1 className="bannerMobileViranda">VIRANDA.</h1>
                     <p className="bannerMobileCopy">We help businesses grow through targeted Google & Facebook Ads, custom web development, and impactful social media management—plus a full range of digital marketing services designed to get you real results.</p>
                     <a href="/contact" className="bannerMobileClickHere">Click here for your<br></br>free growth session</a>
                 </div>
 
                 <FaArrowUpLong className='bannerMobileArrow'/>
-                
+
                 <img src={digitalImage} alt="digital marketing" className="bannerMobileDigitalWrapper" />
 
                 <div className="bannerMobileCircle"></div>
