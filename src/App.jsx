@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <HashRouter>
+      <HashRouter basename='/virandawebsitev2'>
         <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
