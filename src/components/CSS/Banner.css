@@ -97,6 +97,7 @@
     }
 
     .bannerUL {
+        transform: translateY(-3vh);
         list-style: none;
         text-align: center;
         font-weight: 700;
@@ -117,7 +118,7 @@
         margin: 0 auto;
         font-size: 24.5vw;
         line-height: 24.5vw;
-        margin-bottom: 5vh;
+        margin-bottom: 3vh;
     }
 
     .graphicDesign {
@@ -130,7 +131,7 @@
         margin: 0 auto;
         font-size: 24.5vw;
         line-height: 24.5vw;
-        margin-bottom: 5vh;
+        margin-bottom: 3vh;
     }
 
     .socialMedia {
@@ -141,7 +142,7 @@
 
     .socialMedia2 {
         margin: 0 auto;
-        margin-bottom: 5vh;
+        margin-bottom: 3vh;
         font-size: 29.5vw;
         line-height: 29.5vw;
     }
