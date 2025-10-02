@@ -70,7 +70,7 @@ if (width < 900) {
             <img src={adCreationImage} className="servicesPageMobileImage"></img>
 
             <h2 className="servicesPageMobileHeading">AD CREATION</h2>
-            <p className="servicesPageMobileParagraph">Know how to run targeted, optimized ad campaigns, but don’t have the material to use? Our Ad Creation team specializes in creating aesthetically stunning, high converting ads that help you save money on ad spend, generate higher quality leads, and make more sales.</p>
+            <p className="servicesPageMobileParagraph">Know how to run targeted, optimized ad campaigns, but don’t have the material to use? Our ad creators specializes in creating aesthetically stunning, high converting ads that help you save money on ad spend, generate higher quality leads, and make more sales.</p>
             <button className="servicesPageServiceButton">Learn More</button>
         </div>
 
@@ -107,7 +107,7 @@ if (width < 900) {
 
             <div className="servicesPageServiceFromLeftColumn">
                 <h2 className="servicesPageServiceFromLeftHeading">GRAPHIC DESIGN</h2>
-                <p className="servicesPageServiceFromLeftParagraph">Your brand deserves to stand out. Our graphic design team creates stunning graphics that help you stand out from the crowd, capture potential customers’ attention, and grow your business overall. <br></br><br></br>Whether you need a logo, flyers, or other marketing material, you can trust us to design the most effective visuals.</p>
+                <p className="servicesPageServiceFromLeftParagraph">Your brand deserves to stand out. Our graphic designers create stunning graphics that help you stand out from the crowd, capture potential customers’ attention, and grow your business overall. <br></br><br></br>Whether you need a logo, flyers, or other marketing material, you can trust us to design the most effective visuals.</p>
                 <button className="servicesPageServiceButton serviceRight">Learn More</button>
             </div>
         </div>
@@ -119,7 +119,7 @@ if (width < 900) {
 
             <div className="servicesPageServiceFromRightColumn">
                 <h2 className="servicesPageServiceFromRightHeading">SOCIAL MEDIA MANAGEMENT</h2>
-                <p className="servicesPageServiceFromRightParagraph">Posting great content, but getting no results? We create social media strategies that not only help you grow your following, but also turns your existing followers into loyal customers. <br></br><br></br>Which platform should you use? What kind of content should you post? Contact us and have our social media management team answer all your questions and create a strategy that works.</p>
+                <p className="servicesPageServiceFromRightParagraph">Posting great content, but getting no results? We create social media strategies that not only help you grow your following, but also turns your existing followers into loyal customers. <br></br><br></br>Which platform should you use? What kind of content should you post? Contact us and have our social media managers answer all your questions and create a strategy that works.</p>
                 <button className="servicesPageServiceButton">Learn More</button>
             </div>
           </div>
@@ -131,7 +131,7 @@ if (width < 900) {
 
             <div className="servicesPageServiceFromLeftColumn">
                 <h2 className="servicesPageServiceFromLeftHeading">SOCIAL MEDIA<br></br>CONTENT CREATION</h2>
-                <p className="servicesPageServiceFromLeftParagraph">Don’t have the time to post on social media? We create scroll-stopping social media content with a focus on growing your brand and driving sales. Our excellent social media team stays up to date with current trends, crafting highly engaging graphics and videos that drive sales and puts your brand out there. <br></br><br></br>Focus on running your business – while we focus on growing it.</p>
+                <p className="servicesPageServiceFromLeftParagraph">Don’t have the time to post on social media? We create scroll-stopping social media content with a focus on growing your brand and driving sales. Our excellent social media content creators stay up to date with current trends, crafting highly engaging graphics and videos that drive sales and puts your brand out there. <br></br><br></br>Focus on running your business – while we focus on growing it.</p>
                 <button className="servicesPageServiceButton serviceRight">Learn More</button>
             </div>
           </div>
@@ -167,7 +167,7 @@ if (width < 900) {
 
             <div className="servicesPageServiceFromRightColumn">
                 <h2 className="servicesPageServiceFromRightHeading">AD CREATION</h2>
-                <p className="servicesPageServiceFromRightParagraph">Know how to run targeted, optimized ad campaigns, but don’t have the material to use? Our Ad Creation team specializes in creating aesthetically stunning, high converting ads that help you save money on ad spend, generate higher quality leads, and make more sales.</p>
+                <p className="servicesPageServiceFromRightParagraph">Know how to run targeted, optimized ad campaigns, but don’t have the material to use? Our ad creators specialize in creating aesthetically stunning, high converting ads that help you save money on ad spend, generate higher quality leads, and make more sales.</p>
                 <button className="servicesPageServiceButton">Learn More</button>
             </div>
           </div>
