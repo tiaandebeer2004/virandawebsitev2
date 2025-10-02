@@ -58,7 +58,7 @@
     font-size: 1.3rem;
     padding-top: 3vh;
     color: rgba(255, 255, 255, 0.8);
-    background-color: rgb(14, 14, 14);
+    background-color: rgb(14, 14, 14)!important;
 }
 
 .contactPageContactSectionContactDetails {
@@ -212,7 +212,7 @@
 
     .contactPageContactSectionParagraph2 {
         font-size: 1.3rem;
-        background-color: rgb(14, 14, 14);
+        background-color: rgb(14, 14, 14)!important;
     }
 
     .contactPageContactSectionContactDetails {
@@ -264,7 +264,7 @@
 
     .contactPageContactSectionParagraph2 {
         font-size: 1.3rem;
-        background-color: rgb(14, 14, 14);
+        background-color: rgb(14, 14, 14)!important;
     }
 
     .contactPageContactSectionContactDetails {

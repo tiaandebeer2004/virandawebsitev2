@@ -222,12 +222,12 @@
     width: 45%;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 500;
-    font-size: 4vh;
-    line-height: 4vh;
+    font-size: 3vh;
+    line-height: 3vh;
     background-color: transparent;
     color: white;
     position: absolute;
-    top: 55vh;
+    top: 45vh;
 }
 
 .bannerMobileArrow {

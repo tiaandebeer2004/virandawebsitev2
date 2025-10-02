@@ -64,7 +64,7 @@
 }
 
 .footerSubheading {
-    background-color: rgb(14, 14, 14);
+    background-color: rgb(14, 14, 14)!important;
     color: white;
     text-decoration: none;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
