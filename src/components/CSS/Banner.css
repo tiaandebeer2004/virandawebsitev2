@@ -87,13 +87,18 @@
 }
 
 @media (max-width: 795px) {
+    .viranda {
+        font-size: 3.5vw;
+        margin-right: 70vw;
+    }
+
     .bannerUL {
         list-style: none;
         text-align: center;
         font-weight: 700;
         font-size: 13.5vw;
         letter-spacing: -0.1vh;
-        line-height: 9.45vw;
+        line-height: 10.45vw;
         width: 95%;
         margin: 0;
     }
