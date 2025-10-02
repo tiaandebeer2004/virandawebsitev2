@@ -9,7 +9,7 @@ function Navbar() {
 
   const menuItems = [
   { label: 'Home', ariaLabel: 'Go to home page', link: '/' },
-  { label: 'Services', ariaLabel: 'View our services', link: '/#/services' },
+  { label: 'Services', ariaLabel: 'View our services', link: 'virandawebsitev2/#/services' },
   { label: 'Portfolio', ariaLabel: 'View our portfolio', link: '/#/portfolio' },
   { label: 'About', ariaLabel: 'Learn about us', link: '/#/about' },
   { label: 'Contact', ariaLabel: 'Contact us', link: '/#/contact' }

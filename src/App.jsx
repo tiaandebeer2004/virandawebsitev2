@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import ContactPage from './pages/ContactPage';
 import ServicesPage from './pages/ServicesPage';
@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <HashRouter basename='/virandawebsitev2'>
+      <HashRouter>
         <ScrollToTop />
         <Routes>
           <Route path='/' element={<Home></Home>}></Route>
