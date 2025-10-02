@@ -33,8 +33,8 @@ function Hero2() {
 
                 <p className="hero2Paragraph">That's why we offer digital marketing solutions that actually drive sales, provide you with ongoing support, and talk to you like you're a friend instead of a credit card. We're committed to treating your business with the same love and care as our own, delivering measurable, impactful and profitable results.</p>
                 <div className="hero2ButtonGroup">
-                    <a href="/#/services"><button className="hero2OurServices">Our Services</button></a>
-                    <a href="/#/contact"><button className="hero2ContactUs">Contact Us</button></a>
+                    <a href="/#/services" className='hero2ButtonAMobile'><button className="hero2OurServices">Our Services</button></a>
+                    <a href="/#/contact" className='hero2ButtonAMobile'><button className="hero2ContactUs">Contact Us</button></a>
                 </div>
             </div>
 

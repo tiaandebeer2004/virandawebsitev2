@@ -8,6 +8,13 @@
     padding-top: 30vh;
 }
 
+.hero2ButtonAMobile {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 @keyframes fadeInHero2 {
     0% {
         opacity: 0;
