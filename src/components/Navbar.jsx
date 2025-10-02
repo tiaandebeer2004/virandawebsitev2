@@ -8,11 +8,11 @@ function Navbar() {
   const { width, height } = useWindowDimensions();
 
   const menuItems = [
-  { label: 'Home', ariaLabel: 'Go to home page', link: '/virandawebsitev2/' },
-  { label: 'Services', ariaLabel: 'View our services', link: '/virandawebsitev2/#/services' },
-  { label: 'Portfolio', ariaLabel: 'View our portfolio', link: '/virandawebsitev2/#/portfolio' },
-  { label: 'About', ariaLabel: 'Learn about us', link: '/virandawebsitev2/#/about' },
-  { label: 'Contact', ariaLabel: 'Contact us', link: '/virandawebsitev2/#/contact' }
+  { label: 'Home', ariaLabel: 'Go to home page', link: '/' },
+  { label: 'Services', ariaLabel: 'View our services', link: '/#/services' },
+  { label: 'Portfolio', ariaLabel: 'View our portfolio', link: '/#/portfolio' },
+  { label: 'About', ariaLabel: 'Learn about us', link: '/#/about' },
+  { label: 'Contact', ariaLabel: 'Contact us', link: '/#/contact' }
 ];
 
 const socialItems = [
@@ -30,15 +30,15 @@ if (width > 795) {
               </div>
 
               <div className="navbarMiddle">
-                <a href="/virandawebsitev2/" className="home un">Home</a>
-                <a href="/virandawebsitev2/#/services" className="services un">Services</a>
-                <a href="/virandawebsitev2/#/about" className="aboutUs un">About Us</a>
-                <a href="/virandawebsitev2/#/portfolio" className="portfolio un">Portfolio</a>
-                <a href="/virandawebsitev2/#/contact" className="contact un">Contact</a>
+                <a href="/" className="home un">Home</a>
+                <a href="/#/services" className="services un">Services</a>
+                <a href="/#/about" className="aboutUs un">About Us</a>
+                <a href="/#/portfolio" className="portfolio un">Portfolio</a>
+                <a href="/#/contact" className="contact un">Contact</a>
               </div>
 
               <div className="navbarRight">
-                <a href="/virandawebsitev2/#/contact"><button className="freeConsultation">Let's Talk</button></a>
+                <a href="/#/contact"><button className="freeConsultation">Let's Talk</button></a>
               </div>
             </div>
         </div>

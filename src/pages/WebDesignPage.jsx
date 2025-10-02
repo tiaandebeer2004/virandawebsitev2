@@ -78,7 +78,7 @@ function WebDesignPage() {
             <h3 className="singleServicePackageNumber">R5 000</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/virandawebsitev2/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ function WebDesignPage() {
             <h3 className="singleServicePackageNumber">R10 000+</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/virandawebsitev2/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -123,7 +123,7 @@ function WebDesignPage() {
             <h3 className="singleServicePackageNumber">R15 000+</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/virandawebsitev2/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -256,7 +256,7 @@ function WebDesignPage() {
         </motion.div>
         
         <div className="singleServiceBlogButtonWrapper spacingBelow">
-            <a href='/virandawebsitev2/#/contact' className='singleServicePackageLink'><button className="singleServiceBlogButton">Get a Free Consultation</button></a>
+            <a href='/#/contact' className='singleServicePackageLink'><button className="singleServiceBlogButton">Get a Free Consultation</button></a>
         </div> 
       </div>  
       </div>
