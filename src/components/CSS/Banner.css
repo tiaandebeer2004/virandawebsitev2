@@ -91,9 +91,11 @@
         list-style: none;
         text-align: center;
         font-weight: 700;
-        font-size: 12vw;
+        font-size: 13.5vw;
         letter-spacing: -0.1vh;
         line-height: 9.45vw;
+        width: 95%;
+        margin: 0;
     }
 
     .webDesign {
@@ -118,5 +120,9 @@
     .socialMedia2 {
         margin-right: 10;
         margin-bottom: 3vh;
+    }
+
+    .adManagement2 {
+        margin: 0;
     }
 }
