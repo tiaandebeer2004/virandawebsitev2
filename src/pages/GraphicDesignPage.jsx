@@ -51,7 +51,7 @@ function GraphicDesignPage() {
       
       <div className="singleServicePageBanner">
         <h1 className="singleServiceHeading">GRAPHIC<br></br>DESIGN</h1>
-        <p className="singleServiceSubheading">Your brand deserves to stand out. Our graphic designers creates stunning graphics that help you stand out from the crowd, capture potential customers’ attention, and grow your business overall. <br></br><br></br>Whether you need a logo, flyers, or other marketing material, you can trust us to design the most effective visuals.</p>
+        <p className="singleServiceSubheading">Your brand deserves to stand out. Our graphic designers create stunning graphics that help you stand out from the crowd, capture potential customers’ attention, and grow your business overall. <br></br><br></br>Whether you need a logo, flyers, or other marketing material, you can trust us to design the most effective visuals.</p>
 
       <div className="singleServiceSection2" ref={singleServiceRef}>
         <div className="singleServiceOurPackages">
@@ -68,7 +68,8 @@ function GraphicDesignPage() {
 
             <div className="singleServicePackageBottomPart">
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Logo designs</p></div>
-            <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">A large amount of logo options to pick from</p></div>
+            <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Basic promotional material</p></div> 
+            <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">A large amount of design options to pick from</p></div>
 
             <p className="singleServicePackageFrom">FROM:</p>
             <h3 className="singleServicePackageNumber">R2 000</h3>
@@ -106,7 +107,7 @@ function GraphicDesignPage() {
             </div>
 
             <div className="singleServicePackageBottomPart">
-            <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">A complete design/redesign of all your business' design materials</p></div>
+            <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">All your design needs</p></div>
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Coherent concepts across all designs</p></div>
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">A large amount of design options to pick from</p></div>
 
@@ -131,7 +132,7 @@ function GraphicDesignPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">Your visuals are the language your customers understand first. The design of your logo, brand colors, and marketing materials isn’t just decorative – it’s how your customers recognize you, trust you, and remember you.<br></br><br></br>At Viranda, we don’t just make things look pretty, we create brand identities that grab attention, tells stories, and makes people trust you.
+          <p className="singleServiceBlogSubheading">Your visuals are the language your customers understand first. The design of your logo, brand colors, and marketing materials isn’t just decorative – it’s how your customers recognize you, trust you, and remember you.<br></br><br></br>At Viranda, we don’t just make things look pretty, we create brand identities that grab attention, tell stories, and make people trust you.
 </p>
         </motion.div>
 

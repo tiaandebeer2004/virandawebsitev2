@@ -76,6 +76,7 @@ function SEOPage() {
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Google Analytics and Search Console setup</p></div>
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Schema Implementation</p></div>
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Basic monthly result reports</p></div>
+            <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Perfect for businesses looking to start improving their search engine rankings</p></div>
 
             <p className="singleServicePackageFrom">FROM:</p>
             <h3 className="singleServicePackageNumber">R1 000/M</h3>
@@ -264,7 +265,7 @@ We provide monthly result reports and update your website in order to ensure it 
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">Our SEO services aren't expenses - their investments into the future of your business. We're not just getting you rankings, we're getting you long-term, scalable results.</p>
+          <p className="singleServiceBlogSubheading">Our SEO services aren't just expenses - they're investments into the future of your business. We're not just getting you rankings, we're getting you long-term, scalable results.</p>
         </motion.div>
         
         <div className="singleServiceBlogButtonWrapper spacingBelow">

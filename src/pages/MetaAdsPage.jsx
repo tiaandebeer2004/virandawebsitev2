@@ -72,6 +72,7 @@ function MetaAdsPage() {
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">No lock-ins</p></div>
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Monthly monitoring</p></div>
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Basic monthly result reports</p></div>
+            <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Perfect for businesses looking to start running ads</p></div>
 
             <p className="singleServicePackageFrom">FROM:</p>
             <h3 className="singleServicePackageNumber">R1 000/M + AD SPEND</h3>
@@ -94,6 +95,7 @@ function MetaAdsPage() {
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">No lock-ins</p></div>
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Bi-monthly monitoring</p></div>
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Detailed monthly result reports</p></div>
+            <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Perfect for businesses looking to get better results and save money from their ads</p></div>
 
             <p className="singleServicePackageFrom">FROM:</p>
             <h3 className="singleServicePackageNumber">R2 000/M + AD SPEND</h3>
@@ -179,7 +181,7 @@ function MetaAdsPage() {
           viewport={{once: true}}
           className='singleServiceBlogSection'
         >
-          <p className="singleServiceBlogSubheading">We're not an agency that "sets and forgets it," we're constantly optimizing and improving our Facebook/Meta Ads campaigns. <br></br>Here's what makes us different:<br></br><br></br>
+          <p className="singleServiceBlogSubheading">We're not an agency that "sets and forgets it," we're constantly optimizing and improving our Facebook/Meta Ads campaigns. Here's what makes us different:<br></br><br></br>
              <FontAwesomeIcon icon={faSquareCheck} className='blogIcon'/><span className='spanBold'>&nbsp;&nbsp;OUR VALUES:</span>
               <span className="extraSpacing"><br></br></span> 
 We value transparency, honesty, and excellence. You'll always have access to your Meta Ads manager so that you can see exactly what we're doing and what results we're bringing in.

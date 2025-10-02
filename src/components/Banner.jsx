@@ -12,25 +12,14 @@ if (width < 795) {
   return (
     <>
         <div className="bannerWrapper">
-            <div className="banner">
-                <div className="bannerHeading">
-                    <p className="viranda">VIRANDA</p>
-
-                    <ul className="bannerUL">
-                        <li className="webDesign">WEBSITE</li>
-                        <li className="webDesign2">DESIGN</li>
-                        <li className="graphicDesign">GRAPHIC</li>
-                        <li className="graphicDesign2">DESIGN</li>
-                        <li className="socialMedia">SOCIAL</li>
-                        <li className="socialMedia2">MEDIA</li>
-                        <li className="adManagement">ADVERT</li>
-                        <li className="adManagement2">MANAGEMENT</li>
-                    </ul>
+            <div className="bannerWrapperMobile">
+                <div className="bannerMobileTopSection">
+                    <h1 className="bannerMobileViranda">VIRANDA</h1>
+                    <p className="bannerMobileCopy">We help businesses grow through targeted Google & Facebook Ads, custom web development, and impactful social media management—plus a full range of digital marketing services designed to get you real results.</p>
                 </div>
 
-                <div className="getQuote">
-                    <p className="moreClients">Taking on more clients? Stop hoping, start closing.</p>
-                    <button className="contactUs">Free Growth Session</button>
+                <div className="bannerMobileDigitalWrapper">
+                    <h2 className="bannerMobileDigital">DIGITAL<br></br>MARKETING</h2>
                 </div>
             </div>
         </div>

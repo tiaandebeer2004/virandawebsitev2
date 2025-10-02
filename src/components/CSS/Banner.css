@@ -84,6 +84,13 @@
 
 .bannerWrapper {
     height: 200vh;
+    width: 100%;
+}
+
+.bannerWrapperMobile {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
 }
 
 @media (max-width: 795px) {
@@ -159,4 +166,42 @@
         letter-spacing: -0.1vh;
         line-height: 10.45vw;
     }
+}
+
+.bannerMobileTopSection {
+    padding-top: 14vh;
+    width: 70%;
+    margin-left: 2.5vw;
+}
+
+.bannerMobileViranda {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 700;
+    font-size: 12vw;
+    letter-spacing: -0.2vh;
+    line-height: 6.3vw;
+}
+
+.bannerMobileCopy {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-weight: 500;
+    font-size: 4vw;
+    line-height: 4vw;
+    margin-top: 5vh;
+}
+
+.bannerMobileDigital {
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    transform: rotate(270deg);
+    font-weight: 700;
+    font-size: 14vh;
+    letter-spacing: -0.2vh;
+    line-height: 12vh;
+    background-color: transparent;
+}
+
+.bannerMobileDigitalWrapper {
+    position: absolute;
+    right: -35vw;
+    top: 45vh;
 }

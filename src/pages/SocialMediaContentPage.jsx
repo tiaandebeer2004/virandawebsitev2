@@ -73,6 +73,7 @@ function SocialMediaContentPage() {
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Posts are optimized for each platform</p></div>
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Monthly monitoring</p></div>
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Basic monthly result reports</p></div>
+            <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Perfect for businesses with no social media content that just need to get started</p></div>
 
             <p className="singleServicePackageFrom">FROM:</p>
             <h3 className="singleServicePackageNumber">R1 500/M</h3>
@@ -96,6 +97,7 @@ function SocialMediaContentPage() {
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Posts are optimized for each platform</p></div>
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Weekly monitoring</p></div>
             <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Detailed monthly result reports</p></div>
+            <div className="singleServicePackageFeatureDiv"><p className="singleServicePackageFeature"><FontAwesomeIcon icon={faSquareCheck} className='singleServiceIcon'/></p><p className="singleServicePackageFeature">Perfect for businesses looking to start growing their social media</p></div>
 
             <p className="singleServicePackageFrom">FROM:</p>
             <h3 className="singleServicePackageNumber">R3 000/M</h3>
@@ -223,7 +225,7 @@ Our content doesn't just look good, it all works together in order to build a co
 We have a meeting with you discussing your target audience, business, and what you want to achieve from your social media content.
               <br></br><br></br>
               <span className='spanBold'><span className='spanRed'>02</span>&nbsp;&nbsp;&nbsp;STRATEGY:</span><span className="extraSpacing"><br></br></span>
-We form an effective, engaging social media strategy around the informatiom we get in the planning stage.
+We form an effective, engaging social media strategy around the information we get in the planning stage.
               <br></br><br></br>
               <span className='spanBold'><span className='spanRed'>03</span>&nbsp;&nbsp;&nbsp;CONTENT CREATION:</span><span className="extraSpacing"><br></br></span>
 We create the actual content - engaging, eye-catching, and high-impact.
