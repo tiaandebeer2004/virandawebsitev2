@@ -191,17 +191,24 @@
 }
 
 .bannerMobileDigital {
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     transform: rotate(270deg);
-    font-weight: 700;
-    font-size: 14vh;
-    letter-spacing: -0.2vh;
-    line-height: 12vh;
+    z-index: 999;
     background-color: transparent;
 }
 
 .bannerMobileDigitalWrapper {
     position: absolute;
-    right: -35vw;
-    top: 45vh;
+    right: 1vw;
+    bottom: 1vh;
+    z-index: 999;
+    background-color: transparent;
+}
+
+.bannerMobileCircle {
+    width: 230vw;
+    position: absolute;
+    transform: translateX(-90vw) translateY(3vh);
+    height: 230vw;
+    background: red;
+    border-radius: 50%;
 }

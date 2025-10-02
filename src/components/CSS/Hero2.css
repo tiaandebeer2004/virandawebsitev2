@@ -160,10 +160,13 @@
     }
 
     .hero2OurServices, .hero2ContactUs {
+        background-color: white;
+        color: black;
         width: 90%;
         font-size: 1.3rem;
         line-height: 1.3rem;
-        padding: 10px 0px;
+        border-radius: 0;
+        padding: 10px 10px;
     }
 }
 

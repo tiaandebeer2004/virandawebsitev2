@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './CSS/Banner.css'
 import { useWindowScrollPositions } from './Hooks/useWindowScrollPositions'
 import useWindowDimensions from './Hooks/useWindowDimensions'
+import digitalImage from '../assets/digitalImage.webp'
 
 function Banner() {
   const [count, setCount] = useState(0)
@@ -18,9 +19,9 @@ if (width < 795) {
                     <p className="bannerMobileCopy">We help businesses grow through targeted Google & Facebook Ads, custom web development, and impactful social media management—plus a full range of digital marketing services designed to get you real results.</p>
                 </div>
 
-                <div className="bannerMobileDigitalWrapper">
-                    <h2 className="bannerMobileDigital">DIGITAL<br></br>MARKETING</h2>
-                </div>
+                <img src={digitalImage} alt="digital marketing" className="bannerMobileDigitalWrapper" />
+
+                <div className="bannerMobileCircle"></div>
             </div>
         </div>
     </>
