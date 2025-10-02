@@ -178,7 +178,7 @@
 .bannerMobileViranda {
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 700;
-    font-size: 10vh;
+    font-size: 7vh;
     letter-spacing: -0.2vh;
     line-height: 5vh;
     background-color: transparent;
@@ -187,7 +187,7 @@
 .bannerMobileCopy {
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 500;
-    font-size: 3vh;
+    font-size: 2vh;
     line-height: 3vh;
     margin-top: 3vh;
     background-color: transparent;
@@ -200,7 +200,7 @@
 }
 
 .bannerMobileDigitalWrapper {
-    height: 77vh;
+    height: 74vh;
     position: absolute;
     right: 2.5vw;
     top: 13vh;
@@ -219,10 +219,11 @@
 }
 
 .bannerMobileClickHere {
+    width: 45%;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 500;
-    font-size: 4vh;
-    line-height: 4vh;
+    font-size: 2vh;
+    line-height: 2vh;
     background-color: transparent;
     color: white;
     position: absolute;
