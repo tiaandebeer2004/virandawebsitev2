@@ -38,7 +38,7 @@ if (width > 795) {
               </div>
 
               <div className="navbarRightBlack">
-                <button className="freeConsultationBlack">Let's Talk</button> 
+                <a href="/virandawebsitev2/#/contact"><button className="freeConsultationBlack">Let's Talk</button></a>
               </div>
             </div>
         </div>
