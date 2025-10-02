@@ -78,7 +78,7 @@ function SocialMediaManagementPage() {
             <h3 className="singleServicePackageNumber">R500/M</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -102,7 +102,7 @@ function SocialMediaManagementPage() {
             <h3 className="singleServicePackageNumber">R1 000/M</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -126,7 +126,7 @@ function SocialMediaManagementPage() {
             <h3 className="singleServicePackageNumber">R1 500/M+</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -247,7 +247,7 @@ We provide monthly result reports detailing how your social media accounts are p
         </motion.div>
         
         <div className="singleServiceBlogButtonWrapper spacingBelow">
-            <button className="singleServiceBlogButton">Get a Free Consultation</button>
+            <a href='/contact' className='singleServicePackageLink'><button className="singleServiceBlogButton">Get a Free Consultation</button></a>
         </div> 
       </div>  
       </div>
