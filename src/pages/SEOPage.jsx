@@ -82,7 +82,7 @@ function SEOPage() {
             <h3 className="singleServicePackageNumber">R1 000/M</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -109,7 +109,7 @@ function SEOPage() {
             <h3 className="singleServicePackageNumber">R2 000/M</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -136,7 +136,7 @@ function SEOPage() {
             <h3 className="singleServicePackageNumber">R3 000/M</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -269,7 +269,7 @@ We provide monthly result reports and update your website in order to ensure it 
         </motion.div>
         
         <div className="singleServiceBlogButtonWrapper spacingBelow">
-            <button className="singleServiceBlogButton">Get a Free Consultation</button>
+            <a href='/contact' className='singleServicePackageLink'><button className="singleServiceBlogButton">Get a Free Consultation</button></a>
         </div> 
       </div>  
       </div>
