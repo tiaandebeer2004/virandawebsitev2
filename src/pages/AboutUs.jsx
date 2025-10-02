@@ -3,7 +3,8 @@ import '../components/CSS/AboutUs.css'
 import Navbar from '../components/Navbar'
 import NavbarBlack from '../components/NavbarBlack'
 import Footer from '../components/Footer'
-import aboutUsImage1 from '../assets/aboutUsImage1.png'
+import aboutUsImage1 from '../assets/aboutUsImage1.jpg'
+import aboutUsImage2 from '../assets/aboutUsImage2.jpg'
 import useWindowDimensions from '../components/Hooks/useWindowDimensions'
 
 function AboutUs() {
@@ -71,7 +72,7 @@ if (width < 990) {
 
         <div className="aboutUsRedColumnsFromLeft">
             <div className="aboutUsRedImageColumn">
-                <img src={aboutUsImage1} alt="viranda founders playing in band" className="aboutUsImage1" />
+                <img src={aboutUsImage2} alt="viranda founders" className="aboutUsImage1" />
             </div>
 
             <div className="aboutUsRedTextColumn">
@@ -112,7 +113,7 @@ if (width < 990) {
 
         <div className="aboutUsRedColumnsFromLeft">
             <div className="aboutUsRedImageColumn">
-                <img src={aboutUsImage1} alt="viranda founders playing in band" className="aboutUsImage1" />
+                <img src={aboutUsImage2} alt="viranda founders playing in band" className="aboutUsImage1" />
             </div>
 
             <div className="aboutUsRedTextColumn">

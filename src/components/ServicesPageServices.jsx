@@ -8,6 +8,8 @@ import graphicDesignImage from '../assets/Services/graphicDesignImage.png'
 import googleAdsImage from '../assets/Services/googleAdsImage.png'
 import metaAdsImage from '../assets/Services/metaAdsImage.png'
 import adCreationImage from '../assets/Services/adCreationImage.png'
+import socialMediaManagementImage from '../assets/Services/socialMediaManagementImage.png'
+import websiteImage from '../assets/Services/websiteImage.jpg'
 
 function ServicesPageServices() {
   const [count, setCount] = useState(0)
@@ -18,7 +20,7 @@ if (width < 900) {
   return (
     <div className="ServicesPageServices">
         <div className="servicesPageServiceMobile">
-            <img src={seoImage} className="servicesPageMobileImage"></img>
+            <img src={websiteImage} className="servicesPageMobileImage"></img>
 
             <h2 className="servicesPageMobileHeading">WEBSITE DEVELOPMENT</h2>
             <p className="servicesPageMobileParagraph">Losing customers to an outdated website? Our modern, mobile-friendly websites not only look beautiful – they actually get sales. Our layouts have been proven to drive conversion rates, and we offer premium SEO services to help your website rank on Google. <span className="smallerSpacing"><br></br><br></br></span>Whether you need a simple landing page or a full-blown online store, we’ll make sure your website brings the results your business deserves.</p>
@@ -35,7 +37,7 @@ if (width < 900) {
         </div>
 
         <div className="servicesPageServiceMobile">
-            <img src={seoImage} className="servicesPageMobileImage"></img>
+            <img src={socialMediaManagementImage} className="servicesPageMobileImage"></img>
 
             <h2 className="servicesPageMobileHeading">SOCIAL MEDIA MANAGEMENT</h2>
             <p className="servicesPageMobileParagraph">Posting great content, but getting no results? We create social media strategies that not only help you grow your following, but also turns your existing followers into loyal customers. <span className="smallerSpacing"><br></br><br></br></span>Which platform should you use? What kind of content should you post? Contact us and have our social media managers answer all your questions and create a strategy that works.</p>
@@ -91,7 +93,7 @@ if (width < 900) {
 
     <div className="servicesPageServiceWrapper servicesPageFirstService">
         <div className="servicesPageServiceFromRight">
-            <img src={seoImage} className="servicesPageServiceFromRightImage"></img>
+            <img src={websiteImage} className="servicesPageServiceFromRightImage"></img>
 
             <div className="servicesPageServiceFromRightColumn">
                 <h2 className="servicesPageServiceFromRightHeading">WEBSITE DEVELOPMENT</h2>
@@ -115,7 +117,7 @@ if (width < 900) {
 
     <div className="servicesPageServiceWrapper"> 
         <div className="servicesPageServiceFromRight">
-            <img src={seoImage} className="servicesPageServiceFromRightImage"></img>
+            <img src={socialMediaManagementImage} className="servicesPageServiceFromRightImage"></img>
 
             <div className="servicesPageServiceFromRightColumn">
                 <h2 className="servicesPageServiceFromRightHeading">SOCIAL MEDIA MANAGEMENT</h2>

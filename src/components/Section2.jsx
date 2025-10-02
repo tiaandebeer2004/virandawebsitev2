@@ -4,7 +4,7 @@ import { useWindowScrollPositions } from './Hooks/useWindowScrollPositions'
 import Hero2 from './Hero2'
 import HomepageServices from './HomepageServices'
 import HomepageResults from './HomepageResults'
-import ContactPageContactSection from './ContactPageContactSection'
+import ContactPageContactSectionHome from './HomeContactPageContactSection'
 import Footer from '../components/Footer.jsx'
 import useWindowDimensions from './Hooks/useWindowDimensions.jsx'
 
@@ -23,7 +23,7 @@ if (width < 840) {
               <HomepageResults></HomepageResults>
 
               <div className="homepageContactSectionWrapper2">
-                  <ContactPageContactSection></ContactPageContactSection>
+                  <ContactPageContactSectionHome></ContactPageContactSectionHome>
               </div>
               
                   <Footer></Footer>    
@@ -39,7 +39,7 @@ if (width < 840) {
               <HomepageResults></HomepageResults>
 
               <div className="homepageContactSectionWrapper2">
-                  <ContactPageContactSection></ContactPageContactSection>
+                  <ContactPageContactSectionHome></ContactPageContactSectionHome>
               </div>
 
                   <Footer></Footer>
@@ -57,7 +57,7 @@ if (width < 840) {
               <HomepageResults></HomepageResults>
 
               <div className="homepageContactSectionWrapper">
-                  <ContactPageContactSection></ContactPageContactSection>
+                  <ContactPageContactSectionHome></ContactPageContactSectionHome>
               </div>
 
                   <Footer></Footer>    
@@ -73,7 +73,7 @@ if (width < 840) {
               <HomepageResults></HomepageResults>
 
               <div className="homepageContactSectionWrapper">
-                  <ContactPageContactSection></ContactPageContactSection>
+                  <ContactPageContactSectionHome></ContactPageContactSectionHome>
               </div>
 
                   <Footer></Footer>

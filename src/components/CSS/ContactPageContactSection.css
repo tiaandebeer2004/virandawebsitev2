@@ -14,6 +14,15 @@
     margin-bottom: 12vh;
 }
 
+.contactPageContactSectionColumnsHome {
+    width: 80%;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(14, 14, 14);
+    margin-bottom: 12vh;
+}
+
 .contactPageContactSectionLeft {
     width: 48%;
     background-color: rgb(14, 14, 14);
@@ -163,6 +172,10 @@
     .contactPageContactSectionColumns {
         flex-direction: column;
     }
+
+    .contactPageContactSectionColumnsHome {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 565px) {
@@ -179,6 +192,11 @@
     .contactPageContactSectionColumns {
         flex-direction: column;
         margin-top: 15vh;
+    }
+
+    .contactPageContactSectionColumnsHome {
+        flex-direction: column;
+        margin-top: 5vh;
     }
 
     .contactPageContactSectionHeading {
@@ -225,6 +243,11 @@
     .contactPageContactSectionColumns {
         flex-direction: column;
         margin-top: 15vh;
+    }
+
+    .contactPageContactSectionColumnsHome {
+        flex-direction: column;
+        margin-top: 5vh;
     }
 
     .contactPageContactSectionHeading {
