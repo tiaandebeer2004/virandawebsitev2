@@ -75,7 +75,7 @@ function GraphicDesignPage() {
             <h3 className="singleServicePackageNumber">R2 000</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/virandawebsitev2/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -95,7 +95,7 @@ function GraphicDesignPage() {
             <h3 className="singleServicePackageNumber">R3 000</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/virandawebsitev2/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ function GraphicDesignPage() {
             <h3 className="singleServicePackageNumber">R5 000</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/virandawebsitev2/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -239,7 +239,7 @@ We send your polished designs over to you in high resolution.          </p>
         </motion.div>
         
         <div className="singleServiceBlogButtonWrapper spacingBelow">
-            <a href='/#/contact' className='singleServicePackageLink'><button className="singleServiceBlogButton">Get a Free Consultation</button></a>
+            <a href='/virandawebsitev2/#/contact' className='singleServicePackageLink'><button className="singleServiceBlogButton">Get a Free Consultation</button></a>
         </div> 
       </div>  
       </div>

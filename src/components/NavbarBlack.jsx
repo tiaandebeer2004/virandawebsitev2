@@ -9,10 +9,10 @@ function NavbarBlack() {
 
   const menuItems = [
   { label: 'Home', ariaLabel: 'Go to home page', link: '/virandawebsitev2/' },
-  { label: 'Services', ariaLabel: 'Learn about us', link: '/virandawebsitev2/#/services' },
-  { label: 'Portfolio', ariaLabel: 'View our services', link: '/virandawebsitev2/#/portfolio' },
-  { label: 'About', ariaLabel: 'Get in touch', link: '/virandawebsitev2/#/about' },
-  { label: 'Contact', ariaLabel: 'Get in touch', link: '/virandawebsitev2/#/contact' }
+  { label: 'Services', ariaLabel: 'View our services', link: '/virandawebsitev2/#/services' },
+  { label: 'Portfolio', ariaLabel: 'View our portfolio', link: '/virandawebsitev2/#/portfolio' },
+  { label: 'About', ariaLabel: 'Learn about us', link: '/virandawebsitev2/#/about' },
+  { label: 'Contact', ariaLabel: 'Contact us', link: '/virandawebsitev2/#/contact' }
 ];
 
 const socialItems = [

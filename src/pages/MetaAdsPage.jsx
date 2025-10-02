@@ -78,7 +78,7 @@ function MetaAdsPage() {
             <h3 className="singleServicePackageNumber">R1 000/M<br></br>+ AD SPEND</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/virandawebsitev2/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ function MetaAdsPage() {
             <h3 className="singleServicePackageNumber">R2 000/M<br></br>+ AD SPEND</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/virandawebsitev2/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -124,7 +124,7 @@ function MetaAdsPage() {
             <h3 className="singleServicePackageNumber">R3 000/M<br></br>+ AD SPEND</h3>
 
             <div className="singleServicePackageButtonGroup">
-              <a href='/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
+              <a href='/virandawebsitev2/#/contact' className='singleServicePackageLink'><button className="singleServicePackageButton">CONTACT US</button></a>
             </div>
             </div>
           </div>
@@ -254,7 +254,7 @@ We provide monthly result reports detailing the results your ad campaigns have b
         </motion.div>
         
         <div className="singleServiceBlogButtonWrapper spacingBelow">
-            <a href='/#/contact' className='singleServicePackageLink'><button className="singleServiceBlogButton">Get a Free Consultation</button></a>
+            <a href='/virandawebsitev2/#/contact' className='singleServicePackageLink'><button className="singleServiceBlogButton">Get a Free Consultation</button></a>
         </div> 
       </div>  
       </div>

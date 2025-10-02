@@ -10,27 +10,27 @@ const Footer = () => {
         <div className="footerBottom">
             <div className="footerLeft">
                 <p className="footerHeading">Viranda</p>
-                <a href="/about" className="footerSubheading">Home</a>
+                <a href="/virandawebsitev2/" className="footerSubheading">Home</a>
             </div>
 
             <div className="footerLeftMiddle">
                 <p className="footerHeading">Pages</p>
-                <a href="/blog/marketing" className="footerSubheading">Services</a>
-                <a href="/" className="footerSubheading">About Us</a>
-                <a href="/" className="footerSubheading">Portfolio</a>
-                <a href="/" className="footerSubheading">Contact</a>
+                <a href="/virandawebsitev2/#/services" className="footerSubheading">Services</a>
+                <a href="/virandawebsitev2/#/about" className="footerSubheading">About Us</a>
+                <a href="/virandawebsitev2/#/portfolio" className="footerSubheading">Portfolio</a>
+                <a href="/virandawebsitev2/#/contact" className="footerSubheading">Contact</a>
             </div>
 
             <div className="footerRightMiddle">
                 <p className="footerHeading">Services</p>
-                <a href="/" className="footerSubheading">Website Development</a>
-                <a href="/" className="footerSubheading">Graphic Design</a>
-                <a href="/" className="footerSubheading">Social Media Management</a>
-                <a href="/" className="footerSubheading">Social Media Content Creation</a>
-                <a href="/" className="footerSubheading">Google Ads Management</a>
-                <a href="/" className="footerSubheading">Meta/Facebook Ads Management</a>
-                <a href="/" className="footerSubheading">Ad Creation</a>
-                <a href="/" className="footerSubheading">Search Engine Optimization</a>
+                <a href="/virandawebsitev2/#/services/website-development" className="footerSubheading">Website Development</a>
+                <a href="/virandawebsitev2/#/services/graphic-design" className="footerSubheading">Graphic Design</a>
+                <a href="/virandawebsitev2/#/services/social-media-management" className="footerSubheading">Social Media Management</a>
+                <a href="/virandawebsitev2/#/services/social-media-content-creation" className="footerSubheading">Social Media Content Creation</a>
+                <a href="/virandawebsitev2/#/services/google-ads-management" className="footerSubheading">Google Ads Management</a>
+                <a href="/virandawebsitev2/#/services/facebook-meta-ads-management" className="footerSubheading">Meta/Facebook Ads Management</a>
+                <a href="/virandawebsitev2/#/services/ad-creation" className="footerSubheading">Ad Creation</a>
+                <a href="/virandawebsitev2/#/services/search-engine-optimization" className="footerSubheading">Search Engine Optimization</a>
             </div>
 
             <div className="footerRight">
