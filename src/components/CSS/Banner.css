@@ -203,6 +203,7 @@
     line-height: 9vh;
     z-index: 999;
     background-color: transparent;
+    color: black;
 }
 
 .bannerMobileDigitalWrapper {
