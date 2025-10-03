@@ -23,10 +23,10 @@ if (width < 795) {
 
                 <FaArrowUpLong className='bannerMobileArrow'/>
 
-                <img src={digitalImage} alt="digital marketing" className="bannerMobileDigitalWrapper" />
-
                 <div className="bannerMobileCircle"></div>
             </div>
+
+            <h2 className="bannerMobileDigital">DIGITAL<br></br>MARKETING</h2>
         </div>
     </>
   )
