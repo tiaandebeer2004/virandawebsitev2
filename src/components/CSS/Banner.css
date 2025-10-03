@@ -240,10 +240,10 @@
 
 .bannerMobileArrow {
     color: white;
-    font-size: 23vh;
+    font-size: 35vh;
     background-color: transparent;
     position: absolute;
-    bottom: 4vh;
+    bottom: -5vh;
     z-index: 999;
     left: 0;
 }

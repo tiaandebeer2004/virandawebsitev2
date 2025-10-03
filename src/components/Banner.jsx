@@ -3,7 +3,7 @@ import './CSS/Banner.css'
 import { useWindowScrollPositions } from './Hooks/useWindowScrollPositions'
 import useWindowDimensions from './Hooks/useWindowDimensions'
 import digitalImage from '../assets/digitalImage.webp'
-import { FaArrowUpLong } from "react-icons/fa6";
+import { LiaLongArrowAltUpSolid } from "react-icons/lia";
 
 function Banner() {
   const [count, setCount] = useState(0)
@@ -21,7 +21,7 @@ if (width < 795) {
                     <button className="bannerMobileClickHere">Free Growth Session</button>
                 </div>
 
-                <FaArrowUpLong className='bannerMobileArrow'/>
+                <LiaLongArrowAltUpSolid className='bannerMobileArrow'/>
 
                 <div className="bannerMobileCircle"></div>
 
