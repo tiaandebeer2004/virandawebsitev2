@@ -17,7 +17,7 @@ if (width < 795) {
             <div className="bannerWrapperMobile">
                 <div className="bannerMobileTopSection">
                     <h1 className="bannerMobileViranda">VIRANDA.</h1>
-                    <p className="bannerMobileCopy">We help businesses grow through targeted Google & Facebook Ads, custom web development, and impactful social media management—plus a full range of digital marketing services designed to get you real results.</p>
+                    <p className="bannerMobileCopy">We help businesses grow through targeted Google & Facebook Ads, custom web development, and impactful social media management—plus a full range of digital marketing services designed to get<br></br>you real results.</p>
                     <a href='#/contact'><button className="bannerMobileClickHere">Free Growth Session</button></a>
                 </div>
 
