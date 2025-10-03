@@ -24,9 +24,9 @@ if (width < 795) {
                 <FaArrowUpLong className='bannerMobileArrow'/>
 
                 <div className="bannerMobileCircle"></div>
-            </div>
 
-            <h2 className="bannerMobileDigital">DIGITAL<br></br>MARKETING</h2>
+                <h2 className="bannerMobileDigital">DIGITAL<br></br>MARKETING</h2>
+            </div>
         </div>
     </>
   )
