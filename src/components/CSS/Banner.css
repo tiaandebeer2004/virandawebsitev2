@@ -197,7 +197,7 @@
     transform: rotate(270deg);
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     position: absolute;
-    right: -24vh;
+    right: -26vh;
     top: 40vh;
     font-size: 12vh;
     line-height: 9vh;
@@ -229,9 +229,9 @@
     border: none;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
-    font-size: 3vh;
-    line-height: 3vh;
-    padding: 2vh;
+    font-size: 2.5vh;
+    line-height: 2.5vh;
+    padding: 1.5vh;
     background-color: white;
     color: black;
     position: absolute;
