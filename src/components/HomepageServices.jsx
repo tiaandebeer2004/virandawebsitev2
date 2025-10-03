@@ -23,7 +23,7 @@ function HomepageServices() {
         setServicesState(value);
     }
 
-if (width < 800) {
+if (width < 840) {
     return (
       <>
         <div className="HomepageServices">

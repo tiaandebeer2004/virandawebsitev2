@@ -58,7 +58,7 @@
     opacity: 0.9;
     text-align: left;
     color: white;
-    background-color: #9c2c2c;
+    background-color: red;
     width: 50%;
 }
 
@@ -78,7 +78,7 @@
     line-height: 3vw;
     text-align: left;
     color: white;
-    background-color: #9c2c2c;
+    background-color: red;
     width: 45%;
 }
 
@@ -129,7 +129,7 @@
 }
 
 .bentoTopLeft {
-    background-color: #9c2c2c;
+    background-color: red;
     width: 50%;
     display: flex;
     align-items: flex-end;
@@ -170,7 +170,7 @@
 }
 
 .redBG {
-    background-color: #9c2c2c!important;
+    background-color: red!important;
 }
 
 .bentoTopRightBottomRight {

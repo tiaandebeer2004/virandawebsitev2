@@ -42,6 +42,7 @@
 }
 
 .portfolioCover {
+    border-top: 3px solid rgb(127.5, 127.5, 127.5);
     width: 100%;
     display: flex;
     flex-direction: column;

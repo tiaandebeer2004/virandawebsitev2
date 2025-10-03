@@ -219,13 +219,14 @@
 }
 
 .bannerMobileClickHere {
-    width: 45%;
+    border: none;
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
     font-weight: 600;
-    font-size: 2vh;
-    line-height: 2vh;
-    background-color: transparent;
-    color: white;
+    font-size: 3vh;
+    line-height: 3vh;
+    padding: 2vh;
+    background-color: white;
+    color: black;
     position: absolute;
     top: 50vh;
 }
