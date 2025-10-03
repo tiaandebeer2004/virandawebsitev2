@@ -239,6 +239,9 @@
 }
 
 .bannerMobileArrow {
+    width: 100%;
+    text-align: center;
+    transform: translateX(-25%);
     color: white;
     font-size: 35vh;
     background-color: transparent;
